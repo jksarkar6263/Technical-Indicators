@@ -1,1 +1,35 @@
-{}
+{
+  "updated": "2026-06-15T17:53:09.188Z",
+  "symbols": {
+    "NIFTY": {
+      "yahooSymbol": "^NSEI",
+      "lastClose": 23853.900390625,
+      "candles": 246
+    },
+    "BANKNIFTY": {
+      "yahooSymbol": "^NSEBANK",
+      "lastClose": 57198.80078125,
+      "candles": 246
+    },
+    "SENSEX": {
+      "yahooSymbol": "^BSESN",
+      "lastClose": 76264.328125,
+      "candles": 246
+    },
+    "RELIANCE": {
+      "yahooSymbol": "RELIANCE.NS",
+      "lastClose": 1307,
+      "candles": 249
+    },
+    "TCS": {
+      "yahooSymbol": "TCS.NS",
+      "lastClose": 2162,
+      "candles": 249
+    },
+    "SBIN": {
+      "yahooSymbol": "SBIN.NS",
+      "lastClose": 1020.8499755859375,
+      "candles": 249
+    }
+  }
+}
