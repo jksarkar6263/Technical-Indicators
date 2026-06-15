@@ -19,6 +19,43 @@ function calculateEMA(prices, period) {
 
   return Number(ema.toFixed(2));
 }
+function calculateRSI(prices, period = 14) {
+  let gains = 0;
+  let losses = 0;
+
+  for (let i = 1; i <= period; i++) {
+    const diff = prices[i] - prices[i - 1];
+
+    if (diff > 0) {
+      gains += diff;
+    } else {
+      losses += Math.abs(diff);
+    }
+  }
+
+  let avgGain = gains / period;
+  let avgLoss = losses / period;
+
+  for (let i = period + 1; i < prices.length; i++) {
+    const diff = prices[i] - prices[i - 1];
+
+    const gain = diff > 0 ? diff : 0;
+    const loss = diff < 0 ? Math.abs(diff) : 0;
+
+    avgGain = ((avgGain * (period - 1)) + gain) / period;
+    avgLoss = ((avgLoss * (period - 1)) + loss) / period;
+  }
+
+  if (avgLoss === 0) {
+    return 100;
+  }
+
+  const rs = avgGain / avgLoss;
+
+  return Number(
+    (100 - (100 / (1 + rs))).toFixed(2)
+  );
+}
 async function fetchYahoo(symbol) {
   const url =
     `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(symbol)}?range=1y&interval=1d`;
@@ -66,7 +103,7 @@ const changePercent = Number(
 const ema20 = calculateEMA(closes.slice(-60), 20);
 const ema50 = calculateEMA(closes.slice(-120), 50);
 const ema200 = calculateEMA(closes, 200);
-
+const rsi = calculateRSI(closes);
 result.symbols[name] = {
   yahooSymbol,
   lastClose,
@@ -74,7 +111,15 @@ result.symbols[name] = {
   change,
   changePercent,
   candles: closes.length,
-
+rsi: {
+  value: rsi,
+  signal:
+    rsi > 70
+      ? "Overbought"
+      : rsi < 30
+      ? "Oversold"
+      : "Neutral"
+},
   ema20: {
     value: ema20,
     signal: lastClose > ema20 ? "Buy" : "Sell"
