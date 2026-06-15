@@ -1,0 +1,10 @@
+{
+  "name": "technical-indicators",
+  "version": "1.0.0",
+  "description": "Technical Indicators for Indian Stocks and Indices",
+  "main": "scripts/generate-technicals.js",
+  "scripts": {
+    "generate": "node scripts/generate-technicals.js"
+  },
+  "license": "MIT"
+}
