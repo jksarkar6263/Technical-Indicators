@@ -19,6 +19,45 @@ function calculateEMA(prices, period) {
 
   return Number(ema.toFixed(2));
 }
+function calculateEMAArray(prices, period) {
+  const k = 2 / (period + 1);
+
+  const emaValues = [];
+  let ema = prices[0];
+
+  emaValues.push(ema);
+
+  for (let i = 1; i < prices.length; i++) {
+    ema = prices[i] * k + ema * (1 - k);
+    emaValues.push(ema);
+  }
+
+  return emaValues;
+}
+
+function calculateMACD(prices) {
+  const ema12 = calculateEMAArray(prices, 12);
+  const ema26 = calculateEMAArray(prices, 26);
+
+  const macdLine = [];
+
+  for (let i = 0; i < prices.length; i++) {
+    macdLine.push(ema12[i] - ema26[i]);
+  }
+
+  const signalLine = calculateEMAArray(macdLine, 9);
+
+  const macd = macdLine[macdLine.length - 1];
+  const signal = signalLine[signalLine.length - 1];
+  const histogram = macd - signal;
+
+  return {
+    macd: Number(macd.toFixed(2)),
+    signal: Number(signal.toFixed(2)),
+    histogram: Number(histogram.toFixed(2)),
+    trend: macd > signal ? "Bullish" : "Bearish"
+  };
+}
 function calculateRSI(prices, period = 14) {
   let gains = 0;
   let losses = 0;
@@ -104,6 +143,7 @@ const ema20 = calculateEMA(closes.slice(-60), 20);
 const ema50 = calculateEMA(closes.slice(-120), 50);
 const ema200 = calculateEMA(closes, 200);
 const rsi = calculateRSI(closes);
+const macdData = calculateMACD(closes);      
 result.symbols[name] = {
   yahooSymbol,
   lastClose,
@@ -119,6 +159,12 @@ rsi: {
       : rsi < 30
       ? "Oversold"
       : "Neutral"
+},
+  macd: {
+  value: macdData.macd,
+  signal: macdData.signal,
+  histogram: macdData.histogram,
+  trend: macdData.trend
 },
   ema20: {
     value: ema20,
