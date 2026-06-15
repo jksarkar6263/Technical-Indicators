@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-15T18:06:08.315Z",
+  "updated": "2026-06-15T18:14:52.271Z",
   "symbols": {
     "NIFTY": {
       "yahooSymbol": "^NSEI",
@@ -11,6 +11,12 @@
       "rsi": {
         "value": 56.33,
         "signal": "Neutral"
+      },
+      "macd": {
+        "value": -100.12,
+        "signal": -130.69,
+        "histogram": 30.57,
+        "trend": "Bullish"
       },
       "ema20": {
         "value": 23538.79,
@@ -36,6 +42,12 @@
         "value": 67.24,
         "signal": "Neutral"
       },
+      "macd": {
+        "value": 357,
+        "signal": 6.63,
+        "histogram": 350.37,
+        "trend": "Bullish"
+      },
       "ema20": {
         "value": 54983.5,
         "signal": "Buy"
@@ -59,6 +71,12 @@
       "rsi": {
         "value": 57.48,
         "signal": "Neutral"
+      },
+      "macd": {
+        "value": -363.5,
+        "signal": -546.81,
+        "histogram": 183.32,
+        "trend": "Bullish"
       },
       "ema20": {
         "value": 75001.1,
@@ -84,6 +102,12 @@
         "value": 45.54,
         "signal": "Neutral"
       },
+      "macd": {
+        "value": -23.99,
+        "signal": -23.03,
+        "histogram": -0.96,
+        "trend": "Bearish"
+      },
       "ema20": {
         "value": 1312.11,
         "signal": "Sell"
@@ -108,6 +132,12 @@
         "value": 37.26,
         "signal": "Neutral"
       },
+      "macd": {
+        "value": -61.83,
+        "signal": -55.64,
+        "histogram": -6.19,
+        "trend": "Bearish"
+      },
       "ema20": {
         "value": 2238.9,
         "signal": "Sell"
@@ -131,6 +161,12 @@
       "rsi": {
         "value": 60.69,
         "signal": "Neutral"
+      },
+      "macd": {
+        "value": -0.97,
+        "signal": -10.86,
+        "histogram": 9.89,
+        "trend": "Bullish"
       },
       "ema20": {
         "value": 991.84,
