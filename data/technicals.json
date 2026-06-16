@@ -1,183 +1,183 @@
 {
-  "updated": "2026-06-15T18:14:52.271Z",
+  "updated": "2026-06-16T18:21:41.147Z",
   "symbols": {
     "NIFTY": {
       "yahooSymbol": "^NSEI",
-      "lastClose": 23853.900390625,
+      "lastClose": 23989.150390625,
       "previousClose": 23622.900390625,
-      "change": 231,
-      "changePercent": 0.98,
+      "change": 366.25,
+      "changePercent": 1.55,
       "candles": 246,
       "rsi": {
-        "value": 56.33,
+        "value": 58.84,
         "signal": "Neutral"
       },
       "macd": {
-        "value": -100.12,
-        "signal": -130.69,
-        "histogram": 30.57,
+        "value": -89.33,
+        "signal": -128.54,
+        "histogram": 39.21,
         "trend": "Bullish"
       },
       "ema20": {
-        "value": 23538.79,
+        "value": 23551.67,
         "signal": "Buy"
       },
       "ema50": {
-        "value": 23774.34,
+        "value": 23779.65,
         "signal": "Buy"
       },
       "ema200": {
-        "value": 24574.76,
+        "value": 24576.1,
         "signal": "Sell"
       }
     },
     "BANKNIFTY": {
       "yahooSymbol": "^NSEBANK",
-      "lastClose": 57198.80078125,
+      "lastClose": 57297.1484375,
       "previousClose": 56814.80078125,
-      "change": 384,
-      "changePercent": 0.68,
+      "change": 482.35,
+      "changePercent": 0.85,
       "candles": 246,
       "rsi": {
-        "value": 67.24,
+        "value": 67.69,
         "signal": "Neutral"
       },
       "macd": {
-        "value": 357,
-        "signal": 6.63,
-        "histogram": 350.37,
+        "value": 364.85,
+        "signal": 8.2,
+        "histogram": 356.64,
         "trend": "Bullish"
       },
       "ema20": {
-        "value": 54983.5,
+        "value": 54992.87,
         "signal": "Buy"
       },
       "ema50": {
-        "value": 55151.19,
+        "value": 55155.05,
         "signal": "Buy"
       },
       "ema200": {
-        "value": 56457.19,
+        "value": 56458.17,
         "signal": "Buy"
       }
     },
     "SENSEX": {
       "yahooSymbol": "^BSESN",
-      "lastClose": 76264.328125,
-      "previousClose": 75527.953125,
-      "change": 736.38,
-      "changePercent": 0.97,
-      "candles": 246,
+      "lastClose": 76808.4765625,
+      "previousClose": 76264.328125,
+      "change": 544.15,
+      "changePercent": 0.71,
+      "candles": 247,
       "rsi": {
-        "value": 57.48,
+        "value": 60.56,
         "signal": "Neutral"
       },
       "macd": {
-        "value": -363.5,
-        "signal": -546.81,
-        "histogram": 183.32,
+        "value": -178.67,
+        "signal": -473.19,
+        "histogram": 294.52,
         "trend": "Bullish"
       },
       "ema20": {
-        "value": 75001.1,
+        "value": 75174.63,
         "signal": "Buy"
       },
       "ema50": {
-        "value": 76023.42,
+        "value": 76053.22,
         "signal": "Buy"
       },
       "ema200": {
-        "value": 79484.24,
+        "value": 79457.61,
         "signal": "Sell"
       }
     },
     "RELIANCE": {
       "yahooSymbol": "RELIANCE.NS",
-      "lastClose": 1307,
-      "previousClose": 1293,
-      "change": 14,
-      "changePercent": 1.08,
-      "candles": 249,
+      "lastClose": 1328.800048828125,
+      "previousClose": 1307,
+      "change": 21.8,
+      "changePercent": 1.67,
+      "candles": 250,
       "rsi": {
-        "value": 45.54,
+        "value": 51.63,
         "signal": "Neutral"
       },
       "macd": {
-        "value": -23.99,
-        "signal": -23.03,
-        "histogram": -0.96,
-        "trend": "Bearish"
+        "value": -19.69,
+        "signal": -22.37,
+        "histogram": 2.68,
+        "trend": "Bullish"
       },
       "ema20": {
-        "value": 1312.11,
-        "signal": "Sell"
+        "value": 1313.64,
+        "signal": "Buy"
       },
       "ema50": {
-        "value": 1346.07,
+        "value": 1345.47,
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1405.14,
+        "value": 1404.38,
         "signal": "Sell"
       }
     },
     "TCS": {
       "yahooSymbol": "TCS.NS",
-      "lastClose": 2162,
-      "previousClose": 2161.39990234375,
-      "change": 0.6,
-      "changePercent": 0.03,
-      "candles": 249,
+      "lastClose": 2199,
+      "previousClose": 2162,
+      "change": 37,
+      "changePercent": 1.71,
+      "candles": 250,
       "rsi": {
-        "value": 37.26,
+        "value": 42.4,
         "signal": "Neutral"
       },
       "macd": {
-        "value": -61.83,
-        "signal": -55.64,
-        "histogram": -6.19,
+        "value": -57.48,
+        "signal": -56,
+        "histogram": -1.47,
         "trend": "Bearish"
       },
       "ema20": {
-        "value": 2238.9,
+        "value": 2234.89,
         "signal": "Sell"
       },
       "ema50": {
-        "value": 2354.98,
+        "value": 2349.21,
         "signal": "Sell"
       },
       "ema200": {
-        "value": 2755.1,
+        "value": 2749.57,
         "signal": "Sell"
       }
     },
     "SBIN": {
       "yahooSymbol": "SBIN.NS",
-      "lastClose": 1020.8499755859375,
-      "previousClose": 1017.1500244140625,
-      "change": 3.7,
-      "changePercent": 0.36,
-      "candles": 249,
+      "lastClose": 1015.2999877929688,
+      "previousClose": 1020.8499755859375,
+      "change": -5.55,
+      "changePercent": -0.54,
+      "candles": 250,
       "rsi": {
-        "value": 60.69,
+        "value": 57.95,
         "signal": "Neutral"
       },
       "macd": {
-        "value": -0.97,
-        "signal": -10.86,
-        "histogram": 9.89,
+        "value": 0.8,
+        "signal": -8.53,
+        "histogram": 9.32,
         "trend": "Bullish"
       },
       "ema20": {
-        "value": 991.84,
+        "value": 994.02,
         "signal": "Buy"
       },
       "ema50": {
-        "value": 1013.02,
+        "value": 1013.06,
         "signal": "Buy"
       },
       "ema200": {
-        "value": 990.37,
+        "value": 990.61,
         "signal": "Buy"
       }
     }
