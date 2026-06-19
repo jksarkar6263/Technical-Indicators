@@ -110,7 +110,9 @@ async function fetchYahoo(symbol) {
 
 async function main() {
   const result = {
-    updated: new Date().toISOString(),
+    updated: new Date().toLocaleString('en-IN', {
+    timeZone: 'Asia/Kolkata'
+    }),
     symbols: {}
   };
 
