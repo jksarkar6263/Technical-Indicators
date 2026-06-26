@@ -1,5 +1,5 @@
 {
-  "updated": "25/6/2026, 9:03:28 pm",
+  "updated": "26/6/2026, 8:46:27 pm",
   "symbols": {
     "NIFTY": {
       "yahooSymbol": "^NSEI",
@@ -7,7 +7,7 @@
       "previousClose": 24021.650390625,
       "change": 34.35,
       "changePercent": 0.14,
-      "candles": 247,
+      "candles": 246,
       "rsi": {
         "value": 56.97,
         "signal": "Neutral"
@@ -27,7 +27,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 24558.33,
+        "value": 24584.32,
         "signal": "Sell"
       }
     },
@@ -37,7 +37,7 @@
       "previousClose": 58150.3515625,
       "change": 26.7,
       "changePercent": 0.05,
-      "candles": 247,
+      "candles": 246,
       "rsi": {
         "value": 66.6,
         "signal": "Neutral"
@@ -57,7 +57,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 56613.71,
+        "value": 56663.73,
         "signal": "Buy"
       }
     },
@@ -67,7 +67,7 @@
       "previousClose": 76991.21875,
       "change": 109.25,
       "changePercent": 0.14,
-      "candles": 247,
+      "candles": 246,
       "rsi": {
         "value": 58.35,
         "signal": "Neutral"
@@ -87,7 +87,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 79370.09,
+        "value": 79455.55,
         "signal": "Sell"
       }
     },
@@ -97,7 +97,7 @@
       "previousClose": 1313.5999755859375,
       "change": 4.5,
       "changePercent": 0.34,
-      "candles": 250,
+      "candles": 249,
       "rsi": {
         "value": 48.99,
         "signal": "Neutral"
@@ -117,7 +117,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1401.04,
+        "value": 1403.36,
         "signal": "Sell"
       }
     },
@@ -127,7 +127,7 @@
       "previousClose": 2109,
       "change": -14.3,
       "changePercent": -0.68,
-      "candles": 250,
+      "candles": 249,
       "rsi": {
         "value": 37.19,
         "signal": "Neutral"
@@ -147,7 +147,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 2704,
+        "value": 2703.76,
         "signal": "Sell"
       }
     },
@@ -157,7 +157,7 @@
       "previousClose": 1034.5999755859375,
       "change": 10.8,
       "changePercent": 1.04,
-      "candles": 250,
+      "candles": 249,
       "rsi": {
         "value": 62.84,
         "signal": "Neutral"
@@ -177,7 +177,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 994.28,
+        "value": 994.03,
         "signal": "Buy"
       }
     }
