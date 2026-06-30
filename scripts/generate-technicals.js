@@ -119,6 +119,254 @@ function calculateRSI(prices, period = 14) {
   return Number((100 - (100 / (1 + rs))).toFixed(2));
 }
 
+/* ════════════════════════════════════════════════════════════
+   PHASE 2 — NEW INDICATORS
+   ════════════════════════════════════════════════════════════ */
+
+/* ---------- Bollinger Bands (20-period SMA ± 2 std dev) ---------- */
+function calculateBollingerBands(prices, period = 20, mult = 2) {
+  const slice = prices.slice(-period);
+  const sma = slice.reduce((a, b) => a + b, 0) / period;
+  const variance = slice.reduce((sum, v) => sum + Math.pow(v - sma, 2), 0) / period;
+  const stdDev = Math.sqrt(variance);
+
+  const upper = sma + mult * stdDev;
+  const lower = sma - mult * stdDev;
+  const lastClose = prices[prices.length - 1];
+
+  let signal = "Neutral";
+  if (lastClose >= upper) signal = "Overbought";
+  else if (lastClose <= lower) signal = "Oversold";
+
+  return {
+    upper: Number(upper.toFixed(2)),
+    middle: Number(sma.toFixed(2)),
+    lower: Number(lower.toFixed(2)),
+    signal
+  };
+}
+
+/* ---------- Wilder's smoothing helper (used by ADX) ---------- */
+function wilderSmooth(values, period) {
+  const smoothed = [];
+  let sum = values.slice(0, period).reduce((a, b) => a + b, 0);
+  smoothed.push(sum);
+  for (let i = period; i < values.length; i++) {
+    sum = smoothed[smoothed.length - 1] - (smoothed[smoothed.length - 1] / period) + values[i];
+    smoothed.push(sum);
+  }
+  return smoothed;
+}
+
+/* ---------- ADX (Average Directional Index, 14-period) ---------- */
+function calculateADX(highs, lows, closes, period = 14) {
+  const len = closes.length;
+  const trArr = [], plusDM = [], minusDM = [];
+
+  for (let i = 1; i < len; i++) {
+    const highDiff = highs[i] - highs[i - 1];
+    const lowDiff  = lows[i - 1] - lows[i];
+
+    plusDM.push(highDiff > lowDiff && highDiff > 0 ? highDiff : 0);
+    minusDM.push(lowDiff > highDiff && lowDiff > 0 ? lowDiff : 0);
+
+    const tr = Math.max(
+      highs[i] - lows[i],
+      Math.abs(highs[i] - closes[i - 1]),
+      Math.abs(lows[i] - closes[i - 1])
+    );
+    trArr.push(tr);
+  }
+
+  const smoothedTR    = wilderSmooth(trArr, period);
+  const smoothedPlusDM  = wilderSmooth(plusDM, period);
+  const smoothedMinusDM = wilderSmooth(minusDM, period);
+
+  const plusDI  = smoothedPlusDM.map((v, i) => (v / smoothedTR[i]) * 100);
+  const minusDI = smoothedMinusDM.map((v, i) => (v / smoothedTR[i]) * 100);
+
+  const dx = plusDI.map((v, i) => {
+    const sum = v + minusDI[i];
+    return sum === 0 ? 0 : (Math.abs(v - minusDI[i]) / sum) * 100;
+  });
+
+  /* ADX = Wilder-smoothed average of DX over period */
+  const adxArr = wilderSmooth(dx, period).map(v => v / period);
+  const adx = adxArr[adxArr.length - 1];
+
+  let signal = "Weak/No Trend";
+  if (adx >= 25 && adx < 50) signal = "Strong Trend";
+  else if (adx >= 50) signal = "Very Strong Trend";
+
+  return {
+    value: Number(adx.toFixed(2)),
+    plusDI: Number(plusDI[plusDI.length - 1].toFixed(2)),
+    minusDI: Number(minusDI[minusDI.length - 1].toFixed(2)),
+    signal
+  };
+}
+
+/* ---------- Stochastic Oscillator (14,3,3) ---------- */
+function calculateStochastic(highs, lows, closes, period = 14, smoothK = 3, smoothD = 3) {
+  const kValues = [];
+
+  for (let i = period - 1; i < closes.length; i++) {
+    const sliceHigh = highs.slice(i - period + 1, i + 1);
+    const sliceLow  = lows.slice(i - period + 1, i + 1);
+    const highestHigh = Math.max(...sliceHigh);
+    const lowestLow   = Math.min(...sliceLow);
+    const k = highestHigh === lowestLow ? 50
+            : ((closes[i] - lowestLow) / (highestHigh - lowestLow)) * 100;
+    kValues.push(k);
+  }
+
+  /* smooth %K (slow stochastic) */
+  const smoothedK = [];
+  for (let i = smoothK - 1; i < kValues.length; i++) {
+    const avg = kValues.slice(i - smoothK + 1, i + 1).reduce((a, b) => a + b, 0) / smoothK;
+    smoothedK.push(avg);
+  }
+
+  /* %D = SMA of smoothed %K */
+  const dValues = [];
+  for (let i = smoothD - 1; i < smoothedK.length; i++) {
+    const avg = smoothedK.slice(i - smoothD + 1, i + 1).reduce((a, b) => a + b, 0) / smoothD;
+    dValues.push(avg);
+  }
+
+  const k = smoothedK[smoothedK.length - 1];
+  const d = dValues[dValues.length - 1];
+
+  let signal = "Neutral";
+  if (k > 80) signal = "Overbought";
+  else if (k < 20) signal = "Oversold";
+
+  return {
+    k: Number(k.toFixed(2)),
+    d: Number(d.toFixed(2)),
+    signal
+  };
+}
+
+/* ---------- Williams %R (14-period) ---------- */
+function calculateWilliamsR(highs, lows, closes, period = 14) {
+  const sliceHigh = highs.slice(-period);
+  const sliceLow  = lows.slice(-period);
+  const highestHigh = Math.max(...sliceHigh);
+  const lowestLow   = Math.min(...sliceLow);
+  const lastClose   = closes[closes.length - 1];
+
+  const wr = highestHigh === lowestLow ? -50
+           : ((highestHigh - lastClose) / (highestHigh - lowestLow)) * -100;
+
+  let signal = "Neutral";
+  if (wr > -20) signal = "Overbought";
+  else if (wr < -80) signal = "Oversold";
+
+  return {
+    value: Number(wr.toFixed(2)),
+    signal
+  };
+}
+
+/* ---------- SuperTrend (10-period ATR, multiplier 3) ---------- */
+function calculateSuperTrend(highs, lows, closes, period = 10, mult = 3) {
+  const len = closes.length;
+  const trArr = [];
+
+  for (let i = 1; i < len; i++) {
+    const tr = Math.max(
+      highs[i] - lows[i],
+      Math.abs(highs[i] - closes[i - 1]),
+      Math.abs(lows[i] - closes[i - 1])
+    );
+    trArr.push(tr);
+  }
+
+  /* simple ATR via rolling average (close enough for daily signal use) */
+  const atrArr = [];
+  for (let i = period - 1; i < trArr.length; i++) {
+    const avg = trArr.slice(i - period + 1, i + 1).reduce((a, b) => a + b, 0) / period;
+    atrArr.push(avg);
+  }
+
+  const offset = len - atrArr.length; /* align index with highs/lows/closes */
+
+  let trend = "Bullish";
+  let finalUpperBand = 0, finalLowerBand = 0, superTrendValue = 0;
+
+  for (let i = 0; i < atrArr.length; i++) {
+    const idx = i + offset;
+    const atr = atrArr[i];
+    const hl2 = (highs[idx] + lows[idx]) / 2;
+
+    const basicUpper = hl2 + mult * atr;
+    const basicLower = hl2 - mult * atr;
+
+    if (i === 0) {
+      finalUpperBand = basicUpper;
+      finalLowerBand = basicLower;
+      trend = closes[idx] <= finalUpperBand ? "Bearish" : "Bullish";
+    } else {
+      finalUpperBand = (basicUpper < finalUpperBand || closes[idx - 1] > finalUpperBand) ? basicUpper : finalUpperBand;
+      finalLowerBand = (basicLower > finalLowerBand || closes[idx - 1] < finalLowerBand) ? basicLower : finalLowerBand;
+
+      if (trend === "Bullish" && closes[idx] < finalLowerBand) trend = "Bearish";
+      else if (trend === "Bearish" && closes[idx] > finalUpperBand) trend = "Bullish";
+    }
+
+    superTrendValue = trend === "Bullish" ? finalLowerBand : finalUpperBand;
+  }
+
+  return {
+    value: Number(superTrendValue.toFixed(2)),
+    trend,
+    signal: trend === "Bullish" ? "Buy" : "Sell"
+  };
+}
+
+/* ---------- Simple Overall Rating (weighted vote across all signals) ---------- */
+function calculateOverallRating(indicators) {
+  let bullishScore = 0;
+  let bearishScore = 0;
+  let total = 0;
+
+  const votes = [
+    indicators.rsi.signal === "Oversold" ? "Bullish" : indicators.rsi.signal === "Overbought" ? "Bearish" : "Neutral",
+    indicators.macd.trend,
+    indicators.ema20.signal === "Buy" ? "Bullish" : "Bearish",
+    indicators.ema50.signal === "Buy" ? "Bullish" : "Bearish",
+    indicators.ema200.signal === "Buy" ? "Bullish" : "Bearish",
+    indicators.bb.signal === "Oversold" ? "Bullish" : indicators.bb.signal === "Overbought" ? "Bearish" : "Neutral",
+    indicators.adx.plusDI > indicators.adx.minusDI ? "Bullish" : "Bearish",
+    indicators.stochastic.signal === "Oversold" ? "Bullish" : indicators.stochastic.signal === "Overbought" ? "Bearish" : "Neutral",
+    indicators.williamsR.signal === "Oversold" ? "Bullish" : indicators.williamsR.signal === "Overbought" ? "Bearish" : "Neutral",
+    indicators.superTrend.trend
+  ];
+
+  votes.forEach(v => {
+    total++;
+    if (v === "Bullish") bullishScore++;
+    else if (v === "Bearish") bearishScore++;
+  });
+
+  const bullishPct = Number(((bullishScore / total) * 100).toFixed(1));
+  const bearishPct = Number(((bearishScore / total) * 100).toFixed(1));
+
+  let overall = "Neutral";
+  if (bullishPct >= 60) overall = "Bullish";
+  else if (bearishPct >= 60) overall = "Bearish";
+
+  return {
+    overall,
+    bullishPct,
+    bearishPct,
+    bullishCount: bullishScore,
+    bearishCount: bearishScore,
+    totalIndicators: total
+  };
+}
+
 async function fetchYahoo(symbol) {
   const url =
     `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(symbol)}?range=1y&interval=1d`;
