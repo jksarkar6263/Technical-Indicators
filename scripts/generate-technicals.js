@@ -6,6 +6,7 @@ const fs = require("fs");
    ════════════════════════════════════════════════════════════ */
 
 const API_BASE = "https://all-in-one.stockmarketsinindia.workers.dev/api";
+const API_KEY  = process.env.STOCKAPI_KEY || "";   /* set as GitHub Actions secret */
 
 /* Special index tickers that don't follow the SYMBOL.NS pattern */
 const INDEX_TICKER_MAP = {
@@ -28,7 +29,10 @@ function toYahooSymbol(displaySymbol) {
 }
 
 async function loadSymbolUniverse() {
-  const resp = await fetch(`${API_BASE}/dashboard/symbols`);
+  const url = API_KEY
+    ? `${API_BASE}/dashboard/symbols?key=${encodeURIComponent(API_KEY)}`
+    : `${API_BASE}/dashboard/symbols`;
+  const resp = await fetch(url);
   const data = await resp.json();
 
   const indices = data.indices || [];
