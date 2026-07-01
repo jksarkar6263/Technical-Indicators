@@ -404,23 +404,56 @@ async function main() {
       if (!chart) continue;
 
       const quote = chart.indicators.quote[0];
-      const closes = quote.close.filter(v => v != null);
+
+      /* ── extract all three price arrays, filtering nulls in sync ── */
+      const rawCloses = quote.close  || [];
+      const rawHighs  = quote.high   || [];
+      const rawLows   = quote.low    || [];
+
+      const validIndices = rawCloses
+        .map((v, i) => v != null && rawHighs[i] != null && rawLows[i] != null ? i : -1)
+        .filter(i => i !== -1);
+
+      const closes = validIndices.map(i => rawCloses[i]);
+      const highs  = validIndices.map(i => rawHighs[i]);
+      const lows   = validIndices.map(i => rawLows[i]);
 
       if (closes.length < 50) {
         console.warn(`  Skipping ${name} — insufficient candle history (${closes.length})`);
         continue;
       }
 
-      const lastClose = closes[closes.length - 1];
+      const lastClose    = closes[closes.length - 1];
       const previousClose = closes[closes.length - 2];
-      const change = Number((lastClose - previousClose).toFixed(2));
+      const change        = Number((lastClose - previousClose).toFixed(2));
       const changePercent = Number((((lastClose - previousClose) / previousClose) * 100).toFixed(2));
 
-      const ema20  = calculateEMA(closes.slice(-60), 20);
-      const ema50  = calculateEMA(closes.slice(-120), 50);
-      const ema200 = calculateEMA(closes, 200);
-      const rsi     = calculateRSI(closes);
-      const macdData = calculateMACD(closes);
+      /* ── calculate all indicators ── */
+      const ema20     = calculateEMA(closes.slice(-60),  20);
+      const ema50     = calculateEMA(closes.slice(-120), 50);
+      const ema200    = calculateEMA(closes, 200);
+      const rsi       = calculateRSI(closes);
+      const macdData  = calculateMACD(closes);
+      const bbData    = calculateBollingerBands(closes);
+      const adxData   = calculateADX(highs, lows, closes);
+      const stochData = calculateStochastic(highs, lows, closes);
+      const wrData    = calculateWilliamsR(highs, lows, closes);
+      const stData    = calculateSuperTrend(highs, lows, closes);
+
+      const indicators = {
+        rsi:        { value: rsi, signal: rsi > 70 ? "Overbought" : rsi < 30 ? "Oversold" : "Neutral" },
+        macd:       { value: macdData.macd, signal: macdData.signal, histogram: macdData.histogram, trend: macdData.trend },
+        ema20:      { value: ema20,  signal: lastClose > ema20  ? "Buy" : "Sell" },
+        ema50:      { value: ema50,  signal: lastClose > ema50  ? "Buy" : "Sell" },
+        ema200:     { value: ema200, signal: lastClose > ema200 ? "Buy" : "Sell" },
+        bb:         bbData,
+        adx:        adxData,
+        stochastic: stochData,
+        williamsR:  wrData,
+        superTrend: stData,
+      };
+
+      const rating = calculateOverallRating(indicators);
 
       result.symbols[name] = {
         yahooSymbol,
@@ -429,19 +462,8 @@ async function main() {
         change,
         changePercent,
         candles: closes.length,
-        rsi: {
-          value: rsi,
-          signal: rsi > 70 ? "Overbought" : rsi < 30 ? "Oversold" : "Neutral"
-        },
-        macd: {
-          value: macdData.macd,
-          signal: macdData.signal,
-          histogram: macdData.histogram,
-          trend: macdData.trend
-        },
-        ema20:  { value: ema20,  signal: lastClose > ema20  ? "Buy" : "Sell" },
-        ema50:  { value: ema50,  signal: lastClose > ema50  ? "Buy" : "Sell" },
-        ema200: { value: ema200, signal: lastClose > ema200 ? "Buy" : "Sell" }
+        ...indicators,
+        overallRating: rating
       };
 
       /* small delay to avoid hammering Yahoo with 240 rapid requests */
