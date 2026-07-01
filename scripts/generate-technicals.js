@@ -423,8 +423,14 @@ async function main() {
         continue;
       }
 
-      const lastClose    = closes[closes.length - 1];
+      const rawOpens  = quote.open || [];
+      const opens     = validIndices.map(i => rawOpens[i]).filter(v => v != null);
+
+      const lastClose     = closes[closes.length - 1];
       const previousClose = closes[closes.length - 2];
+      const lastHigh      = highs[highs.length - 1];
+      const lastLow       = lows[lows.length - 1];
+      const lastOpen      = opens.length ? opens[opens.length - 1] : null;
       const change        = Number((lastClose - previousClose).toFixed(2));
       const changePercent = Number((((lastClose - previousClose) / previousClose) * 100).toFixed(2));
 
@@ -457,6 +463,9 @@ async function main() {
 
       result.symbols[name] = {
         yahooSymbol,
+        lastOpen,
+        lastHigh,
+        lastLow,
         lastClose,
         previousClose,
         change,
