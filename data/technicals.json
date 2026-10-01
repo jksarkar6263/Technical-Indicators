@@ -1,61 +1,61 @@
 {
-  "updated": "30/9/2026, 9:57:12 pm",
+  "updated": "1/10/2026, 10:34:01 pm",
   "symbols": {
     "SENSEX": {
       "yahooSymbol": "^BSESN",
-      "lastOpen": 72441.1484375,
-      "lastHigh": 73062.2265625,
-      "lastLow": 72366.4375,
-      "lastClose": 72480.2890625,
-      "previousClose": 72529.0703125,
-      "change": -48.78,
-      "changePercent": -0.07,
+      "lastOpen": 72192.890625,
+      "lastHigh": 72572.8984375,
+      "lastLow": 71292.8828125,
+      "lastClose": 71909.703125,
+      "previousClose": 72480.2890625,
+      "change": -570.59,
+      "changePercent": -0.79,
       "candles": 247,
       "rsi": {
-        "value": 27.03,
+        "value": 24.39,
         "signal": "Oversold"
       },
       "macd": {
-        "value": -1029.45,
-        "signal": -859.62,
-        "histogram": -169.83,
+        "value": -1105.15,
+        "signal": -908.73,
+        "histogram": -196.42,
         "trend": "Bearish"
       },
       "ema20": {
-        "value": 74468,
+        "value": 74224.94,
         "signal": "Sell"
       },
       "ema50": {
-        "value": 75677.41,
+        "value": 75537.21,
         "signal": "Sell"
       },
       "ema200": {
-        "value": 77761.22,
+        "value": 77763.54,
         "signal": "Sell"
       },
       "bb": {
-        "upper": 76949.07,
-        "middle": 74591.06,
-        "lower": 72233.04,
+        "upper": 76806.98,
+        "middle": 74358.02,
+        "lower": 71909.06,
         "signal": "Neutral"
       },
       "adx": {
-        "value": 36.62,
-        "plusDI": 13.12,
-        "minusDI": 36.71,
+        "value": 38.11,
+        "plusDI": 11.5,
+        "minusDI": 42.55,
         "signal": "Strong Trend"
       },
       "stochastic": {
-        "k": 9.27,
-        "d": 8.15,
+        "k": 13.67,
+        "d": 10.92,
         "signal": "Oversold"
       },
       "williamsR": {
-        "value": -87.66,
+        "value": -85.11,
         "signal": "Oversold"
       },
       "superTrend": {
-        "value": 74434.18,
+        "value": 74273.92,
         "trend": "Bearish",
         "signal": "Sell"
       },
