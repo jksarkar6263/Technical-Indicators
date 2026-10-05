@@ -1,5 +1,5 @@
 {
-  "updated": "2/10/2026, 9:48:39 pm",
+  "updated": "6/10/2026, 12:50:00 am",
   "symbols": {
     "BANKNIFTY": {
       "yahooSymbol": "^NSEBANK",
@@ -10,7 +10,7 @@
       "previousClose": 54633.05078125,
       "change": -182.3,
       "changePercent": -0.33,
-      "candles": 246,
+      "candles": 245,
       "rsi": {
         "value": 32.8,
         "signal": "Neutral"
@@ -30,7 +30,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 56760.17,
+        "value": 56804.66,
         "signal": "Sell"
       },
       "bb": {
@@ -80,7 +80,7 @@
       "previousClose": 17028.69921875,
       "change": -188.35,
       "changePercent": -1.11,
-      "candles": 245,
+      "candles": 244,
       "rsi": {
         "value": 22.09,
         "signal": "Oversold"
@@ -100,7 +100,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 17380.16,
+        "value": 17397.84,
         "signal": "Sell"
       },
       "bb": {
@@ -147,7 +147,7 @@
       "previousClose": 22620.44921875,
       "change": -198.5,
       "changePercent": -0.88,
-      "candles": 246,
+      "candles": 245,
       "rsi": {
         "value": 22.57,
         "signal": "Oversold"
@@ -167,7 +167,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 24198.82,
+        "value": 24214.64,
         "signal": "Sell"
       },
       "bb": {
@@ -217,7 +217,7 @@
       "previousClose": 72480.2890625,
       "change": -570.59,
       "changePercent": -0.79,
-      "candles": 246,
+      "candles": 245,
       "rsi": {
         "value": 24.39,
         "signal": "Oversold"
@@ -237,7 +237,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 77782.66,
+        "value": 77832.96,
         "signal": "Sell"
       },
       "bb": {
@@ -287,7 +287,7 @@
       "previousClose": 1030,
       "change": 10,
       "changePercent": 0.97,
-      "candles": 250,
+      "candles": 249,
       "rsi": {
         "value": 36.05,
         "signal": "Neutral"
@@ -307,7 +307,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1104.26,
+        "value": 1105.36,
         "signal": "Sell"
       },
       "bb": {
@@ -354,7 +354,7 @@
       "previousClose": 6776,
       "change": 124,
       "changePercent": 1.83,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 39.2,
         "signal": "Neutral"
@@ -374,7 +374,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 6707.49,
+        "value": 6710.32,
         "signal": "Buy"
       },
       "bb": {
@@ -421,7 +421,7 @@
       "previousClose": 380.6000061035156,
       "change": -5.55,
       "changePercent": -1.46,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 37.95,
         "signal": "Neutral"
@@ -488,7 +488,7 @@
       "previousClose": 1314.5999755859375,
       "change": 11.8,
       "changePercent": 0.9,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 37.97,
         "signal": "Neutral"
@@ -508,7 +508,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1336.51,
+        "value": 1337.36,
         "signal": "Sell"
       },
       "bb": {
@@ -555,7 +555,7 @@
       "previousClose": 2903.39990234375,
       "change": -86.6,
       "changePercent": -2.98,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 40.12,
         "signal": "Neutral"
@@ -575,7 +575,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 2742.15,
+        "value": 2740.8,
         "signal": "Buy"
       },
       "bb": {
@@ -622,7 +622,7 @@
       "previousClose": 1278,
       "change": -1.9,
       "changePercent": -0.15,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 46.59,
         "signal": "Neutral"
@@ -642,7 +642,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1255.94,
+        "value": 1255.04,
         "signal": "Buy"
       },
       "bb": {
@@ -689,7 +689,7 @@
       "previousClose": 1798.300048828125,
       "change": -60.5,
       "changePercent": -3.36,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 47.92,
         "signal": "Neutral"
@@ -709,7 +709,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1659.52,
+        "value": 1657.99,
         "signal": "Buy"
       },
       "bb": {
@@ -756,7 +756,7 @@
       "previousClose": 204,
       "change": -7.79,
       "changePercent": -3.82,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 40.98,
         "signal": "Neutral"
@@ -776,7 +776,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 194.32,
+        "value": 194.7,
         "signal": "Buy"
       },
       "bb": {
@@ -823,7 +823,7 @@
       "previousClose": 5163.5,
       "change": 56.5,
       "changePercent": 1.09,
-      "candles": 250,
+      "candles": 249,
       "rsi": {
         "value": 46.11,
         "signal": "Neutral"
@@ -843,7 +843,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 5445.51,
+        "value": 5449.82,
         "signal": "Sell"
       },
       "bb": {
@@ -890,7 +890,7 @@
       "previousClose": 6672.5,
       "change": -172.5,
       "changePercent": -2.59,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 29.06,
         "signal": "Oversold"
@@ -910,7 +910,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 7414.01,
+        "value": 7410.73,
         "signal": "Sell"
       },
       "bb": {
@@ -957,7 +957,7 @@
       "previousClose": 374,
       "change": -11.75,
       "changePercent": -3.14,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 29.72,
         "signal": "Oversold"
@@ -977,7 +977,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 449.75,
+        "value": 449.55,
         "signal": "Sell"
       },
       "bb": {
@@ -1024,7 +1024,7 @@
       "previousClose": 2120,
       "change": -2.5,
       "changePercent": -0.12,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 40.16,
         "signal": "Neutral"
@@ -1044,7 +1044,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1882.6,
+        "value": 1884.63,
         "signal": "Buy"
       },
       "bb": {
@@ -1091,7 +1091,7 @@
       "previousClose": 274,
       "change": 2.8,
       "changePercent": 1.02,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 37.19,
         "signal": "Neutral"
@@ -1111,7 +1111,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 289.47,
+        "value": 289.99,
         "signal": "Sell"
       },
       "bb": {
@@ -1158,7 +1158,7 @@
       "previousClose": 2190.10009765625,
       "change": -74.4,
       "changePercent": -3.4,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 44.58,
         "signal": "Neutral"
@@ -1178,7 +1178,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 1970.84,
+        "value": 1971.15,
         "signal": "Buy"
       },
       "bb": {
@@ -1225,7 +1225,7 @@
       "previousClose": 8165.5,
       "change": -32,
       "changePercent": -0.39,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 29.66,
         "signal": "Oversold"
@@ -1245,7 +1245,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 8257.9,
+        "value": 8275.34,
         "signal": "Sell"
       },
       "bb": {
@@ -1292,7 +1292,7 @@
       "previousClose": 154.19000244140625,
       "change": -3.71,
       "changePercent": -2.41,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 31.49,
         "signal": "Neutral"
@@ -1312,7 +1312,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 163.66,
+        "value": 163.49,
         "signal": "Sell"
       },
       "bb": {
@@ -1359,7 +1359,7 @@
       "previousClose": 2402.60009765625,
       "change": 4.4,
       "changePercent": 0.18,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 35.77,
         "signal": "Neutral"
@@ -1379,7 +1379,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 2560.24,
+        "value": 2560,
         "signal": "Sell"
       },
       "bb": {
@@ -1426,7 +1426,7 @@
       "previousClose": 1370.4000244140625,
       "change": -26.4,
       "changePercent": -1.93,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 31.27,
         "signal": "Neutral"
@@ -1493,7 +1493,7 @@
       "previousClose": 1425,
       "change": -18.9,
       "changePercent": -1.33,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 37.43,
         "signal": "Neutral"
@@ -1513,7 +1513,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1113.45,
+        "value": 1115.74,
         "signal": "Buy"
       },
       "bb": {
@@ -1560,7 +1560,7 @@
       "previousClose": 1010.2999877929688,
       "change": -23.3,
       "changePercent": -2.31,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 36.82,
         "signal": "Neutral"
@@ -1580,7 +1580,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 994.06,
+        "value": 995.79,
         "signal": "Sell"
       },
       "bb": {
@@ -1627,7 +1627,7 @@
       "previousClose": 1672,
       "change": 4.8,
       "changePercent": 0.29,
-      "candles": 250,
+      "candles": 249,
       "rsi": {
         "value": 50.08,
         "signal": "Neutral"
@@ -1647,7 +1647,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 1463.63,
+        "value": 1463.9,
         "signal": "Buy"
       },
       "bb": {
@@ -1694,7 +1694,7 @@
       "previousClose": 1226,
       "change": -8.9,
       "changePercent": -0.73,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 44.52,
         "signal": "Neutral"
@@ -1714,7 +1714,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1265.61,
+        "value": 1268.22,
         "signal": "Sell"
       },
       "bb": {
@@ -1761,7 +1761,7 @@
       "previousClose": 10874,
       "change": -829,
       "changePercent": -7.62,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 21.31,
         "signal": "Oversold"
@@ -1781,7 +1781,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 10415.92,
+        "value": 10425.16,
         "signal": "Sell"
       },
       "bb": {
@@ -1828,7 +1828,7 @@
       "previousClose": 1731,
       "change": 1.6,
       "changePercent": 0.09,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 24.79,
         "signal": "Oversold"
@@ -1848,7 +1848,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1898.35,
+        "value": 1901,
         "signal": "Sell"
       },
       "bb": {
@@ -1895,7 +1895,7 @@
       "previousClose": 10788,
       "change": -122,
       "changePercent": -1.13,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 40.96,
         "signal": "Neutral"
@@ -1915,7 +1915,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 10922.68,
+        "value": 10921.28,
         "signal": "Sell"
       },
       "bb": {
@@ -1962,7 +1962,7 @@
       "previousClose": 959.4000244140625,
       "change": -11.1,
       "changePercent": -1.16,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 32.04,
         "signal": "Neutral"
@@ -1982,7 +1982,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 999.55,
+        "value": 1001.13,
         "signal": "Sell"
       },
       "bb": {
@@ -2029,7 +2029,7 @@
       "previousClose": 178.22999572753906,
       "change": -2.23,
       "changePercent": -1.25,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 48.43,
         "signal": "Neutral"
@@ -2049,7 +2049,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 178.22,
+        "value": 178.12,
         "signal": "Sell"
       },
       "bb": {
@@ -2096,7 +2096,7 @@
       "previousClose": 230.5500030517578,
       "change": 0.27,
       "changePercent": 0.12,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 41.15,
         "signal": "Neutral"
@@ -2116,7 +2116,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 259.69,
+        "value": 259.91,
         "signal": "Sell"
       },
       "bb": {
@@ -2163,7 +2163,7 @@
       "previousClose": 130.24000549316406,
       "change": -0.76,
       "changePercent": -0.58,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 28.5,
         "signal": "Oversold"
@@ -2183,7 +2183,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 142.24,
+        "value": 142.28,
         "signal": "Sell"
       },
       "bb": {
@@ -2230,7 +2230,7 @@
       "previousClose": 1110.0999755859375,
       "change": -22.2,
       "changePercent": -2,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 29.86,
         "signal": "Oversold"
@@ -2250,7 +2250,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1320.3,
+        "value": 1320.15,
         "signal": "Sell"
       },
       "bb": {
@@ -2297,7 +2297,7 @@
       "previousClose": 388.29998779296875,
       "change": -5.2,
       "changePercent": -1.34,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 36.37,
         "signal": "Neutral"
@@ -2317,7 +2317,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 412.44,
+        "value": 412.49,
         "signal": "Sell"
       },
       "bb": {
@@ -2364,7 +2364,7 @@
       "previousClose": 1926,
       "change": -51,
       "changePercent": -2.65,
-      "candles": 250,
+      "candles": 249,
       "rsi": {
         "value": 34.65,
         "signal": "Neutral"
@@ -2384,7 +2384,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1863.73,
+        "value": 1864.92,
         "signal": "Buy"
       },
       "bb": {
@@ -2431,7 +2431,7 @@
       "previousClose": 1757,
       "change": -15.9,
       "changePercent": -0.9,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 32.29,
         "signal": "Neutral"
@@ -2451,7 +2451,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1895.53,
+        "value": 1896.05,
         "signal": "Sell"
       },
       "bb": {
@@ -2498,7 +2498,7 @@
       "previousClose": 415.5,
       "change": 5.5,
       "changePercent": 1.32,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 49.72,
         "signal": "Neutral"
@@ -2518,7 +2518,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 364.34,
+        "value": 364.36,
         "signal": "Buy"
       },
       "bb": {
@@ -2565,7 +2565,7 @@
       "previousClose": 370.29998779296875,
       "change": 0.4,
       "changePercent": 0.11,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 33.59,
         "signal": "Neutral"
@@ -2585,7 +2585,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 396.1,
+        "value": 395.74,
         "signal": "Sell"
       },
       "bb": {
@@ -2632,7 +2632,7 @@
       "previousClose": 1518,
       "change": -58.4,
       "changePercent": -3.85,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 41.04,
         "signal": "Neutral"
@@ -2652,7 +2652,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1666.68,
+        "value": 1666.16,
         "signal": "Sell"
       },
       "bb": {
@@ -2699,7 +2699,7 @@
       "previousClose": 47100,
       "change": -1620,
       "changePercent": -3.44,
-      "candles": 249,
+      "candles": 248,
       "rsi": {
         "value": 41.89,
         "signal": "Neutral"
@@ -2719,7 +2719,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 41062.44,
+        "value": 41076.68,
         "signal": "Buy"
       },
       "bb": {
@@ -2766,7 +2766,7 @@
       "previousClose": 303.20001220703125,
       "change": -2.6,
       "changePercent": -0.86,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 41,
         "signal": "Neutral"
@@ -2786,7 +2786,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 319.5,
+        "value": 319.67,
         "signal": "Sell"
       },
       "bb": {
@@ -2833,7 +2833,7 @@
       "previousClose": 4830,
       "change": -52,
       "changePercent": -1.08,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 26.65,
         "signal": "Oversold"
@@ -2853,7 +2853,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 5463.06,
+        "value": 5464.58,
         "signal": "Sell"
       },
       "bb": {
@@ -2900,7 +2900,7 @@
       "previousClose": 3092,
       "change": -46,
       "changePercent": -1.49,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 37.03,
         "signal": "Neutral"
@@ -2920,7 +2920,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 3282.83,
+        "value": 3293.05,
         "signal": "Sell"
       },
       "bb": {
@@ -2967,7 +2967,7 @@
       "previousClose": 671,
       "change": 6.25,
       "changePercent": 0.93,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 34.33,
         "signal": "Neutral"
@@ -2987,7 +2987,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 748.63,
+        "value": 748.86,
         "signal": "Sell"
       },
       "bb": {
@@ -3034,7 +3034,7 @@
       "previousClose": 119.44000244140625,
       "change": -1.08,
       "changePercent": -0.9,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 30.09,
         "signal": "Neutral"
@@ -3054,7 +3054,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 131.34,
+        "value": 131.41,
         "signal": "Sell"
       },
       "bb": {
@@ -3101,7 +3101,7 @@
       "previousClose": 1264,
       "change": -21.5,
       "changePercent": -1.7,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 31.93,
         "signal": "Neutral"
@@ -3121,7 +3121,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1351.35,
+        "value": 1354.2,
         "signal": "Sell"
       },
       "bb": {
@@ -3168,7 +3168,7 @@
       "previousClose": 854.2000122070312,
       "change": 24.8,
       "changePercent": 2.9,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 48.59,
         "signal": "Neutral"
@@ -3188,7 +3188,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 831.62,
+        "value": 831.45,
         "signal": "Buy"
       },
       "bb": {
@@ -3235,7 +3235,7 @@
       "previousClose": 1620,
       "change": -40,
       "changePercent": -2.47,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 22.65,
         "signal": "Oversold"
@@ -3255,7 +3255,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1705.85,
+        "value": 1711.04,
         "signal": "Sell"
       },
       "bb": {
@@ -3302,7 +3302,7 @@
       "previousClose": 1346,
       "change": -2,
       "changePercent": -0.15,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 34.75,
         "signal": "Neutral"
@@ -3322,7 +3322,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1407.19,
+        "value": 1406.82,
         "signal": "Sell"
       },
       "bb": {
@@ -3369,7 +3369,7 @@
       "previousClose": 425,
       "change": -4.6,
       "changePercent": -1.08,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 50.39,
         "signal": "Neutral"
@@ -3389,7 +3389,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 424.53,
+        "value": 424.41,
         "signal": "Sell"
       },
       "bb": {
@@ -3436,7 +3436,7 @@
       "previousClose": 1315,
       "change": -28,
       "changePercent": -2.13,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 33.52,
         "signal": "Neutral"
@@ -3456,7 +3456,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1512.81,
+        "value": 1512.11,
         "signal": "Sell"
       },
       "bb": {
@@ -3503,7 +3503,7 @@
       "previousClose": 1749.0999755859375,
       "change": 76.9,
       "changePercent": 4.4,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 52.06,
         "signal": "Neutral"
@@ -3523,7 +3523,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 1606.72,
+        "value": 1610.77,
         "signal": "Buy"
       },
       "bb": {
@@ -3570,7 +3570,7 @@
       "previousClose": 1763.300048828125,
       "change": -28.3,
       "changePercent": -1.6,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 31.81,
         "signal": "Neutral"
@@ -3590,7 +3590,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 2020.13,
+        "value": 2021.35,
         "signal": "Sell"
       },
       "bb": {
@@ -3637,7 +3637,7 @@
       "previousClose": 447.5,
       "change": -5.5,
       "changePercent": -1.23,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 28.73,
         "signal": "Oversold"
@@ -3657,7 +3657,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 496.26,
+        "value": 496.15,
         "signal": "Sell"
       },
       "bb": {
@@ -3704,7 +3704,7 @@
       "previousClose": 208.6699981689453,
       "change": -5.97,
       "changePercent": -2.86,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 20.01,
         "signal": "Oversold"
@@ -3724,7 +3724,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 255.59,
+        "value": 255.09,
         "signal": "Sell"
       },
       "bb": {
@@ -3771,7 +3771,7 @@
       "previousClose": 4760,
       "change": 100,
       "changePercent": 2.1,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 39.39,
         "signal": "Neutral"
@@ -3791,7 +3791,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 5024.26,
+        "value": 5025.1,
         "signal": "Sell"
       },
       "bb": {
@@ -3838,7 +3838,7 @@
       "previousClose": 380.1000061035156,
       "change": -5.85,
       "changePercent": -1.54,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 35.24,
         "signal": "Neutral"
@@ -3858,7 +3858,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 436.4,
+        "value": 436.17,
         "signal": "Sell"
       },
       "bb": {
@@ -3905,7 +3905,7 @@
       "previousClose": 409.70001220703125,
       "change": -9.7,
       "changePercent": -2.37,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 30.82,
         "signal": "Neutral"
@@ -3925,7 +3925,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 449.69,
+        "value": 451.76,
         "signal": "Sell"
       },
       "bb": {
@@ -3972,7 +3972,7 @@
       "previousClose": 9291.5,
       "change": -42.5,
       "changePercent": -0.46,
-      "candles": 250,
+      "candles": 249,
       "rsi": {
         "value": 51.28,
         "signal": "Neutral"
@@ -3992,7 +3992,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 7432.86,
+        "value": 7429.58,
         "signal": "Buy"
       },
       "bb": {
@@ -4039,7 +4039,7 @@
       "previousClose": 13100,
       "change": -400,
       "changePercent": -3.05,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 34.18,
         "signal": "Neutral"
@@ -4059,7 +4059,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 13150.79,
+        "value": 13187.73,
         "signal": "Sell"
       },
       "bb": {
@@ -4106,7 +4106,7 @@
       "previousClose": 674,
       "change": -15.6,
       "changePercent": -2.31,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 48.77,
         "signal": "Neutral"
@@ -4126,7 +4126,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 648.81,
+        "value": 649.3,
         "signal": "Buy"
       },
       "bb": {
@@ -4173,7 +4173,7 @@
       "previousClose": 3801.39990234375,
       "change": 11.6,
       "changePercent": 0.31,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 51.05,
         "signal": "Neutral"
@@ -4193,7 +4193,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 4029,
+        "value": 4019.42,
         "signal": "Sell"
       },
       "bb": {
@@ -4240,7 +4240,7 @@
       "previousClose": 1233,
       "change": -26.8,
       "changePercent": -2.17,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 53.96,
         "signal": "Neutral"
@@ -4260,7 +4260,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 1234.15,
+        "value": 1234.19,
         "signal": "Sell"
       },
       "bb": {
@@ -4307,7 +4307,7 @@
       "previousClose": 7150,
       "change": -230,
       "changePercent": -3.22,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 18.72,
         "signal": "Oversold"
@@ -4327,7 +4327,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 7423.03,
+        "value": 7418.02,
         "signal": "Sell"
       },
       "bb": {
@@ -4374,7 +4374,7 @@
       "previousClose": 3200,
       "change": 134,
       "changePercent": 4.19,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 57.3,
         "signal": "Neutral"
@@ -4394,7 +4394,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 3234.3,
+        "value": 3224.35,
         "signal": "Buy"
       },
       "bb": {
@@ -4441,7 +4441,7 @@
       "previousClose": 320,
       "change": -6.1,
       "changePercent": -1.91,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 39.24,
         "signal": "Neutral"
@@ -4461,7 +4461,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 293.2,
+        "value": 293.74,
         "signal": "Buy"
       },
       "bb": {
@@ -4508,7 +4508,7 @@
       "previousClose": 317.3999938964844,
       "change": 0.8,
       "changePercent": 0.25,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 30.4,
         "signal": "Neutral"
@@ -4528,7 +4528,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 305.56,
+        "value": 305.67,
         "signal": "Buy"
       },
       "bb": {
@@ -4575,7 +4575,7 @@
       "previousClose": 17054,
       "change": -254,
       "changePercent": -1.49,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 38.96,
         "signal": "Neutral"
@@ -4595,7 +4595,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 18569.92,
+        "value": 18531.01,
         "signal": "Sell"
       },
       "bb": {
@@ -4642,7 +4642,7 @@
       "previousClose": 770,
       "change": 15,
       "changePercent": 1.95,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 24.69,
         "signal": "Oversold"
@@ -4662,7 +4662,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 923.12,
+        "value": 929.16,
         "signal": "Sell"
       },
       "bb": {
@@ -4709,7 +4709,7 @@
       "previousClose": 170.5500030517578,
       "change": 0.67,
       "changePercent": 0.39,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 45.5,
         "signal": "Neutral"
@@ -4729,7 +4729,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 170.12,
+        "value": 170.06,
         "signal": "Buy"
       },
       "bb": {
@@ -4776,7 +4776,7 @@
       "previousClose": 2334.699951171875,
       "change": -3.7,
       "changePercent": -0.16,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 43.14,
         "signal": "Neutral"
@@ -4796,7 +4796,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 2229.1,
+        "value": 2228.36,
         "signal": "Buy"
       },
       "bb": {
@@ -4843,7 +4843,7 @@
       "previousClose": 95.1500015258789,
       "change": -1.99,
       "changePercent": -2.09,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 39.32,
         "signal": "Neutral"
@@ -4863,7 +4863,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 99.5,
+        "value": 99.46,
         "signal": "Sell"
       },
       "bb": {
@@ -4910,7 +4910,7 @@
       "previousClose": 1891.800048828125,
       "change": -42.1,
       "changePercent": -2.23,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 32.72,
         "signal": "Neutral"
@@ -4930,7 +4930,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 2283.7,
+        "value": 2286.28,
         "signal": "Sell"
       },
       "bb": {
@@ -4977,7 +4977,7 @@
       "previousClose": 850,
       "change": -10,
       "changePercent": -1.18,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 29.13,
         "signal": "Oversold"
@@ -4997,7 +4997,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1027.85,
+        "value": 1027.74,
         "signal": "Sell"
       },
       "bb": {
@@ -5044,7 +5044,7 @@
       "previousClose": 1628.5,
       "change": -32.7,
       "changePercent": -2.01,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 24.51,
         "signal": "Oversold"
@@ -5064,7 +5064,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1885.94,
+        "value": 1887.86,
         "signal": "Sell"
       },
       "bb": {
@@ -5111,7 +5111,7 @@
       "previousClose": 3061.89990234375,
       "change": -99.9,
       "changePercent": -3.26,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 27.79,
         "signal": "Oversold"
@@ -5131,7 +5131,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 3039.92,
+        "value": 3041.23,
         "signal": "Sell"
       },
       "bb": {
@@ -5178,7 +5178,7 @@
       "previousClose": 4201,
       "change": 52.2,
       "changePercent": 1.24,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 46.23,
         "signal": "Neutral"
@@ -5198,7 +5198,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 4136.98,
+        "value": 4134.99,
         "signal": "Buy"
       },
       "bb": {
@@ -5245,7 +5245,7 @@
       "previousClose": 4668,
       "change": -67,
       "changePercent": -1.44,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 39.22,
         "signal": "Neutral"
@@ -5265,7 +5265,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 4571.47,
+        "value": 4569.4,
         "signal": "Buy"
       },
       "bb": {
@@ -5312,7 +5312,7 @@
       "previousClose": 1016,
       "change": 24,
       "changePercent": 2.36,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 30.82,
         "signal": "Neutral"
@@ -5332,7 +5332,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1254.68,
+        "value": 1255.46,
         "signal": "Sell"
       },
       "bb": {
@@ -5379,7 +5379,7 @@
       "previousClose": 1230,
       "change": 13.1,
       "changePercent": 1.07,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 45.53,
         "signal": "Neutral"
@@ -5399,7 +5399,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1313.47,
+        "value": 1315.46,
         "signal": "Sell"
       },
       "bb": {
@@ -5446,7 +5446,7 @@
       "previousClose": 2280.699951171875,
       "change": 27.4,
       "changePercent": 1.2,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 37.86,
         "signal": "Neutral"
@@ -5466,7 +5466,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 2590.48,
+        "value": 2593.36,
         "signal": "Sell"
       },
       "bb": {
@@ -5513,7 +5513,7 @@
       "previousClose": 708.7000122070312,
       "change": 12.5,
       "changePercent": 1.76,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 49.29,
         "signal": "Neutral"
@@ -5533,7 +5533,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 801.21,
+        "value": 801.89,
         "signal": "Sell"
       },
       "bb": {
@@ -5580,7 +5580,7 @@
       "previousClose": 521.2000122070312,
       "change": 13,
       "changePercent": 2.49,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 48.23,
         "signal": "Neutral"
@@ -5600,7 +5600,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 606.73,
+        "value": 607.05,
         "signal": "Sell"
       },
       "bb": {
@@ -5647,7 +5647,7 @@
       "previousClose": 5241,
       "change": -73,
       "changePercent": -1.39,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 40.68,
         "signal": "Neutral"
@@ -5667,7 +5667,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 5335.59,
+        "value": 5338.13,
         "signal": "Sell"
       },
       "bb": {
@@ -5714,7 +5714,7 @@
       "previousClose": 941.7999877929688,
       "change": 0.05,
       "changePercent": 0.01,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 35.47,
         "signal": "Neutral"
@@ -5734,7 +5734,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 967.66,
+        "value": 967.36,
         "signal": "Sell"
       },
       "bb": {
@@ -5781,7 +5781,7 @@
       "previousClose": 350.3500061035156,
       "change": -5.35,
       "changePercent": -1.53,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 39.01,
         "signal": "Neutral"
@@ -5801,7 +5801,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 392.52,
+        "value": 393.35,
         "signal": "Sell"
       },
       "bb": {
@@ -5848,7 +5848,7 @@
       "previousClose": 1879.0999755859375,
       "change": -43.1,
       "changePercent": -2.29,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 29.2,
         "signal": "Oversold"
@@ -5868,7 +5868,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 2167.39,
+        "value": 2167.14,
         "signal": "Sell"
       },
       "bb": {
@@ -5915,7 +5915,7 @@
       "previousClose": 566,
       "change": -10.95,
       "changePercent": -1.93,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 39.57,
         "signal": "Neutral"
@@ -5982,7 +5982,7 @@
       "previousClose": 2031,
       "change": -7,
       "changePercent": -0.34,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 37.97,
         "signal": "Neutral"
@@ -6002,7 +6002,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 2111.3,
+        "value": 2109.1,
         "signal": "Sell"
       },
       "bb": {
@@ -6049,7 +6049,7 @@
       "previousClose": 1321.699951171875,
       "change": -11.1,
       "changePercent": -0.84,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 33.7,
         "signal": "Neutral"
@@ -6069,7 +6069,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1363.87,
+        "value": 1363.72,
         "signal": "Sell"
       },
       "bb": {
@@ -6116,7 +6116,7 @@
       "previousClose": 1590,
       "change": -27,
       "changePercent": -1.7,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 53.84,
         "signal": "Neutral"
@@ -6136,7 +6136,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1728.02,
+        "value": 1729.18,
         "signal": "Sell"
       },
       "bb": {
@@ -6183,7 +6183,7 @@
       "previousClose": 443.79998779296875,
       "change": 4.25,
       "changePercent": 0.96,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 34.23,
         "signal": "Neutral"
@@ -6203,7 +6203,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 531.41,
+        "value": 531.35,
         "signal": "Sell"
       },
       "bb": {
@@ -6250,7 +6250,7 @@
       "previousClose": 12.949999809265137,
       "change": -0.31,
       "changePercent": -2.39,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 32.35,
         "signal": "Neutral"
@@ -6270,7 +6270,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 12.55,
+        "value": 12.52,
         "signal": "Buy"
       },
       "bb": {
@@ -6317,7 +6317,7 @@
       "previousClose": 81.44000244140625,
       "change": -1.05,
       "changePercent": -1.29,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 38.14,
         "signal": "Neutral"
@@ -6337,7 +6337,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 78.46,
+        "value": 78.63,
         "signal": "Buy"
       },
       "bb": {
@@ -6384,7 +6384,7 @@
       "previousClose": 107,
       "change": -1.02,
       "changePercent": -0.95,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 26.5,
         "signal": "Oversold"
@@ -6404,7 +6404,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 125.43,
+        "value": 125.34,
         "signal": "Sell"
       },
       "bb": {
@@ -6451,7 +6451,7 @@
       "previousClose": 728.6500244140625,
       "change": -10.65,
       "changePercent": -1.46,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 46.84,
         "signal": "Neutral"
@@ -6471,7 +6471,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 704.26,
+        "value": 704.18,
         "signal": "Buy"
       },
       "bb": {
@@ -6518,7 +6518,7 @@
       "previousClose": 805.9000244140625,
       "change": -12.75,
       "changePercent": -1.58,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 27.43,
         "signal": "Oversold"
@@ -6538,7 +6538,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 848.14,
+        "value": 847.49,
         "signal": "Sell"
       },
       "bb": {
@@ -6585,7 +6585,7 @@
       "previousClose": 4984,
       "change": -54.1,
       "changePercent": -1.09,
-      "candles": 250,
+      "candles": 249,
       "rsi": {
         "value": 46.47,
         "signal": "Neutral"
@@ -6605,7 +6605,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 5010.25,
+        "value": 5013.36,
         "signal": "Sell"
       },
       "bb": {
@@ -6652,7 +6652,7 @@
       "previousClose": 901.4000244140625,
       "change": -14.55,
       "changePercent": -1.61,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 30.57,
         "signal": "Neutral"
@@ -6672,7 +6672,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 923.76,
+        "value": 923.09,
         "signal": "Sell"
       },
       "bb": {
@@ -6719,7 +6719,7 @@
       "previousClose": 373.20001220703125,
       "change": 3.05,
       "changePercent": 0.82,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 49.24,
         "signal": "Neutral"
@@ -6739,7 +6739,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 396.54,
+        "value": 396.59,
         "signal": "Sell"
       },
       "bb": {
@@ -6786,7 +6786,7 @@
       "previousClose": 994.0999755859375,
       "change": 40.9,
       "changePercent": 4.11,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 44.86,
         "signal": "Neutral"
@@ -6806,7 +6806,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1210.58,
+        "value": 1212.99,
         "signal": "Sell"
       },
       "bb": {
@@ -6853,7 +6853,7 @@
       "previousClose": 69.51000213623047,
       "change": -0.76,
       "changePercent": -1.09,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 34.5,
         "signal": "Neutral"
@@ -6873,7 +6873,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 92.15,
+        "value": 91.98,
         "signal": "Sell"
       },
       "bb": {
@@ -6920,7 +6920,7 @@
       "previousClose": 134.92999267578125,
       "change": -3.59,
       "changePercent": -2.66,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 39.82,
         "signal": "Neutral"
@@ -6940,7 +6940,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 144.62,
+        "value": 144.99,
         "signal": "Sell"
       },
       "bb": {
@@ -6987,7 +6987,7 @@
       "previousClose": 111.68000030517578,
       "change": -0.68,
       "changePercent": -0.61,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 45.24,
         "signal": "Neutral"
@@ -7007,7 +7007,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 125.22,
+        "value": 124.98,
         "signal": "Sell"
       },
       "bb": {
@@ -7054,7 +7054,7 @@
       "previousClose": 79.27999877929688,
       "change": -2.22,
       "changePercent": -2.8,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 32.15,
         "signal": "Neutral"
@@ -7074,7 +7074,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 96.78,
+        "value": 96.73,
         "signal": "Sell"
       },
       "bb": {
@@ -7121,7 +7121,7 @@
       "previousClose": 262.75,
       "change": -6.85,
       "changePercent": -2.61,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 36.34,
         "signal": "Neutral"
@@ -7141,7 +7141,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 303.52,
+        "value": 303.23,
         "signal": "Sell"
       },
       "bb": {
@@ -7188,7 +7188,7 @@
       "previousClose": 1134.9000244140625,
       "change": -34.4,
       "changePercent": -3.03,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 41.85,
         "signal": "Neutral"
@@ -7208,7 +7208,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1125.38,
+        "value": 1123.69,
         "signal": "Sell"
       },
       "bb": {
@@ -7255,7 +7255,7 @@
       "previousClose": 216.8800048828125,
       "change": -4.38,
       "changePercent": -2.02,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 22.8,
         "signal": "Oversold"
@@ -7275,7 +7275,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 250.25,
+        "value": 250.62,
         "signal": "Sell"
       },
       "bb": {
@@ -7322,7 +7322,7 @@
       "previousClose": 494.70001220703125,
       "change": -9.7,
       "changePercent": -1.96,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 31.24,
         "signal": "Neutral"
@@ -7342,7 +7342,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 533.56,
+        "value": 533.65,
         "signal": "Sell"
       },
       "bb": {
@@ -7389,7 +7389,7 @@
       "previousClose": 1253.4000244140625,
       "change": -20.4,
       "changePercent": -1.63,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 38.85,
         "signal": "Neutral"
@@ -7409,7 +7409,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1245.26,
+        "value": 1245.12,
         "signal": "Sell"
       },
       "bb": {
@@ -7456,7 +7456,7 @@
       "previousClose": 456.70001220703125,
       "change": -13.3,
       "changePercent": -2.91,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 33.8,
         "signal": "Neutral"
@@ -7476,7 +7476,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 488.1,
+        "value": 487.68,
         "signal": "Sell"
       },
       "bb": {
@@ -7523,7 +7523,7 @@
       "previousClose": 553.1500244140625,
       "change": -24.65,
       "changePercent": -4.46,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 29.13,
         "signal": "Oversold"
@@ -7543,7 +7543,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 495.04,
+        "value": 494.48,
         "signal": "Buy"
       },
       "bb": {
@@ -7590,7 +7590,7 @@
       "previousClose": 3501,
       "change": -102,
       "changePercent": -2.91,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 41.4,
         "signal": "Neutral"
@@ -7610,7 +7610,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 4015.95,
+        "value": 4031.83,
         "signal": "Sell"
       },
       "bb": {
@@ -7657,7 +7657,7 @@
       "previousClose": 4455,
       "change": 47,
       "changePercent": 1.05,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 36.45,
         "signal": "Neutral"
@@ -7677,7 +7677,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 4851.59,
+        "value": 4859.35,
         "signal": "Sell"
       },
       "bb": {
@@ -7724,7 +7724,7 @@
       "previousClose": 840,
       "change": -8,
       "changePercent": -0.95,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 30.56,
         "signal": "Neutral"
@@ -7744,7 +7744,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 938.12,
+        "value": 937.72,
         "signal": "Sell"
       },
       "bb": {
@@ -7791,7 +7791,7 @@
       "previousClose": 417,
       "change": 1.35,
       "changePercent": 0.32,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 57.55,
         "signal": "Neutral"
@@ -7811,7 +7811,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 401.94,
+        "value": 402.68,
         "signal": "Buy"
       },
       "bb": {
@@ -7858,7 +7858,7 @@
       "previousClose": 499.1000061035156,
       "change": -7.1,
       "changePercent": -1.42,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 26.85,
         "signal": "Oversold"
@@ -7878,7 +7878,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 739.35,
+        "value": 739.27,
         "signal": "Sell"
       },
       "bb": {
@@ -7925,7 +7925,7 @@
       "previousClose": 1980,
       "change": 4,
       "changePercent": 0.2,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 58.38,
         "signal": "Neutral"
@@ -7945,7 +7945,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 1464.73,
+        "value": 1464.61,
         "signal": "Buy"
       },
       "bb": {
@@ -7992,7 +7992,7 @@
       "previousClose": 530.2000122070312,
       "change": -21.2,
       "changePercent": -4,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 34.5,
         "signal": "Neutral"
@@ -8012,7 +8012,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 541.71,
+        "value": 541.58,
         "signal": "Sell"
       },
       "bb": {
@@ -8059,7 +8059,7 @@
       "previousClose": 395.20001220703125,
       "change": -3.35,
       "changePercent": -0.85,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 40.12,
         "signal": "Neutral"
@@ -8079,7 +8079,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 417.2,
+        "value": 417.28,
         "signal": "Sell"
       },
       "bb": {
@@ -8126,7 +8126,7 @@
       "previousClose": 1135,
       "change": -29.4,
       "changePercent": -2.59,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 41.44,
         "signal": "Neutral"
@@ -8146,7 +8146,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1076,
+        "value": 1076.18,
         "signal": "Buy"
       },
       "bb": {
@@ -8193,7 +8193,7 @@
       "previousClose": 3760,
       "change": -66.6,
       "changePercent": -1.77,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 31.26,
         "signal": "Neutral"
@@ -8213,7 +8213,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 3941.77,
+        "value": 3942.09,
         "signal": "Sell"
       },
       "bb": {
@@ -8260,7 +8260,7 @@
       "previousClose": 265,
       "change": -0.65,
       "changePercent": -0.25,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 27.98,
         "signal": "Oversold"
@@ -8280,7 +8280,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 293.91,
+        "value": 293.71,
         "signal": "Sell"
       },
       "bb": {
@@ -8327,7 +8327,7 @@
       "previousClose": 4045,
       "change": -38,
       "changePercent": -0.94,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 35.46,
         "signal": "Neutral"
@@ -8347,7 +8347,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 4532.93,
+        "value": 4545.57,
         "signal": "Sell"
       },
       "bb": {
@@ -8394,7 +8394,7 @@
       "previousClose": 2030.199951171875,
       "change": 1,
       "changePercent": 0.05,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 31.66,
         "signal": "Neutral"
@@ -8414,7 +8414,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 2219.8,
+        "value": 2216.82,
         "signal": "Sell"
       },
       "bb": {
@@ -8461,7 +8461,7 @@
       "previousClose": 2950,
       "change": -90,
       "changePercent": -3.05,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 22.96,
         "signal": "Oversold"
@@ -8481,7 +8481,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 3256.31,
+        "value": 3257.13,
         "signal": "Sell"
       },
       "bb": {
@@ -8528,7 +8528,7 @@
       "previousClose": 79.37000274658203,
       "change": 1.13,
       "changePercent": 1.42,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 45.65,
         "signal": "Neutral"
@@ -8548,7 +8548,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 76.08,
+        "value": 76.14,
         "signal": "Buy"
       },
       "bb": {
@@ -8595,7 +8595,7 @@
       "previousClose": 315.8500061035156,
       "change": -6.95,
       "changePercent": -2.2,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 37.35,
         "signal": "Neutral"
@@ -8615,7 +8615,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 316.12,
+        "value": 316.49,
         "signal": "Sell"
       },
       "bb": {
@@ -8662,7 +8662,7 @@
       "previousClose": 2503.800048828125,
       "change": 31.2,
       "changePercent": 1.25,
-      "candles": 250,
+      "candles": 249,
       "rsi": {
         "value": 62.24,
         "signal": "Neutral"
@@ -8682,7 +8682,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 2364.44,
+        "value": 2365.13,
         "signal": "Buy"
       },
       "bb": {
@@ -8729,7 +8729,7 @@
       "previousClose": 786,
       "change": -4.65,
       "changePercent": -0.59,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 34.85,
         "signal": "Neutral"
@@ -8749,7 +8749,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 802.16,
+        "value": 802.54,
         "signal": "Sell"
       },
       "bb": {
@@ -8796,7 +8796,7 @@
       "previousClose": 11967,
       "change": -581,
       "changePercent": -4.86,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 21.62,
         "signal": "Oversold"
@@ -8816,7 +8816,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 13800.47,
+        "value": 13816.23,
         "signal": "Sell"
       },
       "bb": {
@@ -8863,7 +8863,7 @@
       "previousClose": 929.7999877929688,
       "change": 11.15,
       "changePercent": 1.2,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 31.31,
         "signal": "Neutral"
@@ -8883,7 +8883,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1043.21,
+        "value": 1049,
         "signal": "Sell"
       },
       "bb": {
@@ -8930,7 +8930,7 @@
       "previousClose": 2113,
       "change": -49,
       "changePercent": -2.32,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 23.95,
         "signal": "Oversold"
@@ -8950,7 +8950,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 2472.97,
+        "value": 2473.52,
         "signal": "Sell"
       },
       "bb": {
@@ -8997,7 +8997,7 @@
       "previousClose": 3300.39990234375,
       "change": -96.4,
       "changePercent": -2.92,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 48.09,
         "signal": "Neutral"
@@ -9017,7 +9017,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 2760.65,
+        "value": 2761.42,
         "signal": "Buy"
       },
       "bb": {
@@ -9064,7 +9064,7 @@
       "previousClose": 1373.4000244140625,
       "change": 18.6,
       "changePercent": 1.35,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 38.09,
         "signal": "Neutral"
@@ -9084,7 +9084,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1585.37,
+        "value": 1585.48,
         "signal": "Sell"
       },
       "bb": {
@@ -9131,7 +9131,7 @@
       "previousClose": 163.25999450683594,
       "change": -6.23,
       "changePercent": -3.82,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 42.51,
         "signal": "Neutral"
@@ -9151,7 +9151,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 140.79,
+        "value": 140.75,
         "signal": "Buy"
       },
       "bb": {
@@ -9198,7 +9198,7 @@
       "previousClose": 994,
       "change": -4.1,
       "changePercent": -0.41,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 46.96,
         "signal": "Neutral"
@@ -9218,7 +9218,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 908.51,
+        "value": 910.5,
         "signal": "Buy"
       },
       "bb": {
@@ -9265,7 +9265,7 @@
       "previousClose": 2154.39990234375,
       "change": 95.8,
       "changePercent": 4.45,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 43.4,
         "signal": "Neutral"
@@ -9285,7 +9285,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 2409.91,
+        "value": 2414.46,
         "signal": "Sell"
       },
       "bb": {
@@ -9332,7 +9332,7 @@
       "previousClose": 2737.10009765625,
       "change": -40,
       "changePercent": -1.46,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 34.64,
         "signal": "Neutral"
@@ -9352,7 +9352,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 3153.47,
+        "value": 3158.4,
         "signal": "Sell"
       },
       "bb": {
@@ -9399,7 +9399,7 @@
       "previousClose": 1070,
       "change": -24,
       "changePercent": -2.24,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 30.23,
         "signal": "Neutral"
@@ -9419,7 +9419,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1067.52,
+        "value": 1066.27,
         "signal": "Sell"
       },
       "bb": {
@@ -9466,7 +9466,7 @@
       "previousClose": 340.95001220703125,
       "change": -6.05,
       "changePercent": -1.77,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 32.57,
         "signal": "Neutral"
@@ -9486,7 +9486,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 354.25,
+        "value": 353.92,
         "signal": "Sell"
       },
       "bb": {
@@ -9533,7 +9533,7 @@
       "previousClose": 1219.5,
       "change": -19.5,
       "changePercent": -1.6,
-      "candles": 250,
+      "candles": 249,
       "rsi": {
         "value": 36.48,
         "signal": "Neutral"
@@ -9553,7 +9553,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1189.87,
+        "value": 1193.68,
         "signal": "Buy"
       },
       "bb": {
@@ -9600,7 +9600,7 @@
       "previousClose": 78.5,
       "change": -1.1,
       "changePercent": -1.4,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 29.23,
         "signal": "Oversold"
@@ -9620,7 +9620,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 95.81,
+        "value": 95.66,
         "signal": "Sell"
       },
       "bb": {
@@ -9667,7 +9667,7 @@
       "previousClose": 1310,
       "change": -2.3,
       "changePercent": -0.18,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 30.12,
         "signal": "Neutral"
@@ -9687,7 +9687,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1369.78,
+        "value": 1370.75,
         "signal": "Sell"
       },
       "bb": {
@@ -9734,7 +9734,7 @@
       "previousClose": 72.80999755859375,
       "change": -1.06,
       "changePercent": -1.46,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 28.65,
         "signal": "Oversold"
@@ -9754,7 +9754,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 78.4,
+        "value": 78.37,
         "signal": "Sell"
       },
       "bb": {
@@ -9801,7 +9801,7 @@
       "previousClose": 76.54000091552734,
       "change": -1.9,
       "changePercent": -2.48,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 27.55,
         "signal": "Oversold"
@@ -9821,7 +9821,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 83.29,
+        "value": 83.21,
         "signal": "Sell"
       },
       "bb": {
@@ -9868,7 +9868,7 @@
       "previousClose": 322.75,
       "change": -7.65,
       "changePercent": -2.37,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 29.47,
         "signal": "Oversold"
@@ -9888,7 +9888,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 350.2,
+        "value": 349.96,
         "signal": "Sell"
       },
       "bb": {
@@ -9935,7 +9935,7 @@
       "previousClose": 320,
       "change": 4.95,
       "changePercent": 1.55,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 44.32,
         "signal": "Neutral"
@@ -9955,7 +9955,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 295.15,
+        "value": 296.42,
         "signal": "Buy"
       },
       "bb": {
@@ -10002,7 +10002,7 @@
       "previousClose": 1765.699951171875,
       "change": -11.1,
       "changePercent": -0.63,
-      "candles": 250,
+      "candles": 249,
       "rsi": {
         "value": 42.01,
         "signal": "Neutral"
@@ -10022,7 +10022,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1727.39,
+        "value": 1728.79,
         "signal": "Buy"
       },
       "bb": {
@@ -10069,7 +10069,7 @@
       "previousClose": 10630,
       "change": -210,
       "changePercent": -1.98,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 33.38,
         "signal": "Neutral"
@@ -10089,7 +10089,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 10005.57,
+        "value": 10016.36,
         "signal": "Buy"
       },
       "bb": {
@@ -10136,7 +10136,7 @@
       "previousClose": 448.6499938964844,
       "change": -4.65,
       "changePercent": -1.04,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 31.82,
         "signal": "Neutral"
@@ -10156,7 +10156,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 457.42,
+        "value": 457.79,
         "signal": "Sell"
       },
       "bb": {
@@ -10203,7 +10203,7 @@
       "previousClose": 225.8000030517578,
       "change": -3.43,
       "changePercent": -1.52,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 30.69,
         "signal": "Neutral"
@@ -10223,7 +10223,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 250.04,
+        "value": 250.22,
         "signal": "Sell"
       },
       "bb": {
@@ -10270,7 +10270,7 @@
       "previousClose": 36385,
       "change": 275,
       "changePercent": 0.76,
-      "candles": 249,
+      "candles": 248,
       "rsi": {
         "value": 50.97,
         "signal": "Neutral"
@@ -10290,7 +10290,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 37693.75,
+        "value": 37636.81,
         "signal": "Sell"
       },
       "bb": {
@@ -10337,7 +10337,7 @@
       "previousClose": 363,
       "change": -7.85,
       "changePercent": -2.16,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 43.57,
         "signal": "Neutral"
@@ -10357,7 +10357,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 433.05,
+        "value": 433.79,
         "signal": "Sell"
       },
       "bb": {
@@ -10404,7 +10404,7 @@
       "previousClose": 1678,
       "change": -22,
       "changePercent": -1.31,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 46.45,
         "signal": "Neutral"
@@ -10424,7 +10424,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 1353.43,
+        "value": 1358.05,
         "signal": "Buy"
       },
       "bb": {
@@ -10471,7 +10471,7 @@
       "previousClose": 5279,
       "change": 88,
       "changePercent": 1.67,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 47.64,
         "signal": "Neutral"
@@ -10491,7 +10491,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 5321.22,
+        "value": 5331.11,
         "signal": "Buy"
       },
       "bb": {
@@ -10538,7 +10538,7 @@
       "previousClose": 284.5,
       "change": 1,
       "changePercent": 0.35,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 49.03,
         "signal": "Neutral"
@@ -10558,7 +10558,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 281.29,
+        "value": 281.4,
         "signal": "Buy"
       },
       "bb": {
@@ -10605,7 +10605,7 @@
       "previousClose": 325.5,
       "change": -7.5,
       "changePercent": -2.3,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 21.9,
         "signal": "Oversold"
@@ -10625,7 +10625,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 394.66,
+        "value": 394.14,
         "signal": "Sell"
       },
       "bb": {
@@ -10672,7 +10672,7 @@
       "previousClose": 493.45001220703125,
       "change": -12.35,
       "changePercent": -2.5,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 22.89,
         "signal": "Oversold"
@@ -10692,7 +10692,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 550.27,
+        "value": 550.52,
         "signal": "Sell"
       },
       "bb": {
@@ -10739,7 +10739,7 @@
       "previousClose": 1935,
       "change": -5,
       "changePercent": -0.26,
-      "candles": 249,
+      "candles": 248,
       "rsi": {
         "value": 50.86,
         "signal": "Neutral"
@@ -10759,7 +10759,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 1833.58,
+        "value": 1836.25,
         "signal": "Buy"
       },
       "bb": {
@@ -10806,7 +10806,7 @@
       "previousClose": 1465.0999755859375,
       "change": -1.1,
       "changePercent": -0.08,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 29.25,
         "signal": "Oversold"
@@ -10826,7 +10826,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1529.85,
+        "value": 1529.8,
         "signal": "Sell"
       },
       "bb": {
@@ -10873,7 +10873,7 @@
       "previousClose": 2310,
       "change": -74,
       "changePercent": -3.2,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 35.23,
         "signal": "Neutral"
@@ -10893,7 +10893,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 2819.39,
+        "value": 2820.49,
         "signal": "Sell"
       },
       "bb": {
@@ -10940,7 +10940,7 @@
       "previousClose": 113.05999755859375,
       "change": -3.49,
       "changePercent": -3.09,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 33.95,
         "signal": "Neutral"
@@ -10960,7 +10960,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 113.54,
+        "value": 113.55,
         "signal": "Sell"
       },
       "bb": {
@@ -11007,7 +11007,7 @@
       "previousClose": 1120,
       "change": -28,
       "changePercent": -2.5,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 41.86,
         "signal": "Neutral"
@@ -11027,7 +11027,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1028.08,
+        "value": 1028.66,
         "signal": "Buy"
       },
       "bb": {
@@ -11074,7 +11074,7 @@
       "previousClose": 1063.9000244140625,
       "change": -83.9,
       "changePercent": -7.89,
-      "candles": 250,
+      "candles": 249,
       "rsi": {
         "value": 19.41,
         "signal": "Oversold"
@@ -11094,7 +11094,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1643.92,
+        "value": 1645.98,
         "signal": "Sell"
       },
       "bb": {
@@ -11141,7 +11141,7 @@
       "previousClose": 8026,
       "change": -36,
       "changePercent": -0.45,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 31.53,
         "signal": "Neutral"
@@ -11161,7 +11161,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 8505.81,
+        "value": 8524.07,
         "signal": "Sell"
       },
       "bb": {
@@ -11208,7 +11208,7 @@
       "previousClose": 260.5,
       "change": -5.95,
       "changePercent": -2.28,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 34.65,
         "signal": "Neutral"
@@ -11228,7 +11228,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 281.69,
+        "value": 281.46,
         "signal": "Sell"
       },
       "bb": {
@@ -11275,7 +11275,7 @@
       "previousClose": 30630,
       "change": 660,
       "changePercent": 2.15,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 47.56,
         "signal": "Neutral"
@@ -11295,7 +11295,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 29342.07,
+        "value": 29340.43,
         "signal": "Buy"
       },
       "bb": {
@@ -11342,7 +11342,7 @@
       "previousClose": 870.0999755859375,
       "change": 7.95,
       "changePercent": 0.91,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 33.57,
         "signal": "Neutral"
@@ -11362,7 +11362,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 978.49,
+        "value": 976.6,
         "signal": "Sell"
       },
       "bb": {
@@ -11409,7 +11409,7 @@
       "previousClose": 1481.9000244140625,
       "change": 4.2,
       "changePercent": 0.28,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 46.61,
         "signal": "Neutral"
@@ -11429,7 +11429,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1518.16,
+        "value": 1519.08,
         "signal": "Sell"
       },
       "bb": {
@@ -11476,7 +11476,7 @@
       "previousClose": 4366,
       "change": -129,
       "changePercent": -2.95,
-      "candles": 250,
+      "candles": 249,
       "rsi": {
         "value": 38.67,
         "signal": "Neutral"
@@ -11496,7 +11496,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 3774.48,
+        "value": 3773.95,
         "signal": "Buy"
       },
       "bb": {
@@ -11543,7 +11543,7 @@
       "previousClose": 403.3500061035156,
       "change": 8.05,
       "changePercent": 2,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 54.15,
         "signal": "Neutral"
@@ -11563,7 +11563,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 354.08,
+        "value": 354.05,
         "signal": "Buy"
       },
       "bb": {
@@ -11610,7 +11610,7 @@
       "previousClose": 299,
       "change": -11.25,
       "changePercent": -3.76,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 30.19,
         "signal": "Neutral"
@@ -11630,7 +11630,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 345.13,
+        "value": 344.95,
         "signal": "Sell"
       },
       "bb": {
@@ -11677,7 +11677,7 @@
       "previousClose": 1187,
       "change": -19.3,
       "changePercent": -1.63,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 27.92,
         "signal": "Oversold"
@@ -11697,7 +11697,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1334.27,
+        "value": 1335.23,
         "signal": "Sell"
       },
       "bb": {
@@ -11744,7 +11744,7 @@
       "previousClose": 201.75999450683594,
       "change": -4.76,
       "changePercent": -2.36,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 37.17,
         "signal": "Neutral"
@@ -11764,7 +11764,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 257.62,
+        "value": 257.58,
         "signal": "Sell"
       },
       "bb": {
@@ -11811,7 +11811,7 @@
       "previousClose": 42.58000183105469,
       "change": 0.59,
       "changePercent": 1.39,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 41.28,
         "signal": "Neutral"
@@ -11831,7 +11831,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 43.68,
+        "value": 43.74,
         "signal": "Sell"
       },
       "bb": {
@@ -11878,7 +11878,7 @@
       "previousClose": 181.49000549316406,
       "change": -6.99,
       "changePercent": -3.85,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 41.67,
         "signal": "Neutral"
@@ -11898,7 +11898,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 169.32,
+        "value": 169.13,
         "signal": "Buy"
       },
       "bb": {
@@ -11945,7 +11945,7 @@
       "previousClose": 578.0499877929688,
       "change": -14.85,
       "changePercent": -2.57,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 26.73,
         "signal": "Oversold"
@@ -11965,7 +11965,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 686.79,
+        "value": 687.65,
         "signal": "Sell"
       },
       "bb": {
@@ -12012,7 +12012,7 @@
       "previousClose": 1696.4000244140625,
       "change": 25.2,
       "changePercent": 1.49,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 46.56,
         "signal": "Neutral"
@@ -12032,7 +12032,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1830.44,
+        "value": 1829.27,
         "signal": "Sell"
       },
       "bb": {
@@ -12079,7 +12079,7 @@
       "previousClose": 959.5,
       "change": -5.4,
       "changePercent": -0.56,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 32.22,
         "signal": "Neutral"
@@ -12099,7 +12099,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1013.33,
+        "value": 1013.88,
         "signal": "Sell"
       },
       "bb": {
@@ -12146,7 +12146,7 @@
       "previousClose": 22345,
       "change": -445,
       "changePercent": -1.99,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 36.94,
         "signal": "Neutral"
@@ -12166,7 +12166,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 25268.85,
+        "value": 25278.29,
         "signal": "Sell"
       },
       "bb": {
@@ -12213,7 +12213,7 @@
       "previousClose": 982.7000122070312,
       "change": -37.7,
       "changePercent": -3.84,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 29.81,
         "signal": "Oversold"
@@ -12233,7 +12233,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 977.33,
+        "value": 979.43,
         "signal": "Sell"
       },
       "bb": {
@@ -12280,7 +12280,7 @@
       "previousClose": 3725.60009765625,
       "change": 78.4,
       "changePercent": 2.1,
-      "candles": 250,
+      "candles": 249,
       "rsi": {
         "value": 45.34,
         "signal": "Neutral"
@@ -12300,7 +12300,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 3605.53,
+        "value": 3612.8,
         "signal": "Buy"
       },
       "bb": {
@@ -12347,7 +12347,7 @@
       "previousClose": 19700,
       "change": -300,
       "changePercent": -1.52,
-      "candles": 250,
+      "candles": 249,
       "rsi": {
         "value": 46.21,
         "signal": "Neutral"
@@ -12367,7 +12367,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 17247.05,
+        "value": 17270.84,
         "signal": "Buy"
       },
       "bb": {
@@ -12414,7 +12414,7 @@
       "previousClose": 830,
       "change": -25,
       "changePercent": -3.01,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 50.85,
         "signal": "Neutral"
@@ -12434,7 +12434,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 648.55,
+        "value": 648.1,
         "signal": "Buy"
       },
       "bb": {
@@ -12481,7 +12481,7 @@
       "previousClose": 2472.5,
       "change": 13.7,
       "changePercent": 0.55,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 43.66,
         "signal": "Neutral"
@@ -12501,7 +12501,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 2680.53,
+        "value": 2682.24,
         "signal": "Sell"
       },
       "bb": {
@@ -12548,7 +12548,7 @@
       "previousClose": 1816.5999755859375,
       "change": -15.6,
       "changePercent": -0.86,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 36.73,
         "signal": "Neutral"
@@ -12568,7 +12568,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1824.47,
+        "value": 1826.4,
         "signal": "Sell"
       },
       "bb": {
@@ -12615,7 +12615,7 @@
       "previousClose": 3451,
       "change": -71,
       "changePercent": -2.06,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 43.85,
         "signal": "Neutral"
@@ -12635,7 +12635,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 3598.29,
+        "value": 3595.17,
         "signal": "Sell"
       },
       "bb": {
@@ -12682,7 +12682,7 @@
       "previousClose": 39.4900016784668,
       "change": -0.58,
       "changePercent": -1.47,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 18.83,
         "signal": "Oversold"
@@ -12702,7 +12702,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 49.55,
+        "value": 49.52,
         "signal": "Sell"
       },
       "bb": {
@@ -12749,7 +12749,7 @@
       "previousClose": 250.10000610351562,
       "change": -12.1,
       "changePercent": -4.84,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 26.68,
         "signal": "Oversold"
@@ -12769,7 +12769,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 295.6,
+        "value": 296.23,
         "signal": "Sell"
       },
       "bb": {
@@ -12816,7 +12816,7 @@
       "previousClose": 949.5,
       "change": 7.5,
       "changePercent": 0.79,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 33.79,
         "signal": "Neutral"
@@ -12836,7 +12836,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1094.34,
+        "value": 1094.71,
         "signal": "Sell"
       },
       "bb": {
@@ -12883,7 +12883,7 @@
       "previousClose": 3088.89990234375,
       "change": 3.9,
       "changePercent": 0.13,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 24.1,
         "signal": "Oversold"
@@ -12903,7 +12903,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 4118.62,
+        "value": 4121.78,
         "signal": "Sell"
       },
       "bb": {
@@ -12950,7 +12950,7 @@
       "previousClose": 359,
       "change": -8.85,
       "changePercent": -2.47,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 35,
         "signal": "Neutral"
@@ -12970,7 +12970,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 384.61,
+        "value": 384.66,
         "signal": "Sell"
       },
       "bb": {
@@ -13017,7 +13017,7 @@
       "previousClose": 184.3000030517578,
       "change": -6.3,
       "changePercent": -3.42,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 37.87,
         "signal": "Neutral"
@@ -13037,7 +13037,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 190,
+        "value": 189.74,
         "signal": "Sell"
       },
       "bb": {
@@ -13084,7 +13084,7 @@
       "previousClose": 2050.60009765625,
       "change": 24.4,
       "changePercent": 1.19,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 36.02,
         "signal": "Neutral"
@@ -13104,7 +13104,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 2435.93,
+        "value": 2443.03,
         "signal": "Sell"
       },
       "bb": {
@@ -13151,7 +13151,7 @@
       "previousClose": 1524,
       "change": 9,
       "changePercent": 0.59,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 44.12,
         "signal": "Neutral"
@@ -13171,7 +13171,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1512.7,
+        "value": 1515.88,
         "signal": "Buy"
       },
       "bb": {
@@ -13218,7 +13218,7 @@
       "previousClose": 2375,
       "change": -35,
       "changePercent": -1.47,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 20.7,
         "signal": "Oversold"
@@ -13238,7 +13238,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 2817.32,
+        "value": 2818.48,
         "signal": "Sell"
       },
       "bb": {
@@ -13285,7 +13285,7 @@
       "previousClose": 4587,
       "change": -71.3,
       "changePercent": -1.55,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 26.51,
         "signal": "Oversold"
@@ -13305,7 +13305,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 4452.76,
+        "value": 4450.47,
         "signal": "Buy"
       },
       "bb": {
@@ -13352,7 +13352,7 @@
       "previousClose": 283.5,
       "change": -4.1,
       "changePercent": -1.45,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 27.33,
         "signal": "Oversold"
@@ -13372,7 +13372,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 370.7,
+        "value": 370.42,
         "signal": "Sell"
       },
       "bb": {
@@ -13419,7 +13419,7 @@
       "previousClose": 4800,
       "change": -32.7,
       "changePercent": -0.68,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 40.85,
         "signal": "Neutral"
@@ -13439,7 +13439,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 4501.59,
+        "value": 4502.52,
         "signal": "Buy"
       },
       "bb": {
@@ -13486,7 +13486,7 @@
       "previousClose": 2621.60009765625,
       "change": -41.6,
       "changePercent": -1.59,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 24.39,
         "signal": "Oversold"
@@ -13506,7 +13506,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 3096.62,
+        "value": 3093.47,
         "signal": "Sell"
       },
       "bb": {
@@ -13553,7 +13553,7 @@
       "previousClose": 4106,
       "change": -85,
       "changePercent": -2.07,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 38.46,
         "signal": "Neutral"
@@ -13573,7 +13573,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 3818.18,
+        "value": 3822.67,
         "signal": "Buy"
       },
       "bb": {
@@ -13620,7 +13620,7 @@
       "previousClose": 67.5,
       "change": -1.9,
       "changePercent": -2.81,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 49.69,
         "signal": "Neutral"
@@ -13640,7 +13640,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 60.82,
+        "value": 60.87,
         "signal": "Buy"
       },
       "bb": {
@@ -13687,7 +13687,7 @@
       "previousClose": 10956,
       "change": -246,
       "changePercent": -2.25,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 37.77,
         "signal": "Neutral"
@@ -13707,7 +13707,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 11600.36,
+        "value": 11603.32,
         "signal": "Sell"
       },
       "bb": {
@@ -13754,7 +13754,7 @@
       "previousClose": 171,
       "change": -3.41,
       "changePercent": -1.99,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 35.55,
         "signal": "Neutral"
@@ -13774,7 +13774,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 171.11,
+        "value": 171.02,
         "signal": "Sell"
       },
       "bb": {
@@ -13821,7 +13821,7 @@
       "previousClose": 1354,
       "change": -18.9,
       "changePercent": -1.4,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 30.91,
         "signal": "Neutral"
@@ -13841,7 +13841,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1392.31,
+        "value": 1392.18,
         "signal": "Sell"
       },
       "bb": {
@@ -13888,7 +13888,7 @@
       "previousClose": 1170,
       "change": -59,
       "changePercent": -5.04,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 32.16,
         "signal": "Neutral"
@@ -13908,7 +13908,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1189.71,
+        "value": 1191.34,
         "signal": "Sell"
       },
       "bb": {
@@ -13955,7 +13955,7 @@
       "previousClose": 539.75,
       "change": -22.95,
       "changePercent": -4.25,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 28.46,
         "signal": "Oversold"
@@ -13975,7 +13975,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 621.34,
+        "value": 621.94,
         "signal": "Sell"
       },
       "bb": {
@@ -14022,7 +14022,7 @@
       "previousClose": 432,
       "change": -6.7,
       "changePercent": -1.55,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 49.64,
         "signal": "Neutral"
@@ -14042,7 +14042,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 457.25,
+        "value": 456.88,
         "signal": "Sell"
       },
       "bb": {
@@ -14089,7 +14089,7 @@
       "previousClose": 259,
       "change": -6.95,
       "changePercent": -2.68,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 37.74,
         "signal": "Neutral"
@@ -14109,7 +14109,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 387.96,
+        "value": 387.95,
         "signal": "Sell"
       },
       "bb": {
@@ -14156,7 +14156,7 @@
       "previousClose": 101,
       "change": -1.5,
       "changePercent": -1.49,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 40.3,
         "signal": "Neutral"
@@ -14176,7 +14176,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 117.24,
+        "value": 117.29,
         "signal": "Sell"
       },
       "bb": {
@@ -14223,7 +14223,7 @@
       "previousClose": 1070,
       "change": -16.8,
       "changePercent": -1.57,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 31.03,
         "signal": "Neutral"
@@ -14243,7 +14243,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1293.63,
+        "value": 1294.15,
         "signal": "Sell"
       },
       "bb": {
@@ -14290,7 +14290,7 @@
       "previousClose": 2374.39990234375,
       "change": -34.4,
       "changePercent": -1.45,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 27.85,
         "signal": "Oversold"
@@ -14310,7 +14310,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 2886.14,
+        "value": 2886.35,
         "signal": "Sell"
       },
       "bb": {
@@ -14357,7 +14357,7 @@
       "previousClose": 158.5,
       "change": 0.85,
       "changePercent": 0.54,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 32.05,
         "signal": "Neutral"
@@ -14377,7 +14377,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 195.12,
+        "value": 195.21,
         "signal": "Sell"
       },
       "bb": {
@@ -14424,7 +14424,7 @@
       "previousClose": 20.950000762939453,
       "change": -0.2,
       "changePercent": -0.95,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 32.04,
         "signal": "Neutral"
@@ -14491,7 +14491,7 @@
       "previousClose": 1162,
       "change": -16.3,
       "changePercent": -1.4,
-      "candles": 251,
+      "candles": 250,
       "rsi": {
         "value": 47.69,
         "signal": "Neutral"
@@ -14511,7 +14511,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 1056.68,
+        "value": 1057.2,
         "signal": "Buy"
       },
       "bb": {
