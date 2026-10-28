@@ -1,5 +1,5 @@
 {
-  "updated": "28/10/2026, 4:46:14 pm",
+  "updated": "28/10/2026, 5:00:15 pm",
   "symbols": {
     "NIFTY": {
       "yahooSymbol": "^NSEI",
@@ -267,7 +267,9 @@
         "bullishCount": 0,
         "bearishCount": 6,
         "totalIndicators": 10
-      }
+      },
+      "stale": true,
+      "staleReason": "Insufficient candle history (candles=1, closes=1, withHighLow=1)"
     },
     "NIFTYNXT50": {
       "yahooSymbol": "^NSMIDCP",
@@ -15084,6 +15086,7 @@
     }
   },
   "failed": [
+    "MIDCPNIFTY",
     "BANKEX",
     "NIFTYFPI"
   ]
