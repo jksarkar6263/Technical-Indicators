@@ -538,6 +538,7 @@ async function main() {
         result.symbols[name] = { error: err.message };
       }
     }
+}
 
   /* safety: never overwrite the file when most of the run failed */
   if (okCount < symbolCount * 0.5) {
