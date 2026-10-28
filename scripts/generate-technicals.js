@@ -15,13 +15,16 @@ const INDEX_TICKER_MAP = {
   "BANKNIFTY":           "^NSEBANK",
   "BANK NIFTY":          "^NSEBANK",
   "FINNIFTY":            "NIFTY_FIN_SERVICE.NS",
-  "MIDCPNIFTY":          "NIFTY_MID_SELECT.NS",
+  "MIDCPNIFTY":          "^NSEMDCP50",
   "NIFTY MIDCAP SELECT": "NIFTY_MID_SELECT.NS",
   "NIFTYNXT50":          "^NSMIDCP",
   "NIFTY NEXT 50":       "^NSMIDCP",
+  "NIFTYFPI":            "NIFTY_FPI_150.NS",
+  "NIFTY FPI 150"        "NIFTY_FPI_150.NS",
   "SENSEX":              "^BSESN",
   "BSE SENSEX":          "^BSESN",
-  "BANKEX":              "BSE-BANK.BO"
+   "BANKEX":              "BSE-BANK.BO",
+   "BSE BANKEX":         "BSE-BANK.BO"
 };
 
 /* Always processed, even if /symbols omits them */
