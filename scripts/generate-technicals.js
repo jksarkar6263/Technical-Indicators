@@ -10,21 +10,21 @@ const API_KEY  = process.env.STOCKAPI_KEY || "";   /* set as GitHub Actions secr
 
 /* Special index tickers that don't follow the SYMBOL.NS pattern */
 const INDEX_TICKER_MAP = {
-  "NIFTY":               "^NSEI",
-  "NIFTY 50":            "^NSEI",
-  "BANKNIFTY":           "^NSEBANK",
-  "BANK NIFTY":          "^NSEBANK",
-  "FINNIFTY":            "NIFTY_FIN_SERVICE.NS",
-  "MIDCPNIFTY":          "^NSEMDCP50",
-  "NIFTY MIDCAP SELECT": "NIFTY_MID_SELECT.NS",
-  "NIFTYNXT50":          "^NSMIDCP",
-  "NIFTY NEXT 50":       "^NSMIDCP",
-  "NIFTYFPI":            "NIFTY_FPI_150.NS",
-  "NIFTY FPI 150":       "NIFTY_FPI_150.NS",
-  "SENSEX":              "^BSESN",
-  "BSE SENSEX":          "^BSESN",
-   "BANKEX":              "BSE-BANK.BO",
-   "BSE BANKEX":         "BSE-BANK.BO"
+  "NIFTY":                                "^NSEI",
+  "NIFTY 50":                             "^NSEI",
+  "BANKNIFTY":                            "^NSEBANK",
+  "BANK NIFTY":                           "^NSEBANK",
+  "FINNIFTY":                             "NIFTY_FIN_SERVICE.NS",
+  "MIDCPNIFTY":                           "^NSEMDCP50",
+  "NIFTY MIDCAP SELECT":                  "NIFTY_MID_SELECT.NS",
+  "NIFTYNXT50":                           "^NSMIDCP",
+  "NIFTY NEXT 50":                        "^NSMIDCP",
+  "NIFTYFPI":                             "NIFTY_FPI_150.NS",
+  "NIFTY FPI 150":                        "NIFTY_FPI_150.NS",
+  "SENSEX":                               "^BSESN",
+  "BSE SENSEX":                           "^BSESN",
+  "BANKEX":                               "BSE-BANK.BO",
+  "BSE BANKEX":                           "BSE-BANK.BO"
 };
 
 /* Always processed, even if /symbols omits them */
