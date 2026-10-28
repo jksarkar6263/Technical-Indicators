@@ -20,7 +20,7 @@ const INDEX_TICKER_MAP = {
   "NIFTYNXT50":          "^NSMIDCP",
   "NIFTY NEXT 50":       "^NSMIDCP",
   "NIFTYFPI":            "NIFTY_FPI_150.NS",
-  "NIFTY FPI 150"        "NIFTY_FPI_150.NS",
+  "NIFTY FPI 150":       "NIFTY_FPI_150.NS",
   "SENSEX":              "^BSESN",
   "BSE SENSEX":          "^BSESN",
    "BANKEX":              "BSE-BANK.BO",
