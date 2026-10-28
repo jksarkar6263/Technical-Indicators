@@ -10,21 +10,26 @@ const API_KEY  = process.env.STOCKAPI_KEY || "";   /* set as GitHub Actions secr
 
 /* Special index tickers that don't follow the SYMBOL.NS pattern */
 const INDEX_TICKER_MAP = {
-  "NIFTY":              "^NSEI",
-  "NIFTY 50":           "^NSEI",
-  "BANKNIFTY":          "^NSEBANK",
-  "BANK NIFTY":         "^NSEBANK",
-  "FINNIFTY":           "NIFTY_FIN_SERVICE.NS",
-  "MIDCPNIFTY":         "^NSEMDCP50",
-  "NIFTY MIDCAP SELECT":"^NSEMDCP50",
-  "SENSEX":             "^BSESN",
-  "BSE SENSEX":         "^BSESN"
+  "NIFTY":               "^NSEI",
+  "NIFTY 50":            "^NSEI",
+  "BANKNIFTY":           "^NSEBANK",
+  "BANK NIFTY":          "^NSEBANK",
+  "FINNIFTY":            "NIFTY_FIN_SERVICE.NS",
+  "MIDCPNIFTY":          "NIFTY_MID_SELECT.NS",
+  "NIFTY MIDCAP SELECT": "NIFTY_MID_SELECT.NS",
+  "NIFTYNXT50":          "^NSMIDCP",
+  "NIFTY NEXT 50":       "^NSMIDCP",
+  "SENSEX":              "^BSESN",
+  "BSE SENSEX":          "^BSESN",
+  "BANKEX":              "BSE-BANK.BO"
 };
+
+/* Always processed, even if /symbols omits them */
+const REQUIRED_INDICES = ["NIFTY", "BANKNIFTY", "FINNIFTY", "MIDCPNIFTY", "NIFTYNXT50", "SENSEX", "BANKEX"];
 
 function toYahooSymbol(displaySymbol) {
   const name = (displaySymbol || "").toUpperCase().trim();
   if (INDEX_TICKER_MAP[name]) return INDEX_TICKER_MAP[name];
-  /* regular F&O stock -> NSE Yahoo ticker */
   return `${name}.NS`;
 }
 
@@ -33,23 +38,22 @@ async function loadSymbolUniverse() {
     ? `${API_BASE}/dashboard/symbols?key=${encodeURIComponent(API_KEY)}`
     : `${API_BASE}/dashboard/symbols`;
   const resp = await fetch(url);
+  if (!resp.ok) throw new Error(`/symbols HTTP ${resp.status}`);
   const data = await resp.json();
 
   const indices = data.indices || [];
   const stocks  = data.stocks  || [];
+  if (!stocks.length) throw new Error("/symbols returned no stocks (check STOCKAPI_KEY)");
 
   const universe = {};
-
-  indices.forEach(label => {
+  [...REQUIRED_INDICES, ...indices].forEach(label => {
     const key = label.toUpperCase().trim();
     universe[key] = toYahooSymbol(label);
   });
-
   stocks.forEach(sym => {
     const key = sym.toUpperCase().trim();
     universe[key] = toYahooSymbol(sym);
   });
-
   return universe;
 }
 
@@ -367,24 +371,50 @@ function calculateOverallRating(indicators) {
   };
 }
 
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+
 async function fetchYahoo(symbol) {
-  const url =
-    `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(symbol)}?range=1y&interval=1d`;
-  const response = await fetch(url);
-  if (!response.ok) {
-    throw new Error(`Failed: ${symbol}`);
+  const hosts = ["query1.finance.yahoo.com", "query2.finance.yahoo.com"];
+  let lastErr;
+  for (let attempt = 0; attempt < 4; attempt++) {
+    const host = hosts[attempt % hosts.length];
+    const url = `https://${host}/v8/finance/chart/${encodeURIComponent(symbol)}?range=1y&interval=1d`;
+    try {
+      const response = await fetch(url, {
+        headers: {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+          "Accept": "application/json"
+        }
+      });
+      if (response.ok) return await response.json();
+      lastErr = new Error(`Yahoo HTTP ${response.status} for ${symbol}`);
+      if (response.status === 404) break;   /* bad ticker: retrying won't help */
+    } catch (e) {
+      lastErr = e;
+    }
+    await sleep(1000 * (attempt + 1));
   }
-  return response.json();
+  throw lastErr;
 }
 
 /* ════════════════════════════════════════════════════════════
    MAIN
    ════════════════════════════════════════════════════════════ */
 
+function loadPrevious() {
+  try {
+    return JSON.parse(fs.readFileSync("data/technicals.json", "utf8")).symbols || {};
+  } catch (e) {
+    return {};
+  }
+}
+
 async function main() {
+  const previous = loadPrevious();
   const result = {
     updated: new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' }),
-    symbols: {}
+    symbols: {},
+    failed: []
   };
 
   console.log("Loading symbol universe from /dashboard/symbols...");
@@ -393,6 +423,7 @@ async function main() {
   console.log(`Loaded ${symbolCount} symbols (indices + F&O stocks).`);
 
   let processed = 0;
+  let okCount = 0;
 
   for (const [name, yahooSymbol] of Object.entries(SYMBOLS)) {
     try {
@@ -400,15 +431,14 @@ async function main() {
       console.log(`[${processed}/${symbolCount}] Fetching ${name} (${yahooSymbol})...`);
 
       const data = await fetchYahoo(yahooSymbol);
-      const chart = data.chart.result?.[0];
-      if (!chart) continue;
+      const chart = data?.chart?.result?.[0];
+      if (!chart) throw new Error("No chart data returned");
 
       const quote = chart.indicators.quote[0];
 
-      /* ── extract all three price arrays, filtering nulls in sync ── */
-      const rawCloses = quote.close  || [];
-      const rawHighs  = quote.high   || [];
-      const rawLows   = quote.low    || [];
+      const rawCloses = quote.close || [];
+      const rawHighs  = quote.high  || [];
+      const rawLows   = quote.low   || [];
 
       const validIndices = rawCloses
         .map((v, i) => v != null && rawHighs[i] != null && rawLows[i] != null ? i : -1)
@@ -419,12 +449,11 @@ async function main() {
       const lows   = validIndices.map(i => rawLows[i]);
 
       if (closes.length < 50) {
-        console.warn(`  Skipping ${name} — insufficient candle history (${closes.length})`);
-        continue;
+        throw new Error(`Insufficient candle history (${closes.length})`);
       }
 
-      const rawOpens  = quote.open || [];
-      const opens     = validIndices.map(i => rawOpens[i]).filter(v => v != null);
+      const rawOpens = quote.open || [];
+      const opens    = validIndices.map(i => rawOpens[i]).filter(v => v != null);
 
       const lastClose     = closes[closes.length - 1];
       const previousClose = closes[closes.length - 2];
@@ -434,7 +463,6 @@ async function main() {
       const change        = Number((lastClose - previousClose).toFixed(2));
       const changePercent = Number((((lastClose - previousClose) / previousClose) * 100).toFixed(2));
 
-      /* ── calculate all indicators ── */
       const ema20     = calculateEMA(closes.slice(-60),  20);
       const ema50     = calculateEMA(closes.slice(-120), 50);
       const ema200    = calculateEMA(closes, 200);
@@ -474,18 +502,33 @@ async function main() {
         ...indicators,
         overallRating: rating
       };
+      okCount++;
 
-      /* small delay to avoid hammering Yahoo with 240 rapid requests */
-      await new Promise(r => setTimeout(r, 250));
+      await sleep(250);
 
     } catch (err) {
-      console.error(`  Error for ${name}:`, err.message);
-      result.symbols[name] = { error: err.message };
+      console.error(`  Error for ${name} (${yahooSymbol}):`, err.message);
+      result.failed.push(name);
+
+      const prev = previous[name];
+      if (prev && !prev.error) {
+        /* keep yesterday's good data instead of replacing it with an error */
+        result.symbols[name] = { ...prev, stale: true, staleReason: err.message };
+      } else {
+        result.symbols[name] = { error: err.message };
+      }
     }
   }
 
+  /* safety: never overwrite the file when most of the run failed */
+  if (okCount < symbolCount * 0.5) {
+    console.error(`Only ${okCount}/${symbolCount} succeeded. Keeping existing technicals.json.`);
+    process.exit(1);
+  }
+
   fs.writeFileSync("data/technicals.json", JSON.stringify(result, null, 2));
-  console.log(`technicals.json updated — ${processed} symbols processed.`);
+  console.log(`technicals.json updated: ${okCount}/${symbolCount} fresh, ${result.failed.length} failed.`);
+  if (result.failed.length) console.log("Failed symbols:", result.failed.join(", "));
 }
 
-main();
+main().catch(e => { console.error(e); process.exit(1); });
