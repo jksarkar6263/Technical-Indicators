@@ -15,7 +15,7 @@ const INDEX_TICKER_MAP = {
   "BANKNIFTY":                            "^NSEBANK",
   "BANK NIFTY":                           "^NSEBANK",
   "FINNIFTY":                             "NIFTY_FIN_SERVICE.NS",
-  "MIDCPNIFTY":                           "^NSEMDCP50",
+  "MIDCPNIFTY":                           "NIFTY_MID_SELECT.NS",
   "NIFTY MIDCAP SELECT":                  "NIFTY_MID_SELECT.NS",
   "NIFTYNXT50":                           "^NSMIDCP",
   "NIFTY NEXT 50":                        "^NSMIDCP",
