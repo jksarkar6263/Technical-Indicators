@@ -1,5 +1,5 @@
 {
-  "updated": "28/10/2026, 6:59:51 pm",
+  "updated": "28/10/2026, 10:13:45 pm",
   "symbols": {
     "NIFTY": {
       "yahooSymbol": "^NSEI",
@@ -11,7 +11,7 @@
       "change": -50.9,
       "changePercent": -0.22,
       "candles": 247,
-      "asOf": "2026-10-28T13:29:52.434Z",
+      "asOf": "2026-10-28T16:43:46.076Z",
       "rsi": {
         "value": 44.9,
         "signal": "Neutral"
@@ -79,7 +79,7 @@
       "change": 292.5,
       "changePercent": 0.54,
       "candles": 247,
-      "asOf": "2026-10-28T13:29:52.771Z",
+      "asOf": "2026-10-28T16:43:46.421Z",
       "rsi": {
         "value": 39.53,
         "signal": "Neutral"
@@ -147,7 +147,7 @@
       "change": 114.5,
       "changePercent": 0.47,
       "candles": 246,
-      "asOf": "2026-10-28T13:29:53.089Z",
+      "asOf": "2026-10-28T16:43:46.741Z",
       "rsi": {
         "value": 39.34,
         "signal": "Neutral"
@@ -285,7 +285,7 @@
       "change": -40.25,
       "changePercent": -0.06,
       "candles": 247,
-      "asOf": "2026-10-28T13:29:53.509Z",
+      "asOf": "2026-10-28T16:43:47.191Z",
       "rsi": {
         "value": 38.96,
         "signal": "Neutral"
@@ -353,7 +353,7 @@
       "change": -352.64,
       "changePercent": -0.48,
       "candles": 247,
-      "asOf": "2026-10-28T13:29:53.840Z",
+      "asOf": "2026-10-28T16:43:47.504Z",
       "rsi": {
         "value": 46.6,
         "signal": "Neutral"
@@ -427,7 +427,7 @@
       "change": 18,
       "changePercent": 1.85,
       "candles": 247,
-      "asOf": "2026-10-28T13:29:54.264Z",
+      "asOf": "2026-10-28T16:43:47.964Z",
       "rsi": {
         "value": 35.66,
         "signal": "Neutral"
@@ -495,7 +495,7 @@
       "change": -60,
       "changePercent": -0.92,
       "candles": 248,
-      "asOf": "2026-10-28T13:29:54.624Z",
+      "asOf": "2026-10-28T16:43:48.288Z",
       "rsi": {
         "value": 41.25,
         "signal": "Neutral"
@@ -563,7 +563,7 @@
       "change": 2.45,
       "changePercent": 0.69,
       "candles": 248,
-      "asOf": "2026-10-28T13:29:54.948Z",
+      "asOf": "2026-10-28T16:43:48.604Z",
       "rsi": {
         "value": 36.65,
         "signal": "Neutral"
@@ -631,7 +631,7 @@
       "change": -17.6,
       "changePercent": -1.34,
       "candles": 248,
-      "asOf": "2026-10-28T13:29:55.249Z",
+      "asOf": "2026-10-28T16:43:48.913Z",
       "rsi": {
         "value": 44.98,
         "signal": "Neutral"
@@ -699,7 +699,7 @@
       "change": -10.2,
       "changePercent": -0.41,
       "candles": 248,
-      "asOf": "2026-10-28T13:29:55.580Z",
+      "asOf": "2026-10-28T16:43:49.230Z",
       "rsi": {
         "value": 30.66,
         "signal": "Neutral"
@@ -767,7 +767,7 @@
       "change": -20,
       "changePercent": -1.55,
       "candles": 248,
-      "asOf": "2026-10-28T13:29:55.890Z",
+      "asOf": "2026-10-28T16:43:49.568Z",
       "rsi": {
         "value": 48.64,
         "signal": "Neutral"
@@ -835,7 +835,7 @@
       "change": 6.8,
       "changePercent": 0.39,
       "candles": 248,
-      "asOf": "2026-10-28T13:29:56.230Z",
+      "asOf": "2026-10-28T16:43:49.888Z",
       "rsi": {
         "value": 51.76,
         "signal": "Neutral"
@@ -903,7 +903,7 @@
       "change": -4.1,
       "changePercent": -2.17,
       "candles": 248,
-      "asOf": "2026-10-28T13:29:56.547Z",
+      "asOf": "2026-10-28T16:43:50.189Z",
       "rsi": {
         "value": 39.92,
         "signal": "Neutral"
@@ -971,7 +971,7 @@
       "change": -8,
       "changePercent": -0.16,
       "candles": 247,
-      "asOf": "2026-10-28T13:29:56.865Z",
+      "asOf": "2026-10-28T16:43:50.500Z",
       "rsi": {
         "value": 43.75,
         "signal": "Neutral"
@@ -1039,7 +1039,7 @@
       "change": 175,
       "changePercent": 2.9,
       "candles": 248,
-      "asOf": "2026-10-28T13:29:57.197Z",
+      "asOf": "2026-10-28T16:43:50.804Z",
       "rsi": {
         "value": 38.69,
         "signal": "Neutral"
@@ -1107,7 +1107,7 @@
       "change": 2.4,
       "changePercent": 0.69,
       "candles": 248,
-      "asOf": "2026-10-28T13:29:57.525Z",
+      "asOf": "2026-10-28T16:43:51.123Z",
       "rsi": {
         "value": 40.4,
         "signal": "Neutral"
@@ -1175,7 +1175,7 @@
       "change": 5.6,
       "changePercent": 0.25,
       "candles": 248,
-      "asOf": "2026-10-28T13:29:57.881Z",
+      "asOf": "2026-10-28T16:43:51.437Z",
       "rsi": {
         "value": 66.78,
         "signal": "Neutral"
@@ -1243,7 +1243,7 @@
       "change": 3.25,
       "changePercent": 1.12,
       "candles": 248,
-      "asOf": "2026-10-28T13:29:58.256Z",
+      "asOf": "2026-10-28T16:43:51.755Z",
       "rsi": {
         "value": 49.27,
         "signal": "Neutral"
@@ -1311,7 +1311,7 @@
       "change": -48.6,
       "changePercent": -2.2,
       "candles": 248,
-      "asOf": "2026-10-28T13:29:58.578Z",
+      "asOf": "2026-10-28T16:43:52.165Z",
       "rsi": {
         "value": 52.99,
         "signal": "Neutral"
@@ -1379,7 +1379,7 @@
       "change": 345.5,
       "changePercent": 4.43,
       "candles": 248,
-      "asOf": "2026-10-28T13:29:58.924Z",
+      "asOf": "2026-10-28T16:43:52.598Z",
       "rsi": {
         "value": 51.59,
         "signal": "Neutral"
@@ -1447,7 +1447,7 @@
       "change": 2.85,
       "changePercent": 2.01,
       "candles": 248,
-      "asOf": "2026-10-28T13:29:59.268Z",
+      "asOf": "2026-10-28T16:43:52.918Z",
       "rsi": {
         "value": 38.93,
         "signal": "Neutral"
@@ -1515,7 +1515,7 @@
       "change": 7.6,
       "changePercent": 0.33,
       "candles": 248,
-      "asOf": "2026-10-28T13:29:59.593Z",
+      "asOf": "2026-10-28T16:43:53.256Z",
       "rsi": {
         "value": 36.42,
         "signal": "Neutral"
@@ -1583,7 +1583,7 @@
       "change": -15.4,
       "changePercent": -1.12,
       "candles": 248,
-      "asOf": "2026-10-28T13:29:59.906Z",
+      "asOf": "2026-10-28T16:43:53.571Z",
       "rsi": {
         "value": 39.61,
         "signal": "Neutral"
@@ -1651,7 +1651,7 @@
       "change": -24,
       "changePercent": -1.43,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:00.220Z",
+      "asOf": "2026-10-28T16:43:53.880Z",
       "rsi": {
         "value": 63.57,
         "signal": "Neutral"
@@ -1719,7 +1719,7 @@
       "change": 31.1,
       "changePercent": 3.67,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:00.528Z",
+      "asOf": "2026-10-28T16:43:54.238Z",
       "rsi": {
         "value": 30.95,
         "signal": "Neutral"
@@ -1787,7 +1787,7 @@
       "change": 17.3,
       "changePercent": 1.06,
       "candles": 247,
-      "asOf": "2026-10-28T13:30:00.859Z",
+      "asOf": "2026-10-28T16:43:54.603Z",
       "rsi": {
         "value": 49.33,
         "signal": "Neutral"
@@ -1855,7 +1855,7 @@
       "change": 14.3,
       "changePercent": 1.19,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:01.234Z",
+      "asOf": "2026-10-28T16:43:54.926Z",
       "rsi": {
         "value": 45.27,
         "signal": "Neutral"
@@ -1923,7 +1923,7 @@
       "change": 95,
       "changePercent": 0.91,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:01.557Z",
+      "asOf": "2026-10-28T16:43:55.298Z",
       "rsi": {
         "value": 49.47,
         "signal": "Neutral"
@@ -1991,7 +1991,7 @@
       "change": -24.6,
       "changePercent": -1.47,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:01.884Z",
+      "asOf": "2026-10-28T16:43:55.626Z",
       "rsi": {
         "value": 30.67,
         "signal": "Neutral"
@@ -2059,7 +2059,7 @@
       "change": 5.25,
       "changePercent": 0.58,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:02.261Z",
+      "asOf": "2026-10-28T16:43:55.944Z",
       "rsi": {
         "value": 36.73,
         "signal": "Neutral"
@@ -2127,7 +2127,7 @@
       "change": 3.45,
       "changePercent": 2.27,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:02.614Z",
+      "asOf": "2026-10-28T16:43:56.268Z",
       "rsi": {
         "value": 40.63,
         "signal": "Neutral"
@@ -2195,7 +2195,7 @@
       "change": -2.11,
       "changePercent": -0.9,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:02.944Z",
+      "asOf": "2026-10-28T16:43:56.743Z",
       "rsi": {
         "value": 46.33,
         "signal": "Neutral"
@@ -2263,7 +2263,7 @@
       "change": 0.88,
       "changePercent": 0.67,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:03.849Z",
+      "asOf": "2026-10-28T16:43:57.118Z",
       "rsi": {
         "value": 47.65,
         "signal": "Neutral"
@@ -2331,7 +2331,7 @@
       "change": -13.5,
       "changePercent": -1.34,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:04.287Z",
+      "asOf": "2026-10-28T16:43:57.433Z",
       "rsi": {
         "value": 28,
         "signal": "Oversold"
@@ -2399,7 +2399,7 @@
       "change": -4.6,
       "changePercent": -1.25,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:04.727Z",
+      "asOf": "2026-10-28T16:43:57.776Z",
       "rsi": {
         "value": 35.31,
         "signal": "Neutral"
@@ -2467,7 +2467,7 @@
       "change": -3,
       "changePercent": -0.17,
       "candles": 247,
-      "asOf": "2026-10-28T13:30:05.072Z",
+      "asOf": "2026-10-28T16:43:58.099Z",
       "rsi": {
         "value": 37.22,
         "signal": "Neutral"
@@ -2535,7 +2535,7 @@
       "change": -30.7,
       "changePercent": -1.55,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:05.389Z",
+      "asOf": "2026-10-28T16:43:58.419Z",
       "rsi": {
         "value": 62.7,
         "signal": "Neutral"
@@ -2603,7 +2603,7 @@
       "change": 5.4,
       "changePercent": 1.35,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:05.740Z",
+      "asOf": "2026-10-28T16:43:58.787Z",
       "rsi": {
         "value": 43.85,
         "signal": "Neutral"
@@ -2671,7 +2671,7 @@
       "change": 18.25,
       "changePercent": 5.49,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:06.053Z",
+      "asOf": "2026-10-28T16:43:59.106Z",
       "rsi": {
         "value": 45.93,
         "signal": "Neutral"
@@ -2739,7 +2739,7 @@
       "change": 72,
       "changePercent": 4.72,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:06.416Z",
+      "asOf": "2026-10-28T16:43:59.426Z",
       "rsi": {
         "value": 56.73,
         "signal": "Neutral"
@@ -2807,7 +2807,7 @@
       "change": 2025,
       "changePercent": 4.44,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:06.804Z",
+      "asOf": "2026-10-28T16:43:59.769Z",
       "rsi": {
         "value": 61.43,
         "signal": "Neutral"
@@ -2875,7 +2875,7 @@
       "change": -8.6,
       "changePercent": -2.91,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:07.218Z",
+      "asOf": "2026-10-28T16:44:00.131Z",
       "rsi": {
         "value": 42.31,
         "signal": "Neutral"
@@ -2943,7 +2943,7 @@
       "change": 7.3,
       "changePercent": 0.16,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:07.556Z",
+      "asOf": "2026-10-28T16:44:00.497Z",
       "rsi": {
         "value": 33.14,
         "signal": "Neutral"
@@ -3011,7 +3011,7 @@
       "change": 43.9,
       "changePercent": 1.28,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:07.867Z",
+      "asOf": "2026-10-28T16:44:00.804Z",
       "rsi": {
         "value": 60.05,
         "signal": "Neutral"
@@ -3079,7 +3079,7 @@
       "change": 0,
       "changePercent": 0,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:08.231Z",
+      "asOf": "2026-10-28T16:44:01.154Z",
       "rsi": {
         "value": 45.34,
         "signal": "Neutral"
@@ -3147,7 +3147,7 @@
       "change": -0.19,
       "changePercent": -0.16,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:08.574Z",
+      "asOf": "2026-10-28T16:44:01.484Z",
       "rsi": {
         "value": 44.46,
         "signal": "Neutral"
@@ -3215,7 +3215,7 @@
       "change": 10,
       "changePercent": 0.82,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:08.894Z",
+      "asOf": "2026-10-28T16:44:01.852Z",
       "rsi": {
         "value": 41.25,
         "signal": "Neutral"
@@ -3283,7 +3283,7 @@
       "change": -3.1,
       "changePercent": -0.37,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:09.327Z",
+      "asOf": "2026-10-28T16:44:02.179Z",
       "rsi": {
         "value": 44.01,
         "signal": "Neutral"
@@ -3351,7 +3351,7 @@
       "change": 76.2,
       "changePercent": 5.19,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:09.665Z",
+      "asOf": "2026-10-28T16:44:02.500Z",
       "rsi": {
         "value": 43.11,
         "signal": "Neutral"
@@ -3419,7 +3419,7 @@
       "change": 15.6,
       "changePercent": 1.16,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:09.994Z",
+      "asOf": "2026-10-28T16:44:02.833Z",
       "rsi": {
         "value": 55.88,
         "signal": "Neutral"
@@ -3487,7 +3487,7 @@
       "change": -6,
       "changePercent": -1.51,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:10.330Z",
+      "asOf": "2026-10-28T16:44:03.158Z",
       "rsi": {
         "value": 35.72,
         "signal": "Neutral"
@@ -3555,7 +3555,7 @@
       "change": 6.4,
       "changePercent": 0.57,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:10.665Z",
+      "asOf": "2026-10-28T16:44:03.463Z",
       "rsi": {
         "value": 26,
         "signal": "Oversold"
@@ -3623,7 +3623,7 @@
       "change": -35.1,
       "changePercent": -1.76,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:11.016Z",
+      "asOf": "2026-10-28T16:44:03.798Z",
       "rsi": {
         "value": 59.05,
         "signal": "Neutral"
@@ -3691,7 +3691,7 @@
       "change": -1.8,
       "changePercent": -0.11,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:11.674Z",
+      "asOf": "2026-10-28T16:44:04.110Z",
       "rsi": {
         "value": 30.87,
         "signal": "Neutral"
@@ -3759,7 +3759,7 @@
       "change": -7.15,
       "changePercent": -1.68,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:12.464Z",
+      "asOf": "2026-10-28T16:44:04.441Z",
       "rsi": {
         "value": 34.16,
         "signal": "Neutral"
@@ -3827,7 +3827,7 @@
       "change": -34.9,
       "changePercent": -2.01,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:12.839Z",
+      "asOf": "2026-10-28T16:44:04.773Z",
       "rsi": {
         "value": 36.88,
         "signal": "Neutral"
@@ -3895,7 +3895,7 @@
       "change": 7.75,
       "changePercent": 3.95,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:13.157Z",
+      "asOf": "2026-10-28T16:44:05.082Z",
       "rsi": {
         "value": 43.05,
         "signal": "Neutral"
@@ -3963,7 +3963,7 @@
       "change": 1.88,
       "changePercent": 0.88,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:13.498Z",
+      "asOf": "2026-10-28T16:44:05.447Z",
       "rsi": {
         "value": 42.61,
         "signal": "Neutral"
@@ -4031,7 +4031,7 @@
       "change": 88,
       "changePercent": 1.94,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:13.837Z",
+      "asOf": "2026-10-28T16:44:05.798Z",
       "rsi": {
         "value": 44.05,
         "signal": "Neutral"
@@ -4099,7 +4099,7 @@
       "change": 2.2,
       "changePercent": 0.61,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:14.191Z",
+      "asOf": "2026-10-28T16:44:06.114Z",
       "rsi": {
         "value": 36.26,
         "signal": "Neutral"
@@ -4167,7 +4167,7 @@
       "change": -134.4,
       "changePercent": -3.26,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:14.511Z",
+      "asOf": "2026-10-28T16:44:06.479Z",
       "rsi": {
         "value": 42.9,
         "signal": "Neutral"
@@ -4235,7 +4235,7 @@
       "change": 3,
       "changePercent": 0.79,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:14.829Z",
+      "asOf": "2026-10-28T16:44:06.814Z",
       "rsi": {
         "value": 38.08,
         "signal": "Neutral"
@@ -4303,7 +4303,7 @@
       "change": 53,
       "changePercent": 0.56,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:15.350Z",
+      "asOf": "2026-10-28T16:44:07.141Z",
       "rsi": {
         "value": 59.51,
         "signal": "Neutral"
@@ -4371,7 +4371,7 @@
       "change": 167,
       "changePercent": 1.49,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:15.687Z",
+      "asOf": "2026-10-28T16:44:07.454Z",
       "rsi": {
         "value": 28.67,
         "signal": "Oversold"
@@ -4439,7 +4439,7 @@
       "change": -4.7,
       "changePercent": -0.7,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:16.231Z",
+      "asOf": "2026-10-28T16:44:07.774Z",
       "rsi": {
         "value": 51.47,
         "signal": "Neutral"
@@ -4507,7 +4507,7 @@
       "change": -66.1,
       "changePercent": -2.07,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:16.571Z",
+      "asOf": "2026-10-28T16:44:08.087Z",
       "rsi": {
         "value": 24.92,
         "signal": "Oversold"
@@ -4575,7 +4575,7 @@
       "change": 25.4,
       "changePercent": 1.94,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:16.883Z",
+      "asOf": "2026-10-28T16:44:08.427Z",
       "rsi": {
         "value": 73.37,
         "signal": "Overbought"
@@ -4643,7 +4643,7 @@
       "change": 135,
       "changePercent": 1.88,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:17.239Z",
+      "asOf": "2026-10-28T16:44:08.765Z",
       "rsi": {
         "value": 52.54,
         "signal": "Neutral"
@@ -4711,7 +4711,7 @@
       "change": -3.9,
       "changePercent": -0.14,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:17.582Z",
+      "asOf": "2026-10-28T16:44:09.066Z",
       "rsi": {
         "value": 38.85,
         "signal": "Neutral"
@@ -4779,7 +4779,7 @@
       "change": -5,
       "changePercent": -1.51,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:17.921Z",
+      "asOf": "2026-10-28T16:44:09.375Z",
       "rsi": {
         "value": 52.61,
         "signal": "Neutral"
@@ -4847,7 +4847,7 @@
       "change": 4.4,
       "changePercent": 1.29,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:18.274Z",
+      "asOf": "2026-10-28T16:44:09.699Z",
       "rsi": {
         "value": 58.11,
         "signal": "Neutral"
@@ -4915,7 +4915,7 @@
       "change": -281,
       "changePercent": -1.62,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:18.628Z",
+      "asOf": "2026-10-28T16:44:10.013Z",
       "rsi": {
         "value": 49.17,
         "signal": "Neutral"
@@ -4983,7 +4983,7 @@
       "change": 23,
       "changePercent": 3.12,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:18.939Z",
+      "asOf": "2026-10-28T16:44:10.315Z",
       "rsi": {
         "value": 43.03,
         "signal": "Neutral"
@@ -5051,7 +5051,7 @@
       "change": -0.9,
       "changePercent": -0.54,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:19.298Z",
+      "asOf": "2026-10-28T16:44:10.652Z",
       "rsi": {
         "value": 41.59,
         "signal": "Neutral"
@@ -5119,7 +5119,7 @@
       "change": 34.3,
       "changePercent": 1.51,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:19.673Z",
+      "asOf": "2026-10-28T16:44:11.013Z",
       "rsi": {
         "value": 51.7,
         "signal": "Neutral"
@@ -5187,7 +5187,7 @@
       "change": 0.23,
       "changePercent": 0.26,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:19.972Z",
+      "asOf": "2026-10-28T16:44:11.313Z",
       "rsi": {
         "value": 44.34,
         "signal": "Neutral"
@@ -5255,7 +5255,7 @@
       "change": -11.3,
       "changePercent": -0.65,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:20.378Z",
+      "asOf": "2026-10-28T16:44:11.640Z",
       "rsi": {
         "value": 36.39,
         "signal": "Neutral"
@@ -5323,7 +5323,7 @@
       "change": -6.8,
       "changePercent": -0.82,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:20.704Z",
+      "asOf": "2026-10-28T16:44:11.967Z",
       "rsi": {
         "value": 32.78,
         "signal": "Neutral"
@@ -5391,7 +5391,7 @@
       "change": 1.4,
       "changePercent": 0.09,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:21.140Z",
+      "asOf": "2026-10-28T16:44:12.291Z",
       "rsi": {
         "value": 44.1,
         "signal": "Neutral"
@@ -5459,7 +5459,7 @@
       "change": -0.8,
       "changePercent": -0.03,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:21.512Z",
+      "asOf": "2026-10-28T16:44:12.651Z",
       "rsi": {
         "value": 39.78,
         "signal": "Neutral"
@@ -5527,7 +5527,7 @@
       "change": 80,
       "changePercent": 2.01,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:21.877Z",
+      "asOf": "2026-10-28T16:44:12.969Z",
       "rsi": {
         "value": 48.71,
         "signal": "Neutral"
@@ -5595,7 +5595,7 @@
       "change": -5,
       "changePercent": -0.1,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:22.188Z",
+      "asOf": "2026-10-28T16:44:13.300Z",
       "rsi": {
         "value": 52.04,
         "signal": "Neutral"
@@ -5663,7 +5663,7 @@
       "change": 16.9,
       "changePercent": 1.68,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:22.540Z",
+      "asOf": "2026-10-28T16:44:13.640Z",
       "rsi": {
         "value": 38.65,
         "signal": "Neutral"
@@ -5731,7 +5731,7 @@
       "change": -19.5,
       "changePercent": -1.37,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:22.888Z",
+      "asOf": "2026-10-28T16:44:13.956Z",
       "rsi": {
         "value": 65.98,
         "signal": "Neutral"
@@ -5799,7 +5799,7 @@
       "change": 32.3,
       "changePercent": 1.42,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:23.234Z",
+      "asOf": "2026-10-28T16:44:14.260Z",
       "rsi": {
         "value": 45.81,
         "signal": "Neutral"
@@ -5867,7 +5867,7 @@
       "change": 5.1,
       "changePercent": 0.75,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:23.560Z",
+      "asOf": "2026-10-28T16:44:14.629Z",
       "rsi": {
         "value": 39.39,
         "signal": "Neutral"
@@ -5935,7 +5935,7 @@
       "change": 0.5,
       "changePercent": 0.1,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:23.934Z",
+      "asOf": "2026-10-28T16:44:15.005Z",
       "rsi": {
         "value": 36.76,
         "signal": "Neutral"
@@ -6003,7 +6003,7 @@
       "change": 104,
       "changePercent": 1.99,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:24.322Z",
+      "asOf": "2026-10-28T16:44:15.327Z",
       "rsi": {
         "value": 57.46,
         "signal": "Neutral"
@@ -6071,7 +6071,7 @@
       "change": 2.55,
       "changePercent": 0.29,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:24.648Z",
+      "asOf": "2026-10-28T16:44:15.653Z",
       "rsi": {
         "value": 41.16,
         "signal": "Neutral"
@@ -6139,7 +6139,7 @@
       "change": -6.85,
       "changePercent": -1.94,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:24.969Z",
+      "asOf": "2026-10-28T16:44:16.015Z",
       "rsi": {
         "value": 50.48,
         "signal": "Neutral"
@@ -6207,7 +6207,7 @@
       "change": -2.2,
       "changePercent": -0.12,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:25.285Z",
+      "asOf": "2026-10-28T16:44:16.377Z",
       "rsi": {
         "value": 36.85,
         "signal": "Neutral"
@@ -6275,7 +6275,7 @@
       "change": 14.3,
       "changePercent": 2.9,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:25.661Z",
+      "asOf": "2026-10-28T16:44:16.692Z",
       "rsi": {
         "value": 35.77,
         "signal": "Neutral"
@@ -6343,7 +6343,7 @@
       "change": 5.6,
       "changePercent": 0.3,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:25.988Z",
+      "asOf": "2026-10-28T16:44:16.998Z",
       "rsi": {
         "value": 31.89,
         "signal": "Neutral"
@@ -6411,7 +6411,7 @@
       "change": -9.3,
       "changePercent": -0.67,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:26.341Z",
+      "asOf": "2026-10-28T16:44:17.322Z",
       "rsi": {
         "value": 51.65,
         "signal": "Neutral"
@@ -6479,7 +6479,7 @@
       "change": 7.6,
       "changePercent": 0.48,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:26.703Z",
+      "asOf": "2026-10-28T16:44:17.634Z",
       "rsi": {
         "value": 46.33,
         "signal": "Neutral"
@@ -6617,7 +6617,7 @@
       "change": -3.8,
       "changePercent": -0.92,
       "candles": 247,
-      "asOf": "2026-10-28T13:30:27.108Z",
+      "asOf": "2026-10-28T16:44:18.083Z",
       "rsi": {
         "value": 23.73,
         "signal": "Oversold"
@@ -6685,7 +6685,7 @@
       "change": -0.25,
       "changePercent": -2.06,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:27.447Z",
+      "asOf": "2026-10-28T16:44:18.393Z",
       "rsi": {
         "value": 37.53,
         "signal": "Neutral"
@@ -6753,7 +6753,7 @@
       "change": 2.17,
       "changePercent": 3.04,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:27.823Z",
+      "asOf": "2026-10-28T16:44:18.717Z",
       "rsi": {
         "value": 33.55,
         "signal": "Neutral"
@@ -6821,7 +6821,7 @@
       "change": -0.78,
       "changePercent": -0.75,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:28.183Z",
+      "asOf": "2026-10-28T16:44:19.055Z",
       "rsi": {
         "value": 36.58,
         "signal": "Neutral"
@@ -6889,7 +6889,7 @@
       "change": -7.65,
       "changePercent": -0.94,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:28.512Z",
+      "asOf": "2026-10-28T16:44:19.373Z",
       "rsi": {
         "value": 68.35,
         "signal": "Neutral"
@@ -6957,7 +6957,7 @@
       "change": -0.2,
       "changePercent": -0.02,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:28.872Z",
+      "asOf": "2026-10-28T16:44:19.691Z",
       "rsi": {
         "value": 50.35,
         "signal": "Neutral"
@@ -7025,7 +7025,7 @@
       "change": 93.5,
       "changePercent": 2.03,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:29.196Z",
+      "asOf": "2026-10-28T16:44:20.010Z",
       "rsi": {
         "value": 43.36,
         "signal": "Neutral"
@@ -7093,7 +7093,7 @@
       "change": 17.7,
       "changePercent": 2.12,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:29.556Z",
+      "asOf": "2026-10-28T16:44:20.327Z",
       "rsi": {
         "value": 39.74,
         "signal": "Neutral"
@@ -7161,7 +7161,7 @@
       "change": -12.3,
       "changePercent": -3.19,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:29.943Z",
+      "asOf": "2026-10-28T16:44:20.677Z",
       "rsi": {
         "value": 45.02,
         "signal": "Neutral"
@@ -7229,7 +7229,7 @@
       "change": -39.85,
       "changePercent": -3.43,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:30.278Z",
+      "asOf": "2026-10-28T16:44:21.064Z",
       "rsi": {
         "value": 55.36,
         "signal": "Neutral"
@@ -7297,7 +7297,7 @@
       "change": 0.44,
       "changePercent": 0.75,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:30.582Z",
+      "asOf": "2026-10-28T16:44:21.374Z",
       "rsi": {
         "value": 29.92,
         "signal": "Oversold"
@@ -7365,7 +7365,7 @@
       "change": -1.6,
       "changePercent": -1.21,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:30.956Z",
+      "asOf": "2026-10-28T16:44:21.703Z",
       "rsi": {
         "value": 46.93,
         "signal": "Neutral"
@@ -7433,7 +7433,7 @@
       "change": 0.89,
       "changePercent": 0.89,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:31.283Z",
+      "asOf": "2026-10-28T16:44:22.009Z",
       "rsi": {
         "value": 34.82,
         "signal": "Neutral"
@@ -7501,7 +7501,7 @@
       "change": 0.07,
       "changePercent": 0.09,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:31.646Z",
+      "asOf": "2026-10-28T16:44:22.369Z",
       "rsi": {
         "value": 36.98,
         "signal": "Neutral"
@@ -7569,7 +7569,7 @@
       "change": -0.5,
       "changePercent": -0.19,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:31.977Z",
+      "asOf": "2026-10-28T16:44:22.691Z",
       "rsi": {
         "value": 45.99,
         "signal": "Neutral"
@@ -7637,7 +7637,7 @@
       "change": -11.9,
       "changePercent": -1.12,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:32.310Z",
+      "asOf": "2026-10-28T16:44:23.009Z",
       "rsi": {
         "value": 45.32,
         "signal": "Neutral"
@@ -7705,7 +7705,7 @@
       "change": -2.09,
       "changePercent": -1.01,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:32.628Z",
+      "asOf": "2026-10-28T16:44:23.343Z",
       "rsi": {
         "value": 31.35,
         "signal": "Neutral"
@@ -7773,7 +7773,7 @@
       "change": 13.35,
       "changePercent": 2.84,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:32.946Z",
+      "asOf": "2026-10-28T16:44:23.675Z",
       "rsi": {
         "value": 49.14,
         "signal": "Neutral"
@@ -7841,7 +7841,7 @@
       "change": -11.5,
       "changePercent": -0.92,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:33.286Z",
+      "asOf": "2026-10-28T16:44:24.002Z",
       "rsi": {
         "value": 51.33,
         "signal": "Neutral"
@@ -7909,7 +7909,7 @@
       "change": -5.5,
       "changePercent": -1.28,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:33.643Z",
+      "asOf": "2026-10-28T16:44:24.333Z",
       "rsi": {
         "value": 43.02,
         "signal": "Neutral"
@@ -7977,7 +7977,7 @@
       "change": 10,
       "changePercent": 2,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:34.300Z",
+      "asOf": "2026-10-28T16:44:24.653Z",
       "rsi": {
         "value": 34.89,
         "signal": "Neutral"
@@ -8045,7 +8045,7 @@
       "change": -0.4,
       "changePercent": -0.11,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:34.778Z",
+      "asOf": "2026-10-28T16:44:24.975Z",
       "rsi": {
         "value": 55.33,
         "signal": "Neutral"
@@ -8113,7 +8113,7 @@
       "change": -210.4,
       "changePercent": -6.28,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:35.109Z",
+      "asOf": "2026-10-28T16:44:25.326Z",
       "rsi": {
         "value": 39.47,
         "signal": "Neutral"
@@ -8181,7 +8181,7 @@
       "change": -14.5,
       "changePercent": -0.37,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:35.465Z",
+      "asOf": "2026-10-28T16:44:25.651Z",
       "rsi": {
         "value": 28.59,
         "signal": "Oversold"
@@ -8249,7 +8249,7 @@
       "change": -14.65,
       "changePercent": -1.68,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:35.786Z",
+      "asOf": "2026-10-28T16:44:25.958Z",
       "rsi": {
         "value": 47.23,
         "signal": "Neutral"
@@ -8317,7 +8317,7 @@
       "change": -2.5,
       "changePercent": -0.56,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:36.138Z",
+      "asOf": "2026-10-28T16:44:26.278Z",
       "rsi": {
         "value": 57.67,
         "signal": "Neutral"
@@ -8385,7 +8385,7 @@
       "change": 20.6,
       "changePercent": 3.87,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:36.580Z",
+      "asOf": "2026-10-28T16:44:26.612Z",
       "rsi": {
         "value": 58.12,
         "signal": "Neutral"
@@ -8453,7 +8453,7 @@
       "change": 39.9,
       "changePercent": 1.86,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:36.949Z",
+      "asOf": "2026-10-28T16:44:26.923Z",
       "rsi": {
         "value": 67.63,
         "signal": "Neutral"
@@ -8521,7 +8521,7 @@
       "change": 0.15,
       "changePercent": 0.03,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:37.300Z",
+      "asOf": "2026-10-28T16:44:27.265Z",
       "rsi": {
         "value": 43.88,
         "signal": "Neutral"
@@ -8589,7 +8589,7 @@
       "change": 3.75,
       "changePercent": 0.97,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:37.623Z",
+      "asOf": "2026-10-28T16:44:27.605Z",
       "rsi": {
         "value": 47.89,
         "signal": "Neutral"
@@ -8657,7 +8657,7 @@
       "change": -3.3,
       "changePercent": -0.33,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:37.947Z",
+      "asOf": "2026-10-28T16:44:27.951Z",
       "rsi": {
         "value": 37.64,
         "signal": "Neutral"
@@ -8725,7 +8725,7 @@
       "change": 136.2,
       "changePercent": 3.72,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:38.281Z",
+      "asOf": "2026-10-28T16:44:28.273Z",
       "rsi": {
         "value": 56.23,
         "signal": "Neutral"
@@ -8793,7 +8793,7 @@
       "change": 5.7,
       "changePercent": 2.37,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:38.607Z",
+      "asOf": "2026-10-28T16:44:28.598Z",
       "rsi": {
         "value": 34.83,
         "signal": "Neutral"
@@ -8861,7 +8861,7 @@
       "change": 44.3,
       "changePercent": 1.09,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:38.950Z",
+      "asOf": "2026-10-28T16:44:28.907Z",
       "rsi": {
         "value": 45.81,
         "signal": "Neutral"
@@ -8929,7 +8929,7 @@
       "change": 20.7,
       "changePercent": 1.06,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:39.314Z",
+      "asOf": "2026-10-28T16:44:29.223Z",
       "rsi": {
         "value": 44.32,
         "signal": "Neutral"
@@ -8997,7 +8997,7 @@
       "change": 11.5,
       "changePercent": 0.4,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:39.669Z",
+      "asOf": "2026-10-28T16:44:29.554Z",
       "rsi": {
         "value": 42.79,
         "signal": "Neutral"
@@ -9065,7 +9065,7 @@
       "change": -0.05,
       "changePercent": -0.06,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:39.996Z",
+      "asOf": "2026-10-28T16:44:29.882Z",
       "rsi": {
         "value": 48.24,
         "signal": "Neutral"
@@ -9133,7 +9133,7 @@
       "change": 2.3,
       "changePercent": 0.8,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:40.316Z",
+      "asOf": "2026-10-28T16:44:30.212Z",
       "rsi": {
         "value": 32.72,
         "signal": "Neutral"
@@ -9201,7 +9201,7 @@
       "change": -12.5,
       "changePercent": -0.5,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:40.689Z",
+      "asOf": "2026-10-28T16:44:30.553Z",
       "rsi": {
         "value": 58.74,
         "signal": "Neutral"
@@ -9269,7 +9269,7 @@
       "change": -6.5,
       "changePercent": -0.84,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:41.008Z",
+      "asOf": "2026-10-28T16:44:30.875Z",
       "rsi": {
         "value": 37.51,
         "signal": "Neutral"
@@ -9337,7 +9337,7 @@
       "change": 129,
       "changePercent": 1.13,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:41.378Z",
+      "asOf": "2026-10-28T16:44:31.248Z",
       "rsi": {
         "value": 47.16,
         "signal": "Neutral"
@@ -9405,7 +9405,7 @@
       "change": 6.5,
       "changePercent": 0.77,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:41.691Z",
+      "asOf": "2026-10-28T16:44:31.598Z",
       "rsi": {
         "value": 35.98,
         "signal": "Neutral"
@@ -9473,7 +9473,7 @@
       "change": -21.2,
       "changePercent": -1.21,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:42.035Z",
+      "asOf": "2026-10-28T16:44:31.969Z",
       "rsi": {
         "value": 20.46,
         "signal": "Oversold"
@@ -9541,7 +9541,7 @@
       "change": -6.2,
       "changePercent": -0.19,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:42.394Z",
+      "asOf": "2026-10-28T16:44:32.288Z",
       "rsi": {
         "value": 48.68,
         "signal": "Neutral"
@@ -9609,7 +9609,7 @@
       "change": -6.7,
       "changePercent": -0.54,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:42.715Z",
+      "asOf": "2026-10-28T16:44:32.603Z",
       "rsi": {
         "value": 31.27,
         "signal": "Neutral"
@@ -9677,7 +9677,7 @@
       "change": 2.38,
       "changePercent": 1.51,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:43.041Z",
+      "asOf": "2026-10-28T16:44:32.964Z",
       "rsi": {
         "value": 53,
         "signal": "Neutral"
@@ -9745,7 +9745,7 @@
       "change": -1,
       "changePercent": -0.1,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:43.391Z",
+      "asOf": "2026-10-28T16:44:33.277Z",
       "rsi": {
         "value": 44.02,
         "signal": "Neutral"
@@ -9813,7 +9813,7 @@
       "change": -100.4,
       "changePercent": -3.83,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:43.713Z",
+      "asOf": "2026-10-28T16:44:33.617Z",
       "rsi": {
         "value": 57.85,
         "signal": "Neutral"
@@ -9881,7 +9881,7 @@
       "change": -14.8,
       "changePercent": -0.61,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:44.078Z",
+      "asOf": "2026-10-28T16:44:33.982Z",
       "rsi": {
         "value": 26.49,
         "signal": "Oversold"
@@ -9949,7 +9949,7 @@
       "change": -20.5,
       "changePercent": -2.17,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:44.401Z",
+      "asOf": "2026-10-28T16:44:34.301Z",
       "rsi": {
         "value": 28.31,
         "signal": "Oversold"
@@ -10017,7 +10017,7 @@
       "change": 15.3,
       "changePercent": 4.96,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:44.726Z",
+      "asOf": "2026-10-28T16:44:34.622Z",
       "rsi": {
         "value": 46.86,
         "signal": "Neutral"
@@ -10085,7 +10085,7 @@
       "change": -26.3,
       "changePercent": -2.16,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:45.051Z",
+      "asOf": "2026-10-28T16:44:34.935Z",
       "rsi": {
         "value": 42.88,
         "signal": "Neutral"
@@ -10153,7 +10153,7 @@
       "change": 247,
       "changePercent": 2.99,
       "candles": 247,
-      "asOf": "2026-10-28T13:30:45.371Z",
+      "asOf": "2026-10-28T16:44:35.261Z",
       "rsi": {
         "value": 56.54,
         "signal": "Neutral"
@@ -10221,7 +10221,7 @@
       "change": -0.66,
       "changePercent": -0.94,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:45.685Z",
+      "asOf": "2026-10-28T16:44:35.582Z",
       "rsi": {
         "value": 31.52,
         "signal": "Neutral"
@@ -10289,7 +10289,7 @@
       "change": -12.5,
       "changePercent": -1.06,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:46.049Z",
+      "asOf": "2026-10-28T16:44:35.918Z",
       "rsi": {
         "value": 27.08,
         "signal": "Oversold"
@@ -10357,7 +10357,7 @@
       "change": 1.24,
       "changePercent": 1.69,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:46.376Z",
+      "asOf": "2026-10-28T16:44:36.270Z",
       "rsi": {
         "value": 54.45,
         "signal": "Neutral"
@@ -10425,7 +10425,7 @@
       "change": -1.5,
       "changePercent": -2.17,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:46.745Z",
+      "asOf": "2026-10-28T16:44:36.594Z",
       "rsi": {
         "value": 32.3,
         "signal": "Neutral"
@@ -10493,7 +10493,7 @@
       "change": 1.95,
       "changePercent": 0.65,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:47.122Z",
+      "asOf": "2026-10-28T16:44:36.929Z",
       "rsi": {
         "value": 36.36,
         "signal": "Neutral"
@@ -10561,7 +10561,7 @@
       "change": 3.1,
       "changePercent": 0.91,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:47.485Z",
+      "asOf": "2026-10-28T16:44:37.285Z",
       "rsi": {
         "value": 55.63,
         "signal": "Neutral"
@@ -10629,7 +10629,7 @@
       "change": -18,
       "changePercent": -1.11,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:47.814Z",
+      "asOf": "2026-10-28T16:44:37.656Z",
       "rsi": {
         "value": 32.73,
         "signal": "Neutral"
@@ -10697,7 +10697,7 @@
       "change": 58,
       "changePercent": 0.58,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:48.195Z",
+      "asOf": "2026-10-28T16:44:37.972Z",
       "rsi": {
         "value": 38.51,
         "signal": "Neutral"
@@ -10765,7 +10765,7 @@
       "change": -9.85,
       "changePercent": -2.15,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:48.507Z",
+      "asOf": "2026-10-28T16:44:38.316Z",
       "rsi": {
         "value": 43.54,
         "signal": "Neutral"
@@ -10833,7 +10833,7 @@
       "change": -4.96,
       "changePercent": -2.16,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:48.877Z",
+      "asOf": "2026-10-28T16:44:38.644Z",
       "rsi": {
         "value": 45.25,
         "signal": "Neutral"
@@ -10901,7 +10901,7 @@
       "change": -765,
       "changePercent": -2.21,
       "candles": 247,
-      "asOf": "2026-10-28T13:30:49.199Z",
+      "asOf": "2026-10-28T16:44:38.968Z",
       "rsi": {
         "value": 34.53,
         "signal": "Neutral"
@@ -10969,7 +10969,7 @@
       "change": 21.65,
       "changePercent": 6.22,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:49.562Z",
+      "asOf": "2026-10-28T16:44:39.289Z",
       "rsi": {
         "value": 55.3,
         "signal": "Neutral"
@@ -11037,7 +11037,7 @@
       "change": 29.9,
       "changePercent": 1.87,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:49.864Z",
+      "asOf": "2026-10-28T16:44:39.608Z",
       "rsi": {
         "value": 45.16,
         "signal": "Neutral"
@@ -11105,7 +11105,7 @@
       "change": 15.5,
       "changePercent": 0.27,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:50.234Z",
+      "asOf": "2026-10-28T16:44:39.939Z",
       "rsi": {
         "value": 58.41,
         "signal": "Neutral"
@@ -11173,7 +11173,7 @@
       "change": -11.1,
       "changePercent": -3.75,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:50.563Z",
+      "asOf": "2026-10-28T16:44:40.259Z",
       "rsi": {
         "value": 44.73,
         "signal": "Neutral"
@@ -11241,7 +11241,7 @@
       "change": 0.8,
       "changePercent": 0.25,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:50.916Z",
+      "asOf": "2026-10-28T16:44:40.595Z",
       "rsi": {
         "value": 33.96,
         "signal": "Neutral"
@@ -11309,7 +11309,7 @@
       "change": 35.85,
       "changePercent": 7.16,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:51.219Z",
+      "asOf": "2026-10-28T16:44:40.911Z",
       "rsi": {
         "value": 57.21,
         "signal": "Neutral"
@@ -11377,7 +11377,7 @@
       "change": -5.7,
       "changePercent": -0.3,
       "candles": 247,
-      "asOf": "2026-10-28T13:30:51.577Z",
+      "asOf": "2026-10-28T16:44:41.224Z",
       "rsi": {
         "value": 50.59,
         "signal": "Neutral"
@@ -11445,7 +11445,7 @@
       "change": -60.4,
       "changePercent": -4.17,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:51.904Z",
+      "asOf": "2026-10-28T16:44:41.564Z",
       "rsi": {
         "value": 26.84,
         "signal": "Oversold"
@@ -11513,7 +11513,7 @@
       "change": -31.1,
       "changePercent": -1.49,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:52.249Z",
+      "asOf": "2026-10-28T16:44:41.938Z",
       "rsi": {
         "value": 35.47,
         "signal": "Neutral"
@@ -11581,7 +11581,7 @@
       "change": -0.96,
       "changePercent": -0.79,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:52.601Z",
+      "asOf": "2026-10-28T16:44:42.312Z",
       "rsi": {
         "value": 56.9,
         "signal": "Neutral"
@@ -11649,7 +11649,7 @@
       "change": 42,
       "changePercent": 3.89,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:52.924Z",
+      "asOf": "2026-10-28T16:44:42.640Z",
       "rsi": {
         "value": 47.53,
         "signal": "Neutral"
@@ -11717,7 +11717,7 @@
       "change": -20.4,
       "changePercent": -2.02,
       "candles": 247,
-      "asOf": "2026-10-28T13:30:53.498Z",
+      "asOf": "2026-10-28T16:44:42.949Z",
       "rsi": {
         "value": 29.95,
         "signal": "Oversold"
@@ -11785,7 +11785,7 @@
       "change": -38,
       "changePercent": -0.49,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:53.834Z",
+      "asOf": "2026-10-28T16:44:43.297Z",
       "rsi": {
         "value": 37,
         "signal": "Neutral"
@@ -11853,7 +11853,7 @@
       "change": -0.35,
       "changePercent": -0.14,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:54.151Z",
+      "asOf": "2026-10-28T16:44:43.623Z",
       "rsi": {
         "value": 44.42,
         "signal": "Neutral"
@@ -11921,7 +11921,7 @@
       "change": 40,
       "changePercent": 0.14,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:54.459Z",
+      "asOf": "2026-10-28T16:44:44.017Z",
       "rsi": {
         "value": 42.25,
         "signal": "Neutral"
@@ -11989,7 +11989,7 @@
       "change": -16.8,
       "changePercent": -1.95,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:54.766Z",
+      "asOf": "2026-10-28T16:44:44.321Z",
       "rsi": {
         "value": 35.52,
         "signal": "Neutral"
@@ -12057,7 +12057,7 @@
       "change": -30.1,
       "changePercent": -2.12,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:55.080Z",
+      "asOf": "2026-10-28T16:44:44.704Z",
       "rsi": {
         "value": 39.67,
         "signal": "Neutral"
@@ -12125,7 +12125,7 @@
       "change": -154.9,
       "changePercent": -3.61,
       "candles": 247,
-      "asOf": "2026-10-28T13:30:55.403Z",
+      "asOf": "2026-10-28T16:44:45.031Z",
       "rsi": {
         "value": 37.62,
         "signal": "Neutral"
@@ -12193,7 +12193,7 @@
       "change": 1.4,
       "changePercent": 0.4,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:55.713Z",
+      "asOf": "2026-10-28T16:44:45.340Z",
       "rsi": {
         "value": 31.81,
         "signal": "Neutral"
@@ -12261,7 +12261,7 @@
       "change": 3.5,
       "changePercent": 1.22,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:56.038Z",
+      "asOf": "2026-10-28T16:44:45.665Z",
       "rsi": {
         "value": 38.94,
         "signal": "Neutral"
@@ -12329,7 +12329,7 @@
       "change": -38.2,
       "changePercent": -3.19,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:56.371Z",
+      "asOf": "2026-10-28T16:44:46.005Z",
       "rsi": {
         "value": 37.98,
         "signal": "Neutral"
@@ -12397,7 +12397,7 @@
       "change": 3.1,
       "changePercent": 1.71,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:56.741Z",
+      "asOf": "2026-10-28T16:44:46.328Z",
       "rsi": {
         "value": 36.63,
         "signal": "Neutral"
@@ -12465,7 +12465,7 @@
       "change": -0.77,
       "changePercent": -1.67,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:57.106Z",
+      "asOf": "2026-10-28T16:44:46.642Z",
       "rsi": {
         "value": 53.64,
         "signal": "Neutral"
@@ -12533,7 +12533,7 @@
       "change": -9.2,
       "changePercent": -5.37,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:57.435Z",
+      "asOf": "2026-10-28T16:44:46.959Z",
       "rsi": {
         "value": 36.88,
         "signal": "Neutral"
@@ -12601,7 +12601,7 @@
       "change": -0.5,
       "changePercent": -0.09,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:57.740Z",
+      "asOf": "2026-10-28T16:44:47.327Z",
       "rsi": {
         "value": 29.85,
         "signal": "Oversold"
@@ -12669,7 +12669,7 @@
       "change": 33.7,
       "changePercent": 2.06,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:58.057Z",
+      "asOf": "2026-10-28T16:44:47.673Z",
       "rsi": {
         "value": 45.67,
         "signal": "Neutral"
@@ -12737,7 +12737,7 @@
       "change": 11.7,
       "changePercent": 1.24,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:58.423Z",
+      "asOf": "2026-10-28T16:44:48.011Z",
       "rsi": {
         "value": 45.03,
         "signal": "Neutral"
@@ -12805,7 +12805,7 @@
       "change": -280,
       "changePercent": -1.2,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:58.750Z",
+      "asOf": "2026-10-28T16:44:48.334Z",
       "rsi": {
         "value": 55.24,
         "signal": "Neutral"
@@ -12873,7 +12873,7 @@
       "change": 8.95,
       "changePercent": 1.09,
       "candles": 248,
-      "asOf": "2026-10-28T13:30:59.123Z",
+      "asOf": "2026-10-28T16:44:48.711Z",
       "rsi": {
         "value": 28.34,
         "signal": "Oversold"
@@ -12941,7 +12941,7 @@
       "change": 33.5,
       "changePercent": 1,
       "candles": 247,
-      "asOf": "2026-10-28T13:30:59.445Z",
+      "asOf": "2026-10-28T16:44:49.039Z",
       "rsi": {
         "value": 36.21,
         "signal": "Neutral"
@@ -13009,7 +13009,7 @@
       "change": -30,
       "changePercent": -0.16,
       "candles": 247,
-      "asOf": "2026-10-28T13:30:59.779Z",
+      "asOf": "2026-10-28T16:44:49.406Z",
       "rsi": {
         "value": 46.27,
         "signal": "Neutral"
@@ -13077,7 +13077,7 @@
       "change": 27.6,
       "changePercent": 3.24,
       "candles": 248,
-      "asOf": "2026-10-28T13:31:00.199Z",
+      "asOf": "2026-10-28T16:44:49.757Z",
       "rsi": {
         "value": 66.98,
         "signal": "Neutral"
@@ -13145,7 +13145,7 @@
       "change": 15,
       "changePercent": 0.64,
       "candles": 248,
-      "asOf": "2026-10-28T13:31:00.643Z",
+      "asOf": "2026-10-28T16:44:50.084Z",
       "rsi": {
         "value": 37.01,
         "signal": "Neutral"
@@ -13213,7 +13213,7 @@
       "change": 6.3,
       "changePercent": 0.36,
       "candles": 248,
-      "asOf": "2026-10-28T13:31:01.149Z",
+      "asOf": "2026-10-28T16:44:50.403Z",
       "rsi": {
         "value": 41.33,
         "signal": "Neutral"
@@ -13281,7 +13281,7 @@
       "change": -69.4,
       "changePercent": -2.1,
       "candles": 248,
-      "asOf": "2026-10-28T13:31:01.631Z",
+      "asOf": "2026-10-28T16:44:50.722Z",
       "rsi": {
         "value": 35.39,
         "signal": "Neutral"
@@ -13349,7 +13349,7 @@
       "change": 0.38,
       "changePercent": 1.03,
       "candles": 248,
-      "asOf": "2026-10-28T13:31:02.085Z",
+      "asOf": "2026-10-28T16:44:51.079Z",
       "rsi": {
         "value": 35.44,
         "signal": "Neutral"
@@ -13417,7 +13417,7 @@
       "change": -5.45,
       "changePercent": -2.88,
       "candles": 248,
-      "asOf": "2026-10-28T13:31:02.422Z",
+      "asOf": "2026-10-28T16:44:51.392Z",
       "rsi": {
         "value": 24.63,
         "signal": "Oversold"
@@ -13485,7 +13485,7 @@
       "change": 43.4,
       "changePercent": 2.86,
       "candles": 248,
-      "asOf": "2026-10-28T13:31:02.916Z",
+      "asOf": "2026-10-28T16:44:51.710Z",
       "rsi": {
         "value": 46.96,
         "signal": "Neutral"
@@ -13553,7 +13553,7 @@
       "change": 0.2,
       "changePercent": 0.02,
       "candles": 248,
-      "asOf": "2026-10-28T13:31:03.270Z",
+      "asOf": "2026-10-28T16:44:52.068Z",
       "rsi": {
         "value": 55.62,
         "signal": "Neutral"
@@ -13621,7 +13621,7 @@
       "change": 31.6,
       "changePercent": 0.85,
       "candles": 248,
-      "asOf": "2026-10-28T13:31:03.588Z",
+      "asOf": "2026-10-28T16:44:52.384Z",
       "rsi": {
         "value": 63.74,
         "signal": "Neutral"
@@ -13689,7 +13689,7 @@
       "change": -4.1,
       "changePercent": -1.21,
       "candles": 248,
-      "asOf": "2026-10-28T13:31:03.924Z",
+      "asOf": "2026-10-28T16:44:52.706Z",
       "rsi": {
         "value": 33.67,
         "signal": "Neutral"
@@ -13757,7 +13757,7 @@
       "change": -2.15,
       "changePercent": -1.25,
       "candles": 248,
-      "asOf": "2026-10-28T13:31:04.337Z",
+      "asOf": "2026-10-28T16:44:53.057Z",
       "rsi": {
         "value": 36.57,
         "signal": "Neutral"
@@ -13825,7 +13825,7 @@
       "change": -36.9,
       "changePercent": -1.48,
       "candles": 248,
-      "asOf": "2026-10-28T13:31:04.681Z",
+      "asOf": "2026-10-28T16:44:53.426Z",
       "rsi": {
         "value": 64.16,
         "signal": "Neutral"
@@ -13893,7 +13893,7 @@
       "change": -34.8,
       "changePercent": -1.92,
       "candles": 248,
-      "asOf": "2026-10-28T13:31:05.064Z",
+      "asOf": "2026-10-28T16:44:53.758Z",
       "rsi": {
         "value": 64.96,
         "signal": "Neutral"
@@ -13961,7 +13961,7 @@
       "change": 30,
       "changePercent": 1.43,
       "candles": 248,
-      "asOf": "2026-10-28T13:31:05.373Z",
+      "asOf": "2026-10-28T16:44:54.073Z",
       "rsi": {
         "value": 32.16,
         "signal": "Neutral"
@@ -14029,7 +14029,7 @@
       "change": -28,
       "changePercent": -0.64,
       "candles": 248,
-      "asOf": "2026-10-28T13:31:05.757Z",
+      "asOf": "2026-10-28T16:44:54.392Z",
       "rsi": {
         "value": 33.72,
         "signal": "Neutral"
@@ -14097,7 +14097,7 @@
       "change": 2.4,
       "changePercent": 0.92,
       "candles": 248,
-      "asOf": "2026-10-28T13:31:06.161Z",
+      "asOf": "2026-10-28T16:44:54.719Z",
       "rsi": {
         "value": 31.17,
         "signal": "Neutral"
@@ -14165,7 +14165,7 @@
       "change": -68,
       "changePercent": -1.47,
       "candles": 248,
-      "asOf": "2026-10-28T13:31:06.490Z",
+      "asOf": "2026-10-28T16:44:55.040Z",
       "rsi": {
         "value": 39.5,
         "signal": "Neutral"
@@ -14233,7 +14233,7 @@
       "change": 93.3,
       "changePercent": 3.31,
       "candles": 248,
-      "asOf": "2026-10-28T13:31:06.822Z",
+      "asOf": "2026-10-28T16:44:55.364Z",
       "rsi": {
         "value": 56.68,
         "signal": "Neutral"
@@ -14301,7 +14301,7 @@
       "change": 152.9,
       "changePercent": 3.74,
       "candles": 248,
-      "asOf": "2026-10-28T13:31:07.165Z",
+      "asOf": "2026-10-28T16:44:55.682Z",
       "rsi": {
         "value": 63.36,
         "signal": "Neutral"
@@ -14369,7 +14369,7 @@
       "change": -0.93,
       "changePercent": -1.68,
       "candles": 248,
-      "asOf": "2026-10-28T13:31:07.475Z",
+      "asOf": "2026-10-28T16:44:55.986Z",
       "rsi": {
         "value": 30.58,
         "signal": "Neutral"
@@ -14437,7 +14437,7 @@
       "change": -46,
       "changePercent": -0.41,
       "candles": 248,
-      "asOf": "2026-10-28T13:31:07.818Z",
+      "asOf": "2026-10-28T16:44:56.306Z",
       "rsi": {
         "value": 54.6,
         "signal": "Neutral"
@@ -14505,7 +14505,7 @@
       "change": -1.62,
       "changePercent": -0.88,
       "candles": 248,
-      "asOf": "2026-10-28T13:31:08.176Z",
+      "asOf": "2026-10-28T16:44:56.630Z",
       "rsi": {
         "value": 58.37,
         "signal": "Neutral"
@@ -14573,7 +14573,7 @@
       "change": -42.6,
       "changePercent": -3.35,
       "candles": 248,
-      "asOf": "2026-10-28T13:31:08.548Z",
+      "asOf": "2026-10-28T16:44:56.982Z",
       "rsi": {
         "value": 30.32,
         "signal": "Neutral"
@@ -14641,7 +14641,7 @@
       "change": 14.9,
       "changePercent": 1.37,
       "candles": 248,
-      "asOf": "2026-10-28T13:31:08.868Z",
+      "asOf": "2026-10-28T16:44:57.305Z",
       "rsi": {
         "value": 44.1,
         "signal": "Neutral"
@@ -14709,7 +14709,7 @@
       "change": 17.4,
       "changePercent": 3.35,
       "candles": 248,
-      "asOf": "2026-10-28T13:31:09.206Z",
+      "asOf": "2026-10-28T16:44:57.628Z",
       "rsi": {
         "value": 52.69,
         "signal": "Neutral"
@@ -14777,7 +14777,7 @@
       "change": -11.5,
       "changePercent": -2.76,
       "candles": 248,
-      "asOf": "2026-10-28T13:31:09.550Z",
+      "asOf": "2026-10-28T16:44:57.976Z",
       "rsi": {
         "value": 40.84,
         "signal": "Neutral"
@@ -14845,7 +14845,7 @@
       "change": 7.45,
       "changePercent": 3.3,
       "candles": 248,
-      "asOf": "2026-10-28T13:31:09.900Z",
+      "asOf": "2026-10-28T16:44:58.304Z",
       "rsi": {
         "value": 37.04,
         "signal": "Neutral"
@@ -14913,7 +14913,7 @@
       "change": -0.04,
       "changePercent": -0.05,
       "candles": 248,
-      "asOf": "2026-10-28T13:31:10.214Z",
+      "asOf": "2026-10-28T16:44:58.602Z",
       "rsi": {
         "value": 28.48,
         "signal": "Oversold"
@@ -14981,7 +14981,7 @@
       "change": 65.7,
       "changePercent": 6.94,
       "candles": 248,
-      "asOf": "2026-10-28T13:31:10.533Z",
+      "asOf": "2026-10-28T16:44:58.922Z",
       "rsi": {
         "value": 42.88,
         "signal": "Neutral"
@@ -15049,7 +15049,7 @@
       "change": -37,
       "changePercent": -1.63,
       "candles": 248,
-      "asOf": "2026-10-28T13:31:10.850Z",
+      "asOf": "2026-10-28T16:44:59.227Z",
       "rsi": {
         "value": 33.06,
         "signal": "Neutral"
@@ -15117,7 +15117,7 @@
       "change": -2.5,
       "changePercent": -1.34,
       "candles": 248,
-      "asOf": "2026-10-28T13:31:11.172Z",
+      "asOf": "2026-10-28T16:44:59.554Z",
       "rsi": {
         "value": 62.57,
         "signal": "Neutral"
@@ -15185,7 +15185,7 @@
       "change": -0.29,
       "changePercent": -1.82,
       "candles": 248,
-      "asOf": "2026-10-28T13:31:11.477Z",
+      "asOf": "2026-10-28T16:44:59.872Z",
       "rsi": {
         "value": 17.88,
         "signal": "Oversold"
@@ -15253,7 +15253,7 @@
       "change": 2.6,
       "changePercent": 0.22,
       "candles": 248,
-      "asOf": "2026-10-28T13:31:11.838Z",
+      "asOf": "2026-10-28T16:45:00.192Z",
       "rsi": {
         "value": 58.62,
         "signal": "Neutral"
