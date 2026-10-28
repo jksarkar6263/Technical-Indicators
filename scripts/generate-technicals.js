@@ -7,7 +7,7 @@ const fs = require("fs");
 
 const API_BASE = "https://all-in-one.stockmarketsinindia.workers.dev/api";
 const API_KEY  = process.env.STOCKAPI_KEY || "";   /* set as GitHub Actions secret */
-
+const MAX_STALE_DAYS = 4;   /* covers a long weekend */
 /* Special index tickers that don't follow the SYMBOL.NS pattern */
 const INDEX_TICKER_MAP = {
   "NIFTY":                                "^NSEI",
@@ -512,6 +512,7 @@ async function main() {
         change,
         changePercent,
         candles: closes.length,
+        asOf: new Date().toISOString(),
         ...(approx ? { approx: true } : {}),
         ...indicators,
         overallRating: rating
@@ -525,9 +526,15 @@ async function main() {
       result.failed.push(name);
 
       const prev = previous[name];
+            const prev = previous[name];
       if (prev && !prev.error) {
-        /* keep yesterday's good data instead of replacing it with an error */
-        result.symbols[name] = { ...prev, stale: true, staleReason: err.message };
+        const asOf = prev.asOf || new Date().toISOString();   /* first time: start the clock */
+        const ageDays = (Date.now() - new Date(asOf).getTime()) / 86400000;
+        if (ageDays <= MAX_STALE_DAYS) {
+          result.symbols[name] = { ...prev, asOf, stale: true, staleReason: err.message };
+        } else {
+          result.symbols[name] = { error: `No fresh data for ${Math.floor(ageDays)} days: ${err.message}` };
+        }
       } else {
         result.symbols[name] = { error: err.message };
       }
