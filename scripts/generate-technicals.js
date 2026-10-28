@@ -16,6 +16,7 @@ const INDEX_TICKER_MAP = {
   "BANK NIFTY":                           "^NSEBANK",
   "FINNIFTY":                             "NIFTY_FIN_SERVICE.NS",
   "MIDCPNIFTY":                           "NIFTY_MID_SELECT.NS",
+  "NIFTY MID SELECT":                     "NIFTY_MID_SELECT.NS",
   "NIFTYNXT50":                           "^NSMIDCP",
   "NIFTY NEXT 50":                        "^NSMIDCP",
   "NIFTYFPI":                             "NIFTY_FPI_150.NS",
@@ -520,14 +521,13 @@ async function main() {
 
       await sleep(250);
 
-    } catch (err) {
+        } catch (err) {
       console.error(`  Error for ${name} (${yahooSymbol}):`, err.message);
       result.failed.push(name);
 
       const prev = previous[name];
-            const prev = previous[name];
       if (prev && !prev.error) {
-        const asOf = prev.asOf || new Date().toISOString();   /* first time: start the clock */
+        const asOf = prev.asOf || new Date().toISOString();
         const ageDays = (Date.now() - new Date(asOf).getTime()) / 86400000;
         if (ageDays <= MAX_STALE_DAYS) {
           result.symbols[name] = { ...prev, asOf, stale: true, staleReason: err.message };
@@ -538,7 +538,6 @@ async function main() {
         result.symbols[name] = { error: err.message };
       }
     }
-  }
 
   /* safety: never overwrite the file when most of the run failed */
   if (okCount < symbolCount * 0.5) {
