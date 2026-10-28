@@ -440,16 +440,26 @@ async function main() {
       const rawHighs  = quote.high  || [];
       const rawLows   = quote.low   || [];
 
-      const validIndices = rawCloses
+            const totalCandles = rawCloses.length;
+      const closeOnlyIdx = rawCloses.map((v, i) => v != null ? i : -1).filter(i => i !== -1);
+
+      let validIndices = rawCloses
         .map((v, i) => v != null && rawHighs[i] != null && rawLows[i] != null ? i : -1)
         .filter(i => i !== -1);
 
+      let approx = false;
+      if (validIndices.length < 50 && closeOnlyIdx.length >= 50) {
+        /* Yahoo has closes but not high/low: use close in their place (approximate) */
+        validIndices = closeOnlyIdx;
+        approx = true;
+      }
+
       const closes = validIndices.map(i => rawCloses[i]);
-      const highs  = validIndices.map(i => rawHighs[i]);
-      const lows   = validIndices.map(i => rawLows[i]);
+      const highs  = validIndices.map(i => rawHighs[i] != null ? rawHighs[i] : rawCloses[i]);
+      const lows   = validIndices.map(i => rawLows[i]  != null ? rawLows[i]  : rawCloses[i]);
 
       if (closes.length < 50) {
-        throw new Error(`Insufficient candle history (${closes.length})`);
+        throw new Error(`Insufficient candle history (candles=${totalCandles}, closes=${closeOnlyIdx.length}, withHighLow=${closes.length})`);
       }
 
       const rawOpens = quote.open || [];
@@ -499,6 +509,7 @@ async function main() {
         change,
         changePercent,
         candles: closes.length,
+        ...(approx ? { approx: true } : {}),
         ...indicators,
         overallRating: rating
       };
