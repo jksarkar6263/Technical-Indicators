@@ -1,5 +1,5 @@
 {
-  "updated": "30/10/2026, 10:14:41 pm",
+  "updated": "3/11/2026, 1:55:30 am",
   "symbols": {
     "NIFTY": {
       "yahooSymbol": "^NSEI",
@@ -10,8 +10,8 @@
       "previousClose": 22936.75,
       "change": 116.35,
       "changePercent": 0.51,
-      "candles": 247,
-      "asOf": "2026-10-30T16:44:42.145Z",
+      "candles": 245,
+      "asOf": "2026-11-02T20:25:31.814Z",
       "rsi": {
         "value": 53.5,
         "signal": "Neutral"
@@ -31,7 +31,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 24018.88,
+        "value": 24009.14,
         "signal": "Sell"
       },
       "bb": {
@@ -78,8 +78,8 @@
       "previousClose": 54909.6484375,
       "change": -222.7,
       "changePercent": -0.41,
-      "candles": 247,
-      "asOf": "2026-10-30T16:44:42.462Z",
+      "candles": 245,
+      "asOf": "2026-11-02T20:25:32.152Z",
       "rsi": {
         "value": 44.97,
         "signal": "Neutral"
@@ -99,7 +99,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 56628.32,
+        "value": 56634.61,
         "signal": "Sell"
       },
       "bb": {
@@ -146,8 +146,8 @@
       "previousClose": 24704.55078125,
       "change": 7.65,
       "changePercent": 0.03,
-      "candles": 246,
-      "asOf": "2026-10-30T16:44:42.774Z",
+      "candles": 244,
+      "asOf": "2026-11-02T20:25:32.480Z",
       "rsi": {
         "value": 45.89,
         "signal": "Neutral"
@@ -167,7 +167,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 26032.04,
+        "value": 26026.16,
         "signal": "Sell"
       },
       "bb": {
@@ -206,74 +206,7 @@
       }
     },
     "MIDCPNIFTY": {
-      "yahooSymbol": "^NSEMDCP50",
-      "lastOpen": 16381.849609375,
-      "lastHigh": 16570.849609375,
-      "lastLow": 16305.7998046875,
-      "lastClose": 16500.650390625,
-      "previousClose": 16412.69921875,
-      "change": 87.95,
-      "changePercent": 0.54,
-      "candles": 246,
-      "rsi": {
-        "value": 38.74,
-        "signal": "Neutral"
-      },
-      "macd": {
-        "value": -322.07,
-        "signal": -313.13,
-        "histogram": -8.94,
-        "trend": "Bearish"
-      },
-      "ema20": {
-        "value": 16782.18,
-        "signal": "Sell"
-      },
-      "ema50": {
-        "value": 17251.35,
-        "signal": "Sell"
-      },
-      "ema200": {
-        "value": 17329.87,
-        "signal": "Sell"
-      },
-      "bb": {
-        "upper": 17324.1,
-        "middle": 16743.3,
-        "lower": 16162.5,
-        "signal": "Neutral"
-      },
-      "adx": {
-        "value": 49.3,
-        "plusDI": 14.24,
-        "minusDI": 35.27,
-        "signal": "Strong Trend"
-      },
-      "stochastic": {
-        "k": 42.8,
-        "d": 31.89,
-        "signal": "Neutral"
-      },
-      "williamsR": {
-        "value": -47.74,
-        "signal": "Neutral"
-      },
-      "superTrend": {
-        "value": 16911.4,
-        "trend": "Bearish",
-        "signal": "Sell"
-      },
-      "overallRating": {
-        "overall": "Bearish",
-        "bullishPct": 0,
-        "bearishPct": 60,
-        "bullishCount": 0,
-        "bearishCount": 6,
-        "totalIndicators": 10
-      },
-      "stale": true,
-      "staleReason": "Insufficient candle history (candles=1, closes=1, withHighLow=1)",
-      "asOf": "2026-10-28T13:29:53.401Z"
+      "error": "No fresh data for 5 days: Insufficient candle history (candles=1, closes=1, withHighLow=1)"
     },
     "NIFTYNXT50": {
       "yahooSymbol": "^NSMIDCP",
@@ -284,8 +217,8 @@
       "previousClose": 68121.6015625,
       "change": -412.5,
       "changePercent": -0.61,
-      "candles": 247,
-      "asOf": "2026-10-30T16:44:43.139Z",
+      "candles": 245,
+      "asOf": "2026-11-02T20:25:32.942Z",
       "rsi": {
         "value": 42.65,
         "signal": "Neutral"
@@ -305,7 +238,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 70418.81,
+        "value": 70453.62,
         "signal": "Sell"
       },
       "bb": {
@@ -352,8 +285,8 @@
       "previousClose": 74151.0390625,
       "change": 308.49,
       "changePercent": 0.42,
-      "candles": 247,
-      "asOf": "2026-10-30T16:44:43.449Z",
+      "candles": 245,
+      "asOf": "2026-11-02T20:25:33.270Z",
       "rsi": {
         "value": 55.33,
         "signal": "Neutral"
@@ -373,7 +306,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 77246.84,
+        "value": 77210.48,
         "signal": "Sell"
       },
       "bb": {
@@ -426,8 +359,8 @@
       "previousClose": 1022.7000122070312,
       "change": -37.7,
       "changePercent": -3.69,
-      "candles": 247,
-      "asOf": "2026-10-30T16:44:43.929Z",
+      "candles": 245,
+      "asOf": "2026-11-02T20:25:33.845Z",
       "rsi": {
         "value": 37.82,
         "signal": "Neutral"
@@ -447,7 +380,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1097.42,
+        "value": 1095.21,
         "signal": "Sell"
       },
       "bb": {
@@ -494,8 +427,8 @@
       "previousClose": 6530,
       "change": -117,
       "changePercent": -1.79,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:44.257Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:34.205Z",
       "rsi": {
         "value": 39.82,
         "signal": "Neutral"
@@ -515,7 +448,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 6696.87,
+        "value": 6694.95,
         "signal": "Sell"
       },
       "bb": {
@@ -562,8 +495,8 @@
       "previousClose": 358.3500061035156,
       "change": 11.1,
       "changePercent": 3.1,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:44.563Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:34.535Z",
       "rsi": {
         "value": 47.6,
         "signal": "Neutral"
@@ -583,7 +516,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 370.79,
+        "value": 371.43,
         "signal": "Sell"
       },
       "bb": {
@@ -630,8 +563,8 @@
       "previousClose": 1365,
       "change": -15.5,
       "changePercent": -1.14,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:44.869Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:34.863Z",
       "rsi": {
         "value": 51.59,
         "signal": "Neutral"
@@ -651,7 +584,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1332.29,
+        "value": 1334.74,
         "signal": "Buy"
       },
       "bb": {
@@ -698,8 +631,8 @@
       "previousClose": 2607.89990234375,
       "change": -28.5,
       "changePercent": -1.09,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:45.197Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:35.294Z",
       "rsi": {
         "value": 41.38,
         "signal": "Neutral"
@@ -719,7 +652,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 2710.87,
+        "value": 2705.79,
         "signal": "Sell"
       },
       "bb": {
@@ -766,8 +699,8 @@
       "previousClose": 1307,
       "change": -8.3,
       "changePercent": -0.64,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:45.506Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:35.632Z",
       "rsi": {
         "value": 52.29,
         "signal": "Neutral"
@@ -787,7 +720,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1262.4,
+        "value": 1259.42,
         "signal": "Buy"
       },
       "bb": {
@@ -834,8 +767,8 @@
       "previousClose": 1872,
       "change": -22,
       "changePercent": -1.18,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:45.840Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:35.971Z",
       "rsi": {
         "value": 61.28,
         "signal": "Neutral"
@@ -855,7 +788,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 1677.13,
+        "value": 1676.01,
         "signal": "Buy"
       },
       "bb": {
@@ -902,8 +835,8 @@
       "previousClose": 191.1999969482422,
       "change": -2.2,
       "changePercent": -1.15,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:46.146Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:36.318Z",
       "rsi": {
         "value": 45.45,
         "signal": "Neutral"
@@ -923,7 +856,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 194,
+        "value": 193.51,
         "signal": "Sell"
       },
       "bb": {
@@ -970,8 +903,8 @@
       "previousClose": 5079,
       "change": 34.5,
       "changePercent": 0.68,
-      "candles": 247,
-      "asOf": "2026-10-30T16:44:46.510Z",
+      "candles": 245,
+      "asOf": "2026-11-02T20:25:36.657Z",
       "rsi": {
         "value": 47.23,
         "signal": "Neutral"
@@ -991,7 +924,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 5400.35,
+        "value": 5409.3,
         "signal": "Sell"
       },
       "bb": {
@@ -1038,8 +971,8 @@
       "previousClose": 6234.5,
       "change": -369.5,
       "changePercent": -5.93,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:46.871Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:36.987Z",
       "rsi": {
         "value": 32.01,
         "signal": "Neutral"
@@ -1059,7 +992,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 7225.75,
+        "value": 7214.86,
         "signal": "Sell"
       },
       "bb": {
@@ -1106,8 +1039,8 @@
       "previousClose": 354.70001220703125,
       "change": -6.65,
       "changePercent": -1.87,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:47.200Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:37.352Z",
       "rsi": {
         "value": 39.47,
         "signal": "Neutral"
@@ -1127,7 +1060,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 433.97,
+        "value": 434.77,
         "signal": "Sell"
       },
       "bb": {
@@ -1174,8 +1107,8 @@
       "previousClose": 2270,
       "change": -18,
       "changePercent": -0.79,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:47.513Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:37.687Z",
       "rsi": {
         "value": 62.91,
         "signal": "Neutral"
@@ -1195,7 +1128,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 1937.78,
+        "value": 1936.08,
         "signal": "Buy"
       },
       "bb": {
@@ -1242,8 +1175,8 @@
       "previousClose": 293.6499938964844,
       "change": -11.4,
       "changePercent": -3.88,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:47.874Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:38.020Z",
       "rsi": {
         "value": 43.31,
         "signal": "Neutral"
@@ -1263,7 +1196,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 291.95,
+        "value": 292.38,
         "signal": "Sell"
       },
       "bb": {
@@ -1310,8 +1243,8 @@
       "previousClose": 2195,
       "change": -29.9,
       "changePercent": -1.36,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:48.194Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:38.367Z",
       "rsi": {
         "value": 52.48,
         "signal": "Neutral"
@@ -1331,7 +1264,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 2001.08,
+        "value": 2002.07,
         "signal": "Buy"
       },
       "bb": {
@@ -1378,8 +1311,8 @@
       "previousClose": 8200,
       "change": 248,
       "changePercent": 3.02,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:48.550Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:38.726Z",
       "rsi": {
         "value": 59.65,
         "signal": "Neutral"
@@ -1399,7 +1332,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 8206.28,
+        "value": 8209.32,
         "signal": "Buy"
       },
       "bb": {
@@ -1446,8 +1379,8 @@
       "previousClose": 145,
       "change": -0.18,
       "changePercent": -0.12,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:48.926Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:39.091Z",
       "rsi": {
         "value": 39,
         "signal": "Neutral"
@@ -1467,7 +1400,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 160.81,
+        "value": 160.73,
         "signal": "Sell"
       },
       "bb": {
@@ -1514,8 +1447,8 @@
       "previousClose": 2302,
       "change": 18,
       "changePercent": 0.78,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:49.256Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:39.448Z",
       "rsi": {
         "value": 43.05,
         "signal": "Neutral"
@@ -1535,7 +1468,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 2532.98,
+        "value": 2532.02,
         "signal": "Sell"
       },
       "bb": {
@@ -1582,8 +1515,8 @@
       "previousClose": 1365.4000244140625,
       "change": -23.5,
       "changePercent": -1.72,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:49.616Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:39.787Z",
       "rsi": {
         "value": 36.63,
         "signal": "Neutral"
@@ -1603,7 +1536,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1467.85,
+        "value": 1469.21,
         "signal": "Sell"
       },
       "bb": {
@@ -1650,8 +1583,8 @@
       "previousClose": 1663,
       "change": 93,
       "changePercent": 5.59,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:49.928Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:40.192Z",
       "rsi": {
         "value": 69.82,
         "signal": "Neutral"
@@ -1671,7 +1604,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 1183.73,
+        "value": 1182.41,
         "signal": "Buy"
       },
       "bb": {
@@ -1718,8 +1651,8 @@
       "previousClose": 880.7000122070312,
       "change": -16.7,
       "changePercent": -1.9,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:50.242Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:40.527Z",
       "rsi": {
         "value": 29.27,
         "signal": "Oversold"
@@ -1739,7 +1672,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 995.54,
+        "value": 994.57,
         "signal": "Sell"
       },
       "bb": {
@@ -1786,8 +1719,8 @@
       "previousClose": 1659.9000244140625,
       "change": 21.5,
       "changePercent": 1.3,
-      "candles": 247,
-      "asOf": "2026-10-30T16:44:50.571Z",
+      "candles": 245,
+      "asOf": "2026-11-02T20:25:40.939Z",
       "rsi": {
         "value": 54.82,
         "signal": "Neutral"
@@ -1807,7 +1740,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 1492.48,
+        "value": 1497.29,
         "signal": "Buy"
       },
       "bb": {
@@ -1854,8 +1787,8 @@
       "previousClose": 1225,
       "change": -8,
       "changePercent": -0.65,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:50.892Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:41.297Z",
       "rsi": {
         "value": 44.65,
         "signal": "Neutral"
@@ -1875,7 +1808,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1264.93,
+        "value": 1264.52,
         "signal": "Sell"
       },
       "bb": {
@@ -1922,8 +1855,8 @@
       "previousClose": 10383,
       "change": -33,
       "changePercent": -0.32,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:51.208Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:41.705Z",
       "rsi": {
         "value": 46.09,
         "signal": "Neutral"
@@ -1943,7 +1876,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 10370.34,
+        "value": 10370.32,
         "signal": "Sell"
       },
       "bb": {
@@ -1990,8 +1923,8 @@
       "previousClose": 1668,
       "change": -0.4,
       "changePercent": -0.02,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:51.525Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:42.051Z",
       "rsi": {
         "value": 34.88,
         "signal": "Neutral"
@@ -2011,7 +1944,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1874.46,
+        "value": 1871.66,
         "signal": "Sell"
       },
       "bb": {
@@ -2058,8 +1991,8 @@
       "previousClose": 938.9000244140625,
       "change": 0.2,
       "changePercent": 0.02,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:51.851Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:42.401Z",
       "rsi": {
         "value": 43.5,
         "signal": "Neutral"
@@ -2079,7 +2012,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 994.89,
+        "value": 994.11,
         "signal": "Sell"
       },
       "bb": {
@@ -2126,8 +2059,8 @@
       "previousClose": 161.83999633789062,
       "change": -7.51,
       "changePercent": -4.64,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:52.165Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:42.733Z",
       "rsi": {
         "value": 41.52,
         "signal": "Neutral"
@@ -2147,7 +2080,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 175.17,
+        "value": 174.07,
         "signal": "Sell"
       },
       "bb": {
@@ -2194,8 +2127,8 @@
       "previousClose": 241.30999755859375,
       "change": -2.71,
       "changePercent": -1.12,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:52.510Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:43.090Z",
       "rsi": {
         "value": 54.63,
         "signal": "Neutral"
@@ -2215,7 +2148,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 256.24,
+        "value": 257.81,
         "signal": "Sell"
       },
       "bb": {
@@ -2262,8 +2195,8 @@
       "previousClose": 135.6999969482422,
       "change": -2.84,
       "changePercent": -2.09,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:52.831Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:43.550Z",
       "rsi": {
         "value": 47.68,
         "signal": "Neutral"
@@ -2283,7 +2216,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 141.77,
+        "value": 142.05,
         "signal": "Sell"
       },
       "bb": {
@@ -2330,8 +2263,8 @@
       "previousClose": 1011,
       "change": -37,
       "changePercent": -3.66,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:53.147Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:43.983Z",
       "rsi": {
         "value": 28.72,
         "signal": "Oversold"
@@ -2351,7 +2284,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1274.23,
+        "value": 1276.05,
         "signal": "Sell"
       },
       "bb": {
@@ -2398,8 +2331,8 @@
       "previousClose": 370,
       "change": -0.1,
       "changePercent": -0.03,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:53.472Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:44.409Z",
       "rsi": {
         "value": 42.56,
         "signal": "Neutral"
@@ -2419,7 +2352,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 405.5,
+        "value": 406.55,
         "signal": "Sell"
       },
       "bb": {
@@ -2466,8 +2399,8 @@
       "previousClose": 1766.300048828125,
       "change": -46.3,
       "changePercent": -2.62,
-      "candles": 247,
-      "asOf": "2026-10-30T16:44:53.801Z",
+      "candles": 245,
+      "asOf": "2026-11-02T20:25:44.763Z",
       "rsi": {
         "value": 33.41,
         "signal": "Neutral"
@@ -2487,7 +2420,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1854.4,
+        "value": 1856.42,
         "signal": "Sell"
       },
       "bb": {
@@ -2534,8 +2467,8 @@
       "previousClose": 1972.0999755859375,
       "change": 1.6,
       "changePercent": 0.08,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:54.120Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:45.098Z",
       "rsi": {
         "value": 65.37,
         "signal": "Neutral"
@@ -2555,7 +2488,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 1905.66,
+        "value": 1906.32,
         "signal": "Buy"
       },
       "bb": {
@@ -2602,8 +2535,8 @@
       "previousClose": 401.95001220703125,
       "change": -14.35,
       "changePercent": -3.57,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:54.446Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:45.445Z",
       "rsi": {
         "value": 37.81,
         "signal": "Neutral"
@@ -2623,7 +2556,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 374.02,
+        "value": 374.33,
         "signal": "Buy"
       },
       "bb": {
@@ -2670,8 +2603,8 @@
       "previousClose": 351.8999938964844,
       "change": -0.1,
       "changePercent": -0.03,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:54.763Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:45.842Z",
       "rsi": {
         "value": 46.75,
         "signal": "Neutral"
@@ -2691,7 +2624,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 389.25,
+        "value": 389.3,
         "signal": "Sell"
       },
       "bb": {
@@ -2738,8 +2671,8 @@
       "previousClose": 1673,
       "change": -45.1,
       "changePercent": -2.7,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:55.092Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:46.198Z",
       "rsi": {
         "value": 57.69,
         "signal": "Neutral"
@@ -2759,7 +2692,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 1656.33,
+        "value": 1654.01,
         "signal": "Sell"
       },
       "bb": {
@@ -2806,8 +2739,8 @@
       "previousClose": 47565,
       "change": -365,
       "changePercent": -0.77,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:55.416Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:46.540Z",
       "rsi": {
         "value": 58.43,
         "signal": "Neutral"
@@ -2827,7 +2760,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 41635.79,
+        "value": 41619.96,
         "signal": "Buy"
       },
       "bb": {
@@ -2874,8 +2807,8 @@
       "previousClose": 289.20001220703125,
       "change": -4.3,
       "changePercent": -1.49,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:55.794Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:46.894Z",
       "rsi": {
         "value": 41.18,
         "signal": "Neutral"
@@ -2895,7 +2828,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 316.2,
+        "value": 317.03,
         "signal": "Sell"
       },
       "bb": {
@@ -2942,8 +2875,8 @@
       "previousClose": 4655,
       "change": -15,
       "changePercent": -0.32,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:56.119Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:47.252Z",
       "rsi": {
         "value": 40.09,
         "signal": "Neutral"
@@ -2963,7 +2896,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 5331.31,
+        "value": 5328,
         "signal": "Sell"
       },
       "bb": {
@@ -3010,8 +2943,8 @@
       "previousClose": 3502,
       "change": 8.4,
       "changePercent": 0.24,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:56.431Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:47.594Z",
       "rsi": {
         "value": 61.28,
         "signal": "Neutral"
@@ -3031,7 +2964,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 3309.23,
+        "value": 3318.21,
         "signal": "Buy"
       },
       "bb": {
@@ -3078,8 +3011,8 @@
       "previousClose": 696.9500122070312,
       "change": -43.35,
       "changePercent": -6.22,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:56.742Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:47.936Z",
       "rsi": {
         "value": 40.19,
         "signal": "Neutral"
@@ -3099,7 +3032,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 739.16,
+        "value": 738.15,
         "signal": "Sell"
       },
       "bb": {
@@ -3146,8 +3079,8 @@
       "previousClose": 119.79000091552734,
       "change": -2.25,
       "changePercent": -1.88,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:57.073Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:48.344Z",
       "rsi": {
         "value": 44.52,
         "signal": "Neutral"
@@ -3167,7 +3100,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 129.89,
+        "value": 130.46,
         "signal": "Sell"
       },
       "bb": {
@@ -3214,8 +3147,8 @@
       "previousClose": 1282,
       "change": -19,
       "changePercent": -1.48,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:57.386Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:48.693Z",
       "rsi": {
         "value": 48.48,
         "signal": "Neutral"
@@ -3235,7 +3168,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1344.48,
+        "value": 1342.68,
         "signal": "Sell"
       },
       "bb": {
@@ -3282,8 +3215,8 @@
       "previousClose": 829.7999877929688,
       "change": -25.8,
       "changePercent": -3.11,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:57.710Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:49.046Z",
       "rsi": {
         "value": 37.88,
         "signal": "Neutral"
@@ -3303,7 +3236,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 830.77,
+        "value": 831.68,
         "signal": "Sell"
       },
       "bb": {
@@ -3350,8 +3283,8 @@
       "previousClose": 1604.199951171875,
       "change": -18.2,
       "changePercent": -1.13,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:58.039Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:49.462Z",
       "rsi": {
         "value": 48.54,
         "signal": "Neutral"
@@ -3371,7 +3304,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1688.65,
+        "value": 1689.24,
         "signal": "Sell"
       },
       "bb": {
@@ -3418,8 +3351,8 @@
       "previousClose": 1358,
       "change": 20.9,
       "changePercent": 1.54,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:58.365Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:49.807Z",
       "rsi": {
         "value": 59.16,
         "signal": "Neutral"
@@ -3439,7 +3372,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 1396.09,
+        "value": 1393.68,
         "signal": "Sell"
       },
       "bb": {
@@ -3486,8 +3419,8 @@
       "previousClose": 393.1000061035156,
       "change": -4.1,
       "changePercent": -1.04,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:58.683Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:50.152Z",
       "rsi": {
         "value": 34.48,
         "signal": "Neutral"
@@ -3507,7 +3440,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 421.39,
+        "value": 421.46,
         "signal": "Sell"
       },
       "bb": {
@@ -3554,8 +3487,8 @@
       "previousClose": 1155.800048828125,
       "change": -41.6,
       "changePercent": -3.6,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:58.997Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:50.490Z",
       "rsi": {
         "value": 28.3,
         "signal": "Oversold"
@@ -3575,7 +3508,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1454.58,
+        "value": 1454.96,
         "signal": "Sell"
       },
       "bb": {
@@ -3622,8 +3555,8 @@
       "previousClose": 1962,
       "change": 83,
       "changePercent": 4.23,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:59.317Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:50.840Z",
       "rsi": {
         "value": 66.74,
         "signal": "Neutral"
@@ -3643,7 +3576,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 1674.72,
+        "value": 1673.64,
         "signal": "Buy"
       },
       "bb": {
@@ -3690,8 +3623,8 @@
       "previousClose": 1629.800048828125,
       "change": -33.3,
       "changePercent": -2.04,
-      "candles": 248,
-      "asOf": "2026-10-30T16:44:59.645Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:51.199Z",
       "rsi": {
         "value": 32.76,
         "signal": "Neutral"
@@ -3711,7 +3644,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1972.77,
+        "value": 1968.09,
         "signal": "Sell"
       },
       "bb": {
@@ -3758,8 +3691,8 @@
       "previousClose": 421.04998779296875,
       "change": -7.2,
       "changePercent": -1.71,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:00.015Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:51.576Z",
       "rsi": {
         "value": 33.51,
         "signal": "Neutral"
@@ -3779,7 +3712,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 486.8,
+        "value": 486.83,
         "signal": "Sell"
       },
       "bb": {
@@ -3826,8 +3759,8 @@
       "previousClose": 1719.800048828125,
       "change": -23.8,
       "changePercent": -1.38,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:00.388Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:51.916Z",
       "rsi": {
         "value": 37.1,
         "signal": "Neutral"
@@ -3847,7 +3780,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1982.47,
+        "value": 1979.95,
         "signal": "Sell"
       },
       "bb": {
@@ -3894,8 +3827,8 @@
       "previousClose": 200,
       "change": -8.45,
       "changePercent": -4.22,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:00.699Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:52.249Z",
       "rsi": {
         "value": 33.86,
         "signal": "Neutral"
@@ -3915,7 +3848,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 246.28,
+        "value": 246.07,
         "signal": "Sell"
       },
       "bb": {
@@ -3962,8 +3895,8 @@
       "previousClose": 226.89999389648438,
       "change": -12.7,
       "changePercent": -5.6,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:01.076Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:52.603Z",
       "rsi": {
         "value": 43.8,
         "signal": "Neutral"
@@ -3983,7 +3916,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 210.76,
+        "value": 210.78,
         "signal": "Buy"
       },
       "bb": {
@@ -4030,8 +3963,8 @@
       "previousClose": 4515.2001953125,
       "change": -62.6,
       "changePercent": -1.39,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:01.396Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:52.949Z",
       "rsi": {
         "value": 37.16,
         "signal": "Neutral"
@@ -4051,7 +3984,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 4982.43,
+        "value": 4982.07,
         "signal": "Sell"
       },
       "bb": {
@@ -4098,8 +4031,8 @@
       "previousClose": 370,
       "change": -4.4,
       "changePercent": -1.19,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:01.756Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:53.292Z",
       "rsi": {
         "value": 42.38,
         "signal": "Neutral"
@@ -4119,7 +4052,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 427.07,
+        "value": 427.23,
         "signal": "Sell"
       },
       "bb": {
@@ -4166,8 +4099,8 @@
       "previousClose": 4021.5,
       "change": -221.5,
       "changePercent": -5.51,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:02.101Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:53.621Z",
       "rsi": {
         "value": 37.11,
         "signal": "Neutral"
@@ -4187,7 +4120,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 3940.53,
+        "value": 3944.22,
         "signal": "Sell"
       },
       "bb": {
@@ -4234,8 +4167,8 @@
       "previousClose": 397.29998779296875,
       "change": -11.3,
       "changePercent": -2.84,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:02.457Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:53.955Z",
       "rsi": {
         "value": 40.8,
         "signal": "Neutral"
@@ -4255,7 +4188,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 443.01,
+        "value": 442.76,
         "signal": "Sell"
       },
       "bb": {
@@ -4302,8 +4235,8 @@
       "previousClose": 9664,
       "change": 116,
       "changePercent": 1.2,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:02.779Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:54.377Z",
       "rsi": {
         "value": 64.36,
         "signal": "Neutral"
@@ -4323,7 +4256,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 7797.52,
+        "value": 7810.18,
         "signal": "Buy"
       },
       "bb": {
@@ -4370,8 +4303,8 @@
       "previousClose": 11488,
       "change": -488,
       "changePercent": -4.25,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:03.096Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:54.711Z",
       "rsi": {
         "value": 25.79,
         "signal": "Oversold"
@@ -4391,7 +4324,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 12897.87,
+        "value": 12884.41,
         "signal": "Sell"
       },
       "bb": {
@@ -4438,8 +4371,8 @@
       "previousClose": 694.3499755859375,
       "change": -2.8,
       "changePercent": -0.4,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:03.419Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:55.064Z",
       "rsi": {
         "value": 60.55,
         "signal": "Neutral"
@@ -4459,7 +4392,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 655.87,
+        "value": 655.94,
         "signal": "Buy"
       },
       "bb": {
@@ -4506,8 +4439,8 @@
       "previousClose": 3175,
       "change": 24,
       "changePercent": 0.76,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:03.722Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:55.404Z",
       "rsi": {
         "value": 32.17,
         "signal": "Neutral"
@@ -4527,7 +4460,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 3890.18,
+        "value": 3889.75,
         "signal": "Sell"
       },
       "bb": {
@@ -4574,8 +4507,8 @@
       "previousClose": 1345,
       "change": 7,
       "changePercent": 0.52,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:04.042Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:55.756Z",
       "rsi": {
         "value": 75.33,
         "signal": "Overbought"
@@ -4595,7 +4528,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 1233.02,
+        "value": 1232.5,
         "signal": "Buy"
       },
       "bb": {
@@ -4642,8 +4575,8 @@
       "previousClose": 7238,
       "change": -18,
       "changePercent": -0.25,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:04.397Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:56.101Z",
       "rsi": {
         "value": 49.03,
         "signal": "Neutral"
@@ -4663,7 +4596,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 7364.99,
+        "value": 7376.38,
         "signal": "Sell"
       },
       "bb": {
@@ -4710,8 +4643,8 @@
       "previousClose": 2812.300048828125,
       "change": -9,
       "changePercent": -0.32,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:04.704Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:56.429Z",
       "rsi": {
         "value": 37.11,
         "signal": "Neutral"
@@ -4731,7 +4664,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 3172.85,
+        "value": 3172.86,
         "signal": "Sell"
       },
       "bb": {
@@ -4778,8 +4711,8 @@
       "previousClose": 337.8500061035156,
       "change": 5.8,
       "changePercent": 1.72,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:05.010Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:56.757Z",
       "rsi": {
         "value": 62.19,
         "signal": "Neutral"
@@ -4799,7 +4732,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 298.39,
+        "value": 297.82,
         "signal": "Buy"
       },
       "bb": {
@@ -4846,8 +4779,8 @@
       "previousClose": 347.75,
       "change": -8.05,
       "changePercent": -2.31,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:05.336Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:57.102Z",
       "rsi": {
         "value": 51.54,
         "signal": "Neutral"
@@ -4867,7 +4800,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 313.37,
+        "value": 313.63,
         "signal": "Buy"
       },
       "bb": {
@@ -4914,8 +4847,8 @@
       "previousClose": 16856,
       "change": 499,
       "changePercent": 2.96,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:05.649Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:57.445Z",
       "rsi": {
         "value": 52.75,
         "signal": "Neutral"
@@ -4935,7 +4868,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 18345.32,
+        "value": 18459.67,
         "signal": "Sell"
       },
       "bb": {
@@ -4982,8 +4915,8 @@
       "previousClose": 754.9000244140625,
       "change": 13.25,
       "changePercent": 1.76,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:05.961Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:57.776Z",
       "rsi": {
         "value": 46.53,
         "signal": "Neutral"
@@ -5003,7 +4936,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 897.53,
+        "value": 896.36,
         "signal": "Sell"
       },
       "bb": {
@@ -5050,8 +4983,8 @@
       "previousClose": 165.1699981689453,
       "change": 2.74,
       "changePercent": 1.66,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:06.288Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:58.129Z",
       "rsi": {
         "value": 48.75,
         "signal": "Neutral"
@@ -5071,7 +5004,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 170.07,
+        "value": 170.12,
         "signal": "Sell"
       },
       "bb": {
@@ -5118,8 +5051,8 @@
       "previousClose": 2339,
       "change": -40.3,
       "changePercent": -1.72,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:06.611Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:58.544Z",
       "rsi": {
         "value": 50.99,
         "signal": "Neutral"
@@ -5139,7 +5072,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 2222.99,
+        "value": 2224.31,
         "signal": "Buy"
       },
       "bb": {
@@ -5186,8 +5119,8 @@
       "previousClose": 87.2699966430664,
       "change": -0.35,
       "changePercent": -0.4,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:06.921Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:58.874Z",
       "rsi": {
         "value": 38.29,
         "signal": "Neutral"
@@ -5207,7 +5140,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 98.14,
+        "value": 98.06,
         "signal": "Sell"
       },
       "bb": {
@@ -5254,8 +5187,8 @@
       "previousClose": 1743.9000244140625,
       "change": -53.7,
       "changePercent": -3.08,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:07.245Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:59.219Z",
       "rsi": {
         "value": 35.96,
         "signal": "Neutral"
@@ -5275,7 +5208,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 2180.94,
+        "value": 2177.82,
         "signal": "Sell"
       },
       "bb": {
@@ -5322,8 +5255,8 @@
       "previousClose": 837,
       "change": -19,
       "changePercent": -2.27,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:07.571Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:59.563Z",
       "rsi": {
         "value": 35.04,
         "signal": "Neutral"
@@ -5343,7 +5276,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 996.61,
+        "value": 1002.2,
         "signal": "Sell"
       },
       "bb": {
@@ -5390,8 +5323,8 @@
       "previousClose": 1600,
       "change": -32,
       "changePercent": -2,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:07.886Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:25:59.911Z",
       "rsi": {
         "value": 42.14,
         "signal": "Neutral"
@@ -5411,7 +5344,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1853.55,
+        "value": 1854.29,
         "signal": "Sell"
       },
       "bb": {
@@ -5458,8 +5391,8 @@
       "previousClose": 2932.800048828125,
       "change": 48.6,
       "changePercent": 1.66,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:08.206Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:00.254Z",
       "rsi": {
         "value": 50.25,
         "signal": "Neutral"
@@ -5479,7 +5412,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 3025.75,
+        "value": 3021.49,
         "signal": "Sell"
       },
       "bb": {
@@ -5526,8 +5459,8 @@
       "previousClose": 4091,
       "change": -71,
       "changePercent": -1.74,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:08.527Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:00.598Z",
       "rsi": {
         "value": 46.83,
         "signal": "Neutral"
@@ -5547,7 +5480,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 4097.6,
+        "value": 4106.82,
         "signal": "Sell"
       },
       "bb": {
@@ -5594,8 +5527,8 @@
       "previousClose": 4869.89990234375,
       "change": -16.2,
       "changePercent": -0.33,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:08.837Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:00.931Z",
       "rsi": {
         "value": 52.09,
         "signal": "Neutral"
@@ -5615,7 +5548,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 4595.37,
+        "value": 4599.15,
         "signal": "Buy"
       },
       "bb": {
@@ -5662,8 +5595,8 @@
       "previousClose": 1020,
       "change": -6.2,
       "changePercent": -0.61,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:09.157Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:01.367Z",
       "rsi": {
         "value": 36.68,
         "signal": "Neutral"
@@ -5683,7 +5616,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1224.59,
+        "value": 1223.83,
         "signal": "Sell"
       },
       "bb": {
@@ -5730,8 +5663,8 @@
       "previousClose": 1403.9000244140625,
       "change": 24.2,
       "changePercent": 1.72,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:09.476Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:01.710Z",
       "rsi": {
         "value": 69.86,
         "signal": "Neutral"
@@ -5751,7 +5684,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 1332.86,
+        "value": 1332.33,
         "signal": "Buy"
       },
       "bb": {
@@ -5798,8 +5731,8 @@
       "previousClose": 2316.699951171875,
       "change": -7.2,
       "changePercent": -0.31,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:09.789Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:02.284Z",
       "rsi": {
         "value": 46.99,
         "signal": "Neutral"
@@ -5819,7 +5752,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 2533.53,
+        "value": 2535.23,
         "signal": "Sell"
       },
       "bb": {
@@ -5866,8 +5799,8 @@
       "previousClose": 683.2999877929688,
       "change": 9.5,
       "changePercent": 1.39,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:10.115Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:02.633Z",
       "rsi": {
         "value": 44.05,
         "signal": "Neutral"
@@ -5887,7 +5820,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 788.26,
+        "value": 787.8,
         "signal": "Sell"
       },
       "bb": {
@@ -5934,8 +5867,8 @@
       "previousClose": 517,
       "change": 7.9,
       "changePercent": 1.53,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:10.432Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:03.085Z",
       "rsi": {
         "value": 44.31,
         "signal": "Neutral"
@@ -5955,7 +5888,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 595.35,
+        "value": 594.46,
         "signal": "Sell"
       },
       "bb": {
@@ -6002,8 +5935,8 @@
       "previousClose": 5105,
       "change": 62,
       "changePercent": 1.21,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:10.751Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:03.429Z",
       "rsi": {
         "value": 49.34,
         "signal": "Neutral"
@@ -6023,7 +5956,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 5297.29,
+        "value": 5299.31,
         "signal": "Sell"
       },
       "bb": {
@@ -6070,8 +6003,8 @@
       "previousClose": 886.2999877929688,
       "change": -1.6,
       "changePercent": -0.18,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:11.075Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:03.983Z",
       "rsi": {
         "value": 38.81,
         "signal": "Neutral"
@@ -6091,7 +6024,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 960.54,
+        "value": 959.35,
         "signal": "Sell"
       },
       "bb": {
@@ -6138,8 +6071,8 @@
       "previousClose": 342.29998779296875,
       "change": -1.75,
       "changePercent": -0.51,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:11.396Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:04.412Z",
       "rsi": {
         "value": 46.11,
         "signal": "Neutral"
@@ -6159,7 +6092,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 386.06,
+        "value": 387.28,
         "signal": "Sell"
       },
       "bb": {
@@ -6206,8 +6139,8 @@
       "previousClose": 1858.199951171875,
       "change": 6.4,
       "changePercent": 0.34,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:11.781Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:04.778Z",
       "rsi": {
         "value": 48.19,
         "signal": "Neutral"
@@ -6227,7 +6160,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 2110.07,
+        "value": 2109.25,
         "signal": "Sell"
       },
       "bb": {
@@ -6274,8 +6207,8 @@
       "previousClose": 516.5,
       "change": -10.7,
       "changePercent": -2.07,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:12.188Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:05.120Z",
       "rsi": {
         "value": 37.31,
         "signal": "Neutral"
@@ -6295,7 +6228,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 559.77,
+        "value": 560.03,
         "signal": "Sell"
       },
       "bb": {
@@ -6342,8 +6275,8 @@
       "previousClose": 1922,
       "change": -11,
       "changePercent": -0.57,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:12.494Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:05.466Z",
       "rsi": {
         "value": 40.86,
         "signal": "Neutral"
@@ -6363,7 +6296,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 2075.97,
+        "value": 2077.12,
         "signal": "Sell"
       },
       "bb": {
@@ -6410,8 +6343,8 @@
       "previousClose": 1386.5999755859375,
       "change": 11.4,
       "changePercent": 0.82,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:12.821Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:05.809Z",
       "rsi": {
         "value": 56.93,
         "signal": "Neutral"
@@ -6431,7 +6364,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 1365.16,
+        "value": 1363.81,
         "signal": "Buy"
       },
       "bb": {
@@ -6478,8 +6411,8 @@
       "previousClose": 1572.9000244140625,
       "change": 7.9,
       "changePercent": 0.5,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:13.136Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:06.151Z",
       "rsi": {
         "value": 46.17,
         "signal": "Neutral"
@@ -6499,7 +6432,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1721.58,
+        "value": 1721.05,
         "signal": "Sell"
       },
       "bb": {
@@ -6546,8 +6479,8 @@
       "previousClose": 411.95001220703125,
       "change": -1.95,
       "changePercent": -0.47,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:13.517Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:06.489Z",
       "rsi": {
         "value": 25.37,
         "signal": "Oversold"
@@ -6567,7 +6500,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 516.35,
+        "value": 516.26,
         "signal": "Sell"
       },
       "bb": {
@@ -6614,8 +6547,8 @@
       "previousClose": 12.119999885559082,
       "change": -0.29,
       "changePercent": -2.39,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:13.876Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:06.840Z",
       "rsi": {
         "value": 38.63,
         "signal": "Neutral"
@@ -6635,7 +6568,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 12.46,
+        "value": 12.53,
         "signal": "Sell"
       },
       "bb": {
@@ -6682,8 +6615,8 @@
       "previousClose": 73.37999725341797,
       "change": -1.38,
       "changePercent": -1.88,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:14.192Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:07.189Z",
       "rsi": {
         "value": 30.13,
         "signal": "Neutral"
@@ -6703,7 +6636,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 78.79,
+        "value": 79.05,
         "signal": "Sell"
       },
       "bb": {
@@ -6750,8 +6683,8 @@
       "previousClose": 105.3499984741211,
       "change": -4.45,
       "changePercent": -4.22,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:14.505Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:07.529Z",
       "rsi": {
         "value": 36.26,
         "signal": "Neutral"
@@ -6771,7 +6704,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 122.01,
+        "value": 121.71,
         "signal": "Sell"
       },
       "bb": {
@@ -6818,8 +6751,8 @@
       "previousClose": 810,
       "change": 1.65,
       "changePercent": 0.2,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:14.833Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:07.870Z",
       "rsi": {
         "value": 69.72,
         "signal": "Neutral"
@@ -6839,7 +6772,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 715.77,
+        "value": 715.56,
         "signal": "Buy"
       },
       "bb": {
@@ -6886,8 +6819,8 @@
       "previousClose": 864.0999755859375,
       "change": 1.4,
       "changePercent": 0.16,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:15.164Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:08.278Z",
       "rsi": {
         "value": 58.57,
         "signal": "Neutral"
@@ -6907,7 +6840,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 853.75,
+        "value": 855.92,
         "signal": "Buy"
       },
       "bb": {
@@ -6954,8 +6887,8 @@
       "previousClose": 4675,
       "change": 202.6,
       "changePercent": 4.33,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:15.480Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:08.696Z",
       "rsi": {
         "value": 55.34,
         "signal": "Neutral"
@@ -6975,7 +6908,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 4968.29,
+        "value": 4965.86,
         "signal": "Sell"
       },
       "bb": {
@@ -7022,8 +6955,8 @@
       "previousClose": 868,
       "change": -30,
       "changePercent": -3.46,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:15.855Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:09.115Z",
       "rsi": {
         "value": 38.54,
         "signal": "Neutral"
@@ -7043,7 +6976,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 916.17,
+        "value": 915.83,
         "signal": "Sell"
       },
       "bb": {
@@ -7090,8 +7023,8 @@
       "previousClose": 384,
       "change": -5.7,
       "changePercent": -1.48,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:16.174Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:09.456Z",
       "rsi": {
         "value": 48.85,
         "signal": "Neutral"
@@ -7111,7 +7044,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 395.1,
+        "value": 396.34,
         "signal": "Sell"
       },
       "bb": {
@@ -7158,8 +7091,8 @@
       "previousClose": 1146.5,
       "change": 38.5,
       "changePercent": 3.36,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:16.523Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:09.805Z",
       "rsi": {
         "value": 64.36,
         "signal": "Neutral"
@@ -7179,7 +7112,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 1199.31,
+        "value": 1198.61,
         "signal": "Sell"
       },
       "bb": {
@@ -7226,8 +7159,8 @@
       "previousClose": 59.18000030517578,
       "change": -3.98,
       "changePercent": -6.73,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:16.831Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:10.161Z",
       "rsi": {
         "value": 24.93,
         "signal": "Oversold"
@@ -7247,7 +7180,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 88.57,
+        "value": 88.78,
         "signal": "Sell"
       },
       "bb": {
@@ -7294,8 +7227,8 @@
       "previousClose": 130.41000366210938,
       "change": -0.26,
       "changePercent": -0.2,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:17.164Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:10.510Z",
       "rsi": {
         "value": 46.96,
         "signal": "Neutral"
@@ -7315,7 +7248,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 143.21,
+        "value": 143.56,
         "signal": "Sell"
       },
       "bb": {
@@ -7362,8 +7295,8 @@
       "previousClose": 101.19999694824219,
       "change": -1.7,
       "changePercent": -1.68,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:17.475Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:10.843Z",
       "rsi": {
         "value": 33.76,
         "signal": "Neutral"
@@ -7383,7 +7316,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 121.78,
+        "value": 121.75,
         "signal": "Sell"
       },
       "bb": {
@@ -7430,8 +7363,8 @@
       "previousClose": 75.70999908447266,
       "change": -2.34,
       "changePercent": -3.09,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:17.785Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:11.188Z",
       "rsi": {
         "value": 35.44,
         "signal": "Neutral"
@@ -7451,7 +7384,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 93.4,
+        "value": 93.32,
         "signal": "Sell"
       },
       "bb": {
@@ -7498,8 +7431,8 @@
       "previousClose": 265,
       "change": 0.6,
       "changePercent": 0.23,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:18.113Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:11.543Z",
       "rsi": {
         "value": 53.54,
         "signal": "Neutral"
@@ -7519,7 +7452,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 298.35,
+        "value": 297.94,
         "signal": "Sell"
       },
       "bb": {
@@ -7566,8 +7499,8 @@
       "previousClose": 1060,
       "change": 1.2,
       "changePercent": 0.11,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:18.441Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:11.891Z",
       "rsi": {
         "value": 48.83,
         "signal": "Neutral"
@@ -7587,7 +7520,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1111.03,
+        "value": 1111.61,
         "signal": "Sell"
       },
       "bb": {
@@ -7634,8 +7567,8 @@
       "previousClose": 207,
       "change": -2.5,
       "changePercent": -1.21,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:18.747Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:12.220Z",
       "rsi": {
         "value": 32.55,
         "signal": "Neutral"
@@ -7655,7 +7588,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 244.62,
+        "value": 244.37,
         "signal": "Sell"
       },
       "bb": {
@@ -7702,8 +7635,8 @@
       "previousClose": 510,
       "change": -9.65,
       "changePercent": -1.89,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:19.063Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:12.559Z",
       "rsi": {
         "value": 54.56,
         "signal": "Neutral"
@@ -7723,7 +7656,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 523.12,
+        "value": 522.68,
         "signal": "Sell"
       },
       "bb": {
@@ -7770,8 +7703,8 @@
       "previousClose": 1255.4000244140625,
       "change": -9.4,
       "changePercent": -0.75,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:19.386Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:12.906Z",
       "rsi": {
         "value": 51.96,
         "signal": "Neutral"
@@ -7791,7 +7724,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1243.85,
+        "value": 1242.57,
         "signal": "Buy"
       },
       "bb": {
@@ -7838,8 +7771,8 @@
       "previousClose": 421.3500061035156,
       "change": 0.55,
       "changePercent": 0.13,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:19.702Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:13.247Z",
       "rsi": {
         "value": 42.19,
         "signal": "Neutral"
@@ -7859,7 +7792,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 477.13,
+        "value": 476.04,
         "signal": "Sell"
       },
       "bb": {
@@ -7906,8 +7839,8 @@
       "previousClose": 515,
       "change": -17,
       "changePercent": -3.3,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:20.015Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:13.581Z",
       "rsi": {
         "value": 32.86,
         "signal": "Neutral"
@@ -7927,7 +7860,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 504.27,
+        "value": 504.53,
         "signal": "Sell"
       },
       "bb": {
@@ -7974,8 +7907,8 @@
       "previousClose": 354.5,
       "change": 1.6,
       "changePercent": 0.45,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:20.343Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:13.988Z",
       "rsi": {
         "value": 58.43,
         "signal": "Neutral"
@@ -7995,7 +7928,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 310.67,
+        "value": 311.25,
         "signal": "Buy"
       },
       "bb": {
@@ -8042,8 +7975,8 @@
       "previousClose": 3187.5,
       "change": -56.5,
       "changePercent": -1.77,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:20.650Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:14.378Z",
       "rsi": {
         "value": 39.9,
         "signal": "Neutral"
@@ -8063,7 +7996,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 3866.88,
+        "value": 3854.36,
         "signal": "Sell"
       },
       "bb": {
@@ -8110,8 +8043,8 @@
       "previousClose": 3830.800048828125,
       "change": -60.8,
       "changePercent": -1.59,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:20.973Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:14.717Z",
       "rsi": {
         "value": 26.68,
         "signal": "Oversold"
@@ -8131,7 +8064,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 4750.23,
+        "value": 4739.62,
         "signal": "Sell"
       },
       "bb": {
@@ -8178,8 +8111,8 @@
       "previousClose": 859.7999877929688,
       "change": -8.9,
       "changePercent": -1.04,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:21.279Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:15.111Z",
       "rsi": {
         "value": 46.45,
         "signal": "Neutral"
@@ -8199,7 +8132,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 928.96,
+        "value": 928.18,
         "signal": "Sell"
       },
       "bb": {
@@ -8246,8 +8179,8 @@
       "previousClose": 459,
       "change": 2.6,
       "changePercent": 0.57,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:21.609Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:15.464Z",
       "rsi": {
         "value": 69.12,
         "signal": "Neutral"
@@ -8267,7 +8200,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 409.08,
+        "value": 408.68,
         "signal": "Buy"
       },
       "bb": {
@@ -8314,8 +8247,8 @@
       "previousClose": 543.7000122070312,
       "change": -13.45,
       "changePercent": -2.47,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:21.919Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:15.797Z",
       "rsi": {
         "value": 49.49,
         "signal": "Neutral"
@@ -8335,7 +8268,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 705.96,
+        "value": 705.32,
         "signal": "Sell"
       },
       "bb": {
@@ -8382,8 +8315,8 @@
       "previousClose": 2244,
       "change": 161.5,
       "changePercent": 7.2,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:22.230Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:16.139Z",
       "rsi": {
         "value": 78.71,
         "signal": "Overbought"
@@ -8403,7 +8336,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 1572.38,
+        "value": 1572.83,
         "signal": "Buy"
       },
       "bb": {
@@ -8450,8 +8383,8 @@
       "previousClose": 514,
       "change": -20.3,
       "changePercent": -3.95,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:22.553Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:16.492Z",
       "rsi": {
         "value": 38.83,
         "signal": "Neutral"
@@ -8471,7 +8404,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 536.85,
+        "value": 537.29,
         "signal": "Sell"
       },
       "bb": {
@@ -8518,8 +8451,8 @@
       "previousClose": 396,
       "change": -12.75,
       "changePercent": -3.22,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:22.862Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:16.890Z",
       "rsi": {
         "value": 42.11,
         "signal": "Neutral"
@@ -8539,7 +8472,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 412.5,
+        "value": 413.32,
         "signal": "Sell"
       },
       "bb": {
@@ -8586,8 +8519,8 @@
       "previousClose": 1045.800048828125,
       "change": -8.8,
       "changePercent": -0.84,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:23.169Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:17.544Z",
       "rsi": {
         "value": 44.47,
         "signal": "Neutral"
@@ -8607,7 +8540,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1075.65,
+        "value": 1081.07,
         "signal": "Sell"
       },
       "bb": {
@@ -8654,8 +8587,8 @@
       "previousClose": 3837.10009765625,
       "change": 34.6,
       "changePercent": 0.9,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:23.537Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:18.008Z",
       "rsi": {
         "value": 61.49,
         "signal": "Neutral"
@@ -8675,7 +8608,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 3917.3,
+        "value": 3916.66,
         "signal": "Sell"
       },
       "bb": {
@@ -8722,8 +8655,8 @@
       "previousClose": 251.0500030517578,
       "change": -6.65,
       "changePercent": -2.65,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:23.853Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:18.372Z",
       "rsi": {
         "value": 35.5,
         "signal": "Neutral"
@@ -8743,7 +8676,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 287.07,
+        "value": 288.08,
         "signal": "Sell"
       },
       "bb": {
@@ -8790,8 +8723,8 @@
       "previousClose": 4094.699951171875,
       "change": 138.8,
       "changePercent": 3.39,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:24.221Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:18.704Z",
       "rsi": {
         "value": 53.43,
         "signal": "Neutral"
@@ -8811,7 +8744,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 4519.74,
+        "value": 4520.22,
         "signal": "Sell"
       },
       "bb": {
@@ -8858,8 +8791,8 @@
       "previousClose": 1989.9000244140625,
       "change": 21.1,
       "changePercent": 1.06,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:24.561Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:19.050Z",
       "rsi": {
         "value": 51.38,
         "signal": "Neutral"
@@ -8879,7 +8812,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 2173.72,
+        "value": 2176.95,
         "signal": "Sell"
       },
       "bb": {
@@ -8926,8 +8859,8 @@
       "previousClose": 2890,
       "change": -49.7,
       "changePercent": -1.72,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:24.886Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:19.406Z",
       "rsi": {
         "value": 40.22,
         "signal": "Neutral"
@@ -8947,7 +8880,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 3192.13,
+        "value": 3196.14,
         "signal": "Sell"
       },
       "bb": {
@@ -8994,8 +8927,8 @@
       "previousClose": 81,
       "change": 0.36,
       "changePercent": 0.44,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:25.211Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:19.755Z",
       "rsi": {
         "value": 51.93,
         "signal": "Neutral"
@@ -9015,7 +8948,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 76.78,
+        "value": 76.9,
         "signal": "Buy"
       },
       "bb": {
@@ -9062,8 +8995,8 @@
       "previousClose": 302.1000061035156,
       "change": -13.1,
       "changePercent": -4.34,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:25.528Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:20.108Z",
       "rsi": {
         "value": 37.46,
         "signal": "Neutral"
@@ -9083,7 +9016,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 313.13,
+        "value": 312.54,
         "signal": "Sell"
       },
       "bb": {
@@ -9130,8 +9063,8 @@
       "previousClose": 2469.300048828125,
       "change": 23.5,
       "changePercent": 0.95,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:25.837Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:20.440Z",
       "rsi": {
         "value": 58.49,
         "signal": "Neutral"
@@ -9151,7 +9084,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 2366.56,
+        "value": 2362.59,
         "signal": "Buy"
       },
       "bb": {
@@ -9198,8 +9131,8 @@
       "previousClose": 802.9000244140625,
       "change": -2.9,
       "changePercent": -0.36,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:26.213Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:20.858Z",
       "rsi": {
         "value": 54.33,
         "signal": "Neutral"
@@ -9219,7 +9152,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 799.05,
+        "value": 799.11,
         "signal": "Buy"
       },
       "bb": {
@@ -9266,8 +9199,8 @@
       "previousClose": 11426,
       "change": -29,
       "changePercent": -0.25,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:26.536Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:21.197Z",
       "rsi": {
         "value": 42.46,
         "signal": "Neutral"
@@ -9287,7 +9220,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 13431.64,
+        "value": 13384.24,
         "signal": "Sell"
       },
       "bb": {
@@ -9334,8 +9267,8 @@
       "previousClose": 851.1500244140625,
       "change": 8.85,
       "changePercent": 1.04,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:26.848Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:21.528Z",
       "rsi": {
         "value": 39.5,
         "signal": "Neutral"
@@ -9355,7 +9288,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1018.72,
+        "value": 1015.96,
         "signal": "Sell"
       },
       "bb": {
@@ -9402,8 +9335,8 @@
       "previousClose": 1762.699951171875,
       "change": -57.4,
       "changePercent": -3.26,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:27.158Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:21.863Z",
       "rsi": {
         "value": 22.23,
         "signal": "Oversold"
@@ -9423,7 +9356,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 2375.04,
+        "value": 2375.48,
         "signal": "Sell"
       },
       "bb": {
@@ -9470,8 +9403,8 @@
       "previousClose": 3231,
       "change": -42.2,
       "changePercent": -1.31,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:27.482Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:22.198Z",
       "rsi": {
         "value": 49.1,
         "signal": "Neutral"
@@ -9491,7 +9424,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 2841.59,
+        "value": 2848.83,
         "signal": "Buy"
       },
       "bb": {
@@ -9538,8 +9471,8 @@
       "previousClose": 1212,
       "change": -12,
       "changePercent": -0.99,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:27.797Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:22.550Z",
       "rsi": {
         "value": 28.71,
         "signal": "Oversold"
@@ -9559,7 +9492,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1529.13,
+        "value": 1529.45,
         "signal": "Sell"
       },
       "bb": {
@@ -9606,8 +9539,8 @@
       "previousClose": 160,
       "change": -3.5,
       "changePercent": -2.19,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:28.200Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:22.902Z",
       "rsi": {
         "value": 46.69,
         "signal": "Neutral"
@@ -9627,7 +9560,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 143.27,
+        "value": 143.16,
         "signal": "Buy"
       },
       "bb": {
@@ -9674,8 +9607,8 @@
       "previousClose": 986.0999755859375,
       "change": -44.15,
       "changePercent": -4.48,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:28.523Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:23.240Z",
       "rsi": {
         "value": 40.91,
         "signal": "Neutral"
@@ -9695,7 +9628,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 932.57,
+        "value": 931.21,
         "signal": "Buy"
       },
       "bb": {
@@ -9742,8 +9675,8 @@
       "previousClose": 2561.300048828125,
       "change": -35.7,
       "changePercent": -1.39,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:28.849Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:23.587Z",
       "rsi": {
         "value": 57.25,
         "signal": "Neutral"
@@ -9763,7 +9696,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 2434.1,
+        "value": 2424.85,
         "signal": "Buy"
       },
       "bb": {
@@ -9810,8 +9743,8 @@
       "previousClose": 2497.10009765625,
       "change": -88.5,
       "changePercent": -3.54,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:29.195Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:23.993Z",
       "rsi": {
         "value": 34.37,
         "signal": "Neutral"
@@ -9831,7 +9764,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 3052.32,
+        "value": 3052.26,
         "signal": "Sell"
       },
       "bb": {
@@ -9878,8 +9811,8 @@
       "previousClose": 923.9000244140625,
       "change": -18.9,
       "changePercent": -2.05,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:29.513Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:24.332Z",
       "rsi": {
         "value": 26.7,
         "signal": "Oversold"
@@ -9899,7 +9832,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1052.71,
+        "value": 1052.59,
         "signal": "Sell"
       },
       "bb": {
@@ -9946,8 +9879,8 @@
       "previousClose": 323.5,
       "change": -8.95,
       "changePercent": -2.77,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:29.838Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:24.690Z",
       "rsi": {
         "value": 42.21,
         "signal": "Neutral"
@@ -9967,7 +9900,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 348.78,
+        "value": 348.83,
         "signal": "Sell"
       },
       "bb": {
@@ -10014,8 +9947,8 @@
       "previousClose": 1173,
       "change": 16.6,
       "changePercent": 1.42,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:30.218Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:25.027Z",
       "rsi": {
         "value": 43.81,
         "signal": "Neutral"
@@ -10035,7 +9968,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1199.49,
+        "value": 1197.4,
         "signal": "Sell"
       },
       "bb": {
@@ -10082,8 +10015,8 @@
       "previousClose": 8260.5,
       "change": 419.5,
       "changePercent": 5.08,
-      "candles": 247,
-      "asOf": "2026-10-30T16:45:30.534Z",
+      "candles": 245,
+      "asOf": "2026-11-02T20:26:25.441Z",
       "rsi": {
         "value": 58.81,
         "signal": "Neutral"
@@ -10103,7 +10036,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 7369.53,
+        "value": 7449.06,
         "signal": "Buy"
       },
       "bb": {
@@ -10150,8 +10083,8 @@
       "previousClose": 71.94999694824219,
       "change": -2.29,
       "changePercent": -3.18,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:30.866Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:25.778Z",
       "rsi": {
         "value": 34.75,
         "signal": "Neutral"
@@ -10171,7 +10104,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 92.47,
+        "value": 92.41,
         "signal": "Sell"
       },
       "bb": {
@@ -10218,8 +10151,8 @@
       "previousClose": 1188.5999755859375,
       "change": -21.6,
       "changePercent": -1.82,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:31.186Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:26.124Z",
       "rsi": {
         "value": 29.99,
         "signal": "Oversold"
@@ -10239,7 +10172,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1356.62,
+        "value": 1355.5,
         "signal": "Sell"
       },
       "bb": {
@@ -10286,8 +10219,8 @@
       "previousClose": 77.19999694824219,
       "change": 0.54,
       "changePercent": 0.7,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:31.517Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:26.468Z",
       "rsi": {
         "value": 63.6,
         "signal": "Neutral"
@@ -10307,7 +10240,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 77.42,
+        "value": 77.35,
         "signal": "Buy"
       },
       "bb": {
@@ -10354,8 +10287,8 @@
       "previousClose": 67.54000091552734,
       "change": -0.2,
       "changePercent": -0.3,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:31.837Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:26.814Z",
       "rsi": {
         "value": 32.03,
         "signal": "Neutral"
@@ -10375,7 +10308,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 80.84,
+        "value": 80.85,
         "signal": "Sell"
       },
       "bb": {
@@ -10422,8 +10355,8 @@
       "previousClose": 310.5,
       "change": 5.75,
       "changePercent": 1.85,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:32.161Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:27.153Z",
       "rsi": {
         "value": 53.18,
         "signal": "Neutral"
@@ -10443,7 +10376,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 343.45,
+        "value": 342.61,
         "signal": "Sell"
       },
       "bb": {
@@ -10490,8 +10423,8 @@
       "previousClose": 352.8999938964844,
       "change": -3.55,
       "changePercent": -1.01,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:32.471Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:27.490Z",
       "rsi": {
         "value": 58.44,
         "signal": "Neutral"
@@ -10511,7 +10444,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 303.04,
+        "value": 302.47,
         "signal": "Buy"
       },
       "bb": {
@@ -10558,8 +10491,8 @@
       "previousClose": 1640,
       "change": 6.5,
       "changePercent": 0.4,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:32.834Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:27.831Z",
       "rsi": {
         "value": 41.84,
         "signal": "Neutral"
@@ -10579,7 +10512,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1728.09,
+        "value": 1732.95,
         "signal": "Sell"
       },
       "bb": {
@@ -10626,8 +10559,8 @@
       "previousClose": 9939,
       "change": 56,
       "changePercent": 0.56,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:33.150Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:28.174Z",
       "rsi": {
         "value": 39.36,
         "signal": "Neutral"
@@ -10647,7 +10580,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 9977.01,
+        "value": 9959.54,
         "signal": "Buy"
       },
       "bb": {
@@ -10694,8 +10627,8 @@
       "previousClose": 454.5,
       "change": -0.5,
       "changePercent": -0.11,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:33.470Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:28.540Z",
       "rsi": {
         "value": 48.63,
         "signal": "Neutral"
@@ -10715,7 +10648,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 457.41,
+        "value": 457.6,
         "signal": "Sell"
       },
       "bb": {
@@ -10762,8 +10695,8 @@
       "previousClose": 225.7899932861328,
       "change": -0.4,
       "changePercent": -0.18,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:33.799Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:28.906Z",
       "rsi": {
         "value": 46.28,
         "signal": "Neutral"
@@ -10783,7 +10716,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 246.59,
+        "value": 246.85,
         "signal": "Sell"
       },
       "bb": {
@@ -10830,8 +10763,8 @@
       "previousClose": 34150,
       "change": 350,
       "changePercent": 1.02,
-      "candles": 247,
-      "asOf": "2026-10-30T16:45:34.132Z",
+      "candles": 245,
+      "asOf": "2026-11-02T20:26:29.249Z",
       "rsi": {
         "value": 40.95,
         "signal": "Neutral"
@@ -10851,7 +10784,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 37206.56,
+        "value": 37190.38,
         "signal": "Sell"
       },
       "bb": {
@@ -10898,8 +10831,8 @@
       "previousClose": 378.79998779296875,
       "change": -13.95,
       "changePercent": -3.68,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:34.482Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:29.587Z",
       "rsi": {
         "value": 51.09,
         "signal": "Neutral"
@@ -10919,7 +10852,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 423.86,
+        "value": 421.19,
         "signal": "Sell"
       },
       "bb": {
@@ -10966,8 +10899,8 @@
       "previousClose": 1686.5,
       "change": -52.2,
       "changePercent": -3.1,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:34.789Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:29.977Z",
       "rsi": {
         "value": 46.1,
         "signal": "Neutral"
@@ -10987,7 +10920,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1415.51,
+        "value": 1412.53,
         "signal": "Buy"
       },
       "bb": {
@@ -11034,8 +10967,8 @@
       "previousClose": 5880,
       "change": 168,
       "changePercent": 2.86,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:35.134Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:30.316Z",
       "rsi": {
         "value": 65.35,
         "signal": "Neutral"
@@ -11055,7 +10988,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 5469.52,
+        "value": 5466.94,
         "signal": "Buy"
       },
       "bb": {
@@ -11102,8 +11035,8 @@
       "previousClose": 289.1499938964844,
       "change": 0.35,
       "changePercent": 0.12,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:35.468Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:30.659Z",
       "rsi": {
         "value": 49.46,
         "signal": "Neutral"
@@ -11123,7 +11056,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 283.28,
+        "value": 283.53,
         "signal": "Buy"
       },
       "bb": {
@@ -11170,8 +11103,8 @@
       "previousClose": 320.6000061035156,
       "change": -7,
       "changePercent": -2.18,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:35.787Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:31.004Z",
       "rsi": {
         "value": 34.3,
         "signal": "Neutral"
@@ -11191,7 +11124,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 382.52,
+        "value": 382.38,
         "signal": "Sell"
       },
       "bb": {
@@ -11238,8 +11171,8 @@
       "previousClose": 538.1500244140625,
       "change": -8.1,
       "changePercent": -1.51,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:36.101Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:31.401Z",
       "rsi": {
         "value": 54.58,
         "signal": "Neutral"
@@ -11259,7 +11192,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 548.12,
+        "value": 548.31,
         "signal": "Sell"
       },
       "bb": {
@@ -11306,8 +11239,8 @@
       "previousClose": 1969.9000244140625,
       "change": -12.7,
       "changePercent": -0.64,
-      "candles": 247,
-      "asOf": "2026-10-30T16:45:36.419Z",
+      "candles": 245,
+      "asOf": "2026-11-02T20:26:31.820Z",
       "rsi": {
         "value": 57.49,
         "signal": "Neutral"
@@ -11327,7 +11260,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 1852.25,
+        "value": 1855.98,
         "signal": "Buy"
       },
       "bb": {
@@ -11374,8 +11307,8 @@
       "previousClose": 1422,
       "change": 39.6,
       "changePercent": 2.78,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:36.801Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:32.162Z",
       "rsi": {
         "value": 44.54,
         "signal": "Neutral"
@@ -11395,7 +11328,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1519.21,
+        "value": 1517.03,
         "signal": "Sell"
       },
       "bb": {
@@ -11442,8 +11375,8 @@
       "previousClose": 2110,
       "change": -10,
       "changePercent": -0.47,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:37.118Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:32.504Z",
       "rsi": {
         "value": 41.28,
         "signal": "Neutral"
@@ -11463,7 +11396,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 2707.56,
+        "value": 2715.22,
         "signal": "Sell"
       },
       "bb": {
@@ -11510,8 +11443,8 @@
       "previousClose": 123.9000015258789,
       "change": -1.05,
       "changePercent": -0.85,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:37.438Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:32.861Z",
       "rsi": {
         "value": 60.78,
         "signal": "Neutral"
@@ -11531,7 +11464,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 114.91,
+        "value": 115.2,
         "signal": "Buy"
       },
       "bb": {
@@ -11578,8 +11511,8 @@
       "previousClose": 1110,
       "change": -50,
       "changePercent": -4.5,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:37.750Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:33.194Z",
       "rsi": {
         "value": 37.52,
         "signal": "Neutral"
@@ -11599,7 +11532,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1048.05,
+        "value": 1048.34,
         "signal": "Buy"
       },
       "bb": {
@@ -11646,8 +11579,8 @@
       "previousClose": 1018.2000122070312,
       "change": -18.1,
       "changePercent": -1.78,
-      "candles": 247,
-      "asOf": "2026-10-30T16:45:38.060Z",
+      "candles": 245,
+      "asOf": "2026-11-02T20:26:33.528Z",
       "rsi": {
         "value": 32.96,
         "signal": "Neutral"
@@ -11667,7 +11600,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1547.89,
+        "value": 1544.98,
         "signal": "Sell"
       },
       "bb": {
@@ -11714,8 +11647,8 @@
       "previousClose": 7745,
       "change": 42,
       "changePercent": 0.54,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:38.371Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:33.860Z",
       "rsi": {
         "value": 41.14,
         "signal": "Neutral"
@@ -11735,7 +11668,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 8439.55,
+        "value": 8421,
         "signal": "Sell"
       },
       "bb": {
@@ -11782,8 +11715,8 @@
       "previousClose": 260,
       "change": 5,
       "changePercent": 1.92,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:38.684Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:34.211Z",
       "rsi": {
         "value": 62.44,
         "signal": "Neutral"
@@ -11803,7 +11736,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 276.7,
+        "value": 276.41,
         "signal": "Sell"
       },
       "bb": {
@@ -11850,8 +11783,8 @@
       "previousClose": 28125,
       "change": -900,
       "changePercent": -3.2,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:38.994Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:34.547Z",
       "rsi": {
         "value": 36.38,
         "signal": "Neutral"
@@ -11871,7 +11804,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 29163.53,
+        "value": 29162.46,
         "signal": "Sell"
       },
       "bb": {
@@ -11918,8 +11851,8 @@
       "previousClose": 865.0999755859375,
       "change": 10.9,
       "changePercent": 1.26,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:39.304Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:34.879Z",
       "rsi": {
         "value": 45.2,
         "signal": "Neutral"
@@ -11939,7 +11872,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 965.91,
+        "value": 963.02,
         "signal": "Sell"
       },
       "bb": {
@@ -11986,8 +11919,8 @@
       "previousClose": 1439,
       "change": 14.3,
       "changePercent": 0.99,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:39.627Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:35.217Z",
       "rsi": {
         "value": 49.8,
         "signal": "Neutral"
@@ -12007,7 +11940,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1521.88,
+        "value": 1524.06,
         "signal": "Sell"
       },
       "bb": {
@@ -12054,8 +11987,8 @@
       "previousClose": 4235,
       "change": -148.3,
       "changePercent": -3.5,
-      "candles": 247,
-      "asOf": "2026-10-30T16:45:39.946Z",
+      "candles": 245,
+      "asOf": "2026-11-02T20:26:35.564Z",
       "rsi": {
         "value": 37.8,
         "signal": "Neutral"
@@ -12075,7 +12008,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 3878.63,
+        "value": 3882.86,
         "signal": "Buy"
       },
       "bb": {
@@ -12122,8 +12055,8 @@
       "previousClose": 360.8999938964844,
       "change": -9.9,
       "changePercent": -2.74,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:40.257Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:35.900Z",
       "rsi": {
         "value": 35.52,
         "signal": "Neutral"
@@ -12143,7 +12076,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 361,
+        "value": 361.32,
         "signal": "Sell"
       },
       "bb": {
@@ -12190,8 +12123,8 @@
       "previousClose": 296.1499938964844,
       "change": -10.55,
       "changePercent": -3.56,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:40.574Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:36.240Z",
       "rsi": {
         "value": 38.07,
         "signal": "Neutral"
@@ -12211,7 +12144,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 337.37,
+        "value": 337.45,
         "signal": "Sell"
       },
       "bb": {
@@ -12258,8 +12191,8 @@
       "previousClose": 1167.4000244140625,
       "change": -2.5,
       "changePercent": -0.21,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:40.901Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:36.597Z",
       "rsi": {
         "value": 40.27,
         "signal": "Neutral"
@@ -12279,7 +12212,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1319.64,
+        "value": 1319.32,
         "signal": "Sell"
       },
       "bb": {
@@ -12326,8 +12259,8 @@
       "previousClose": 186,
       "change": -6.33,
       "changePercent": -3.4,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:41.211Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:36.947Z",
       "rsi": {
         "value": 34.02,
         "signal": "Neutral"
@@ -12347,7 +12280,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 245.71,
+        "value": 245.47,
         "signal": "Sell"
       },
       "bb": {
@@ -12394,8 +12327,8 @@
       "previousClose": 44.65999984741211,
       "change": -2.58,
       "changePercent": -5.78,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:41.519Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:37.340Z",
       "rsi": {
         "value": 39.84,
         "signal": "Neutral"
@@ -12415,7 +12348,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 44.7,
+        "value": 44.53,
         "signal": "Sell"
       },
       "bb": {
@@ -12462,8 +12395,8 @@
       "previousClose": 161,
       "change": 0,
       "changePercent": 0,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:41.842Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:37.684Z",
       "rsi": {
         "value": 36.01,
         "signal": "Neutral"
@@ -12483,7 +12416,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 169.14,
+        "value": 169.22,
         "signal": "Sell"
       },
       "bb": {
@@ -12530,8 +12463,8 @@
       "previousClose": 540,
       "change": -15,
       "changePercent": -2.78,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:42.150Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:38.020Z",
       "rsi": {
         "value": 32.59,
         "signal": "Neutral"
@@ -12551,7 +12484,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 664.61,
+        "value": 664.76,
         "signal": "Sell"
       },
       "bb": {
@@ -12598,8 +12531,8 @@
       "previousClose": 1652,
       "change": 6.6,
       "changePercent": 0.4,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:42.465Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:38.364Z",
       "rsi": {
         "value": 44.49,
         "signal": "Neutral"
@@ -12619,7 +12552,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1819.25,
+        "value": 1819.36,
         "signal": "Sell"
       },
       "bb": {
@@ -12666,8 +12599,8 @@
       "previousClose": 971.9000244140625,
       "change": -10.05,
       "changePercent": -1.03,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:42.825Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:38.801Z",
       "rsi": {
         "value": 47.35,
         "signal": "Neutral"
@@ -12687,7 +12620,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1009.02,
+        "value": 1010.33,
         "signal": "Sell"
       },
       "bb": {
@@ -12734,8 +12667,8 @@
       "previousClose": 23120,
       "change": -125,
       "changePercent": -0.54,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:43.145Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:39.149Z",
       "rsi": {
         "value": 54.46,
         "signal": "Neutral"
@@ -12755,7 +12688,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 24780.04,
+        "value": 24715.05,
         "signal": "Sell"
       },
       "bb": {
@@ -12802,8 +12735,8 @@
       "previousClose": 841.0999755859375,
       "change": -17.95,
       "changePercent": -2.13,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:43.466Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:39.595Z",
       "rsi": {
         "value": 28.59,
         "signal": "Oversold"
@@ -12823,7 +12756,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 970.56,
+        "value": 975.53,
         "signal": "Sell"
       },
       "bb": {
@@ -12870,8 +12803,8 @@
       "previousClose": 3366,
       "change": -63,
       "changePercent": -1.87,
-      "candles": 247,
-      "asOf": "2026-10-30T16:45:43.788Z",
+      "candles": 245,
+      "asOf": "2026-11-02T20:26:39.940Z",
       "rsi": {
         "value": 33.32,
         "signal": "Neutral"
@@ -12891,7 +12824,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 3583.2,
+        "value": 3583.29,
         "signal": "Sell"
       },
       "bb": {
@@ -12938,8 +12871,8 @@
       "previousClose": 19430,
       "change": -630,
       "changePercent": -3.24,
-      "candles": 247,
-      "asOf": "2026-10-30T16:45:44.108Z",
+      "candles": 245,
+      "asOf": "2026-11-02T20:26:40.275Z",
       "rsi": {
         "value": 42.29,
         "signal": "Neutral"
@@ -12959,7 +12892,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 17577.95,
+        "value": 17600.41,
         "signal": "Buy"
       },
       "bb": {
@@ -13006,8 +12939,8 @@
       "previousClose": 873.5999755859375,
       "change": 16.9,
       "changePercent": 1.93,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:44.416Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:40.618Z",
       "rsi": {
         "value": 67.81,
         "signal": "Neutral"
@@ -13027,7 +12960,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 679,
+        "value": 678.86,
         "signal": "Buy"
       },
       "bb": {
@@ -13074,8 +13007,8 @@
       "previousClose": 2358.60009765625,
       "change": -23.1,
       "changePercent": -0.98,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:44.734Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:40.960Z",
       "rsi": {
         "value": 36.02,
         "signal": "Neutral"
@@ -13095,7 +13028,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 2640.32,
+        "value": 2639.26,
         "signal": "Sell"
       },
       "bb": {
@@ -13142,8 +13075,8 @@
       "previousClose": 1761,
       "change": 16.7,
       "changePercent": 0.95,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:45.118Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:41.307Z",
       "rsi": {
         "value": 47.71,
         "signal": "Neutral"
@@ -13163,7 +13096,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1817.65,
+        "value": 1817.92,
         "signal": "Sell"
       },
       "bb": {
@@ -13210,8 +13143,8 @@
       "previousClose": 3210,
       "change": -60,
       "changePercent": -1.87,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:45.440Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:41.650Z",
       "rsi": {
         "value": 31.95,
         "signal": "Neutral"
@@ -13231,7 +13164,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 3542.2,
+        "value": 3552.47,
         "signal": "Sell"
       },
       "bb": {
@@ -13278,8 +13211,8 @@
       "previousClose": 36.790000915527344,
       "change": -2.89,
       "changePercent": -7.86,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:45.750Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:41.982Z",
       "rsi": {
         "value": 25.49,
         "signal": "Oversold"
@@ -13299,7 +13232,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 47.96,
+        "value": 48.02,
         "signal": "Sell"
       },
       "bb": {
@@ -13346,8 +13279,8 @@
       "previousClose": 185.25,
       "change": -8.65,
       "changePercent": -4.67,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:46.076Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:42.376Z",
       "rsi": {
         "value": 23.67,
         "signal": "Oversold"
@@ -13367,7 +13300,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 282.79,
+        "value": 281.47,
         "signal": "Sell"
       },
       "bb": {
@@ -13414,8 +13347,8 @@
       "previousClose": 1669,
       "change": -43.7,
       "changePercent": -2.62,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:46.419Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:42.712Z",
       "rsi": {
         "value": 51.83,
         "signal": "Neutral"
@@ -13435,7 +13368,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 1283.14,
+        "value": 1280.36,
         "signal": "Buy"
       },
       "bb": {
@@ -13482,8 +13415,8 @@
       "previousClose": 1021,
       "change": 4.9,
       "changePercent": 0.48,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:46.742Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:43.070Z",
       "rsi": {
         "value": 61.29,
         "signal": "Neutral"
@@ -13503,7 +13436,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 1077.68,
+        "value": 1079.47,
         "signal": "Sell"
       },
       "bb": {
@@ -13550,8 +13483,8 @@
       "previousClose": 3804,
       "change": -14,
       "changePercent": -0.37,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:47.067Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:43.414Z",
       "rsi": {
         "value": 64.66,
         "signal": "Neutral"
@@ -13571,7 +13504,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 4048.3,
+        "value": 4039.35,
         "signal": "Sell"
       },
       "bb": {
@@ -13618,8 +13551,8 @@
       "previousClose": 344.54998779296875,
       "change": 0.5,
       "changePercent": 0.15,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:47.397Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:43.773Z",
       "rsi": {
         "value": 44.82,
         "signal": "Neutral"
@@ -13639,7 +13572,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 379.15,
+        "value": 379.05,
         "signal": "Sell"
       },
       "bb": {
@@ -13686,8 +13619,8 @@
       "previousClose": 169.4600067138672,
       "change": -1.86,
       "changePercent": -1.1,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:47.734Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:44.115Z",
       "rsi": {
         "value": 34.43,
         "signal": "Neutral"
@@ -13707,7 +13640,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 187.88,
+        "value": 187.73,
         "signal": "Sell"
       },
       "bb": {
@@ -13754,8 +13687,8 @@
       "previousClose": 2478,
       "change": 24.6,
       "changePercent": 0.99,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:48.063Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:44.521Z",
       "rsi": {
         "value": 67.18,
         "signal": "Neutral"
@@ -13775,7 +13708,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 2438.11,
+        "value": 2436.51,
         "signal": "Buy"
       },
       "bb": {
@@ -13822,8 +13755,8 @@
       "previousClose": 1769.5999755859375,
       "change": 21.2,
       "changePercent": 1.2,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:48.396Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:44.859Z",
       "rsi": {
         "value": 65.79,
         "signal": "Neutral"
@@ -13843,7 +13776,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 1543.17,
+        "value": 1541.99,
         "signal": "Buy"
       },
       "bb": {
@@ -13890,8 +13823,8 @@
       "previousClose": 2177,
       "change": -57,
       "changePercent": -2.62,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:48.710Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:45.195Z",
       "rsi": {
         "value": 33.76,
         "signal": "Neutral"
@@ -13911,7 +13844,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 2701.92,
+        "value": 2700.82,
         "signal": "Sell"
       },
       "bb": {
@@ -13958,8 +13891,8 @@
       "previousClose": 4434,
       "change": 2.5,
       "changePercent": 0.06,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:49.027Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:45.602Z",
       "rsi": {
         "value": 43.42,
         "signal": "Neutral"
@@ -13979,7 +13912,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 4461.1,
+        "value": 4458.87,
         "signal": "Sell"
       },
       "bb": {
@@ -14026,8 +13959,8 @@
       "previousClose": 266,
       "change": -0.6,
       "changePercent": -0.23,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:49.362Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:45.948Z",
       "rsi": {
         "value": 33.91,
         "signal": "Neutral"
@@ -14047,7 +13980,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 332.99,
+        "value": 333.39,
         "signal": "Sell"
       },
       "bb": {
@@ -14094,8 +14027,8 @@
       "previousClose": 4580,
       "change": 33.4,
       "changePercent": 0.73,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:49.729Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:46.301Z",
       "rsi": {
         "value": 44.74,
         "signal": "Neutral"
@@ -14115,7 +14048,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 4519.93,
+        "value": 4522.17,
         "signal": "Buy"
       },
       "bb": {
@@ -14162,8 +14095,8 @@
       "previousClose": 2861.699951171875,
       "change": 155.6,
       "changePercent": 5.44,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:50.047Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:46.640Z",
       "rsi": {
         "value": 61.86,
         "signal": "Neutral"
@@ -14183,7 +14116,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 3059.48,
+        "value": 3056.87,
         "signal": "Sell"
       },
       "bb": {
@@ -14230,8 +14163,8 @@
       "previousClose": 4280,
       "change": -84.8,
       "changePercent": -1.98,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:50.368Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:46.983Z",
       "rsi": {
         "value": 58.11,
         "signal": "Neutral"
@@ -14251,7 +14184,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 3854.84,
+        "value": 3856.43,
         "signal": "Buy"
       },
       "bb": {
@@ -14298,8 +14231,8 @@
       "previousClose": 56.130001068115234,
       "change": -3.04,
       "changePercent": -5.42,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:50.679Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:47.443Z",
       "rsi": {
         "value": 31.12,
         "signal": "Neutral"
@@ -14319,7 +14252,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 61.12,
+        "value": 61.11,
         "signal": "Sell"
       },
       "bb": {
@@ -14366,8 +14299,8 @@
       "previousClose": 11175,
       "change": -130,
       "changePercent": -1.16,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:50.998Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:47.846Z",
       "rsi": {
         "value": 52.15,
         "signal": "Neutral"
@@ -14387,7 +14320,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 11482.91,
+        "value": 11474.2,
         "signal": "Sell"
       },
       "bb": {
@@ -14434,8 +14367,8 @@
       "previousClose": 186.5,
       "change": -0.5,
       "changePercent": -0.27,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:51.318Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:48.290Z",
       "rsi": {
         "value": 61.55,
         "signal": "Neutral"
@@ -14455,7 +14388,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 172.4,
+        "value": 173.12,
         "signal": "Buy"
       },
       "bb": {
@@ -14502,8 +14435,8 @@
       "previousClose": 1289.5,
       "change": 44.2,
       "changePercent": 3.43,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:51.646Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:48.721Z",
       "rsi": {
         "value": 49.36,
         "signal": "Neutral"
@@ -14523,7 +14456,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1383.24,
+        "value": 1387.74,
         "signal": "Sell"
       },
       "bb": {
@@ -14570,8 +14503,8 @@
       "previousClose": 1087.4000244140625,
       "change": -4.9,
       "changePercent": -0.45,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:52.006Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:49.062Z",
       "rsi": {
         "value": 40.52,
         "signal": "Neutral"
@@ -14591,7 +14524,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1166.63,
+        "value": 1170.19,
         "signal": "Sell"
       },
       "bb": {
@@ -14638,8 +14571,8 @@
       "previousClose": 541.9500122070312,
       "change": -28.6,
       "changePercent": -5.28,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:52.332Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:49.405Z",
       "rsi": {
         "value": 44.74,
         "signal": "Neutral"
@@ -14659,7 +14592,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 608.05,
+        "value": 608.84,
         "signal": "Sell"
       },
       "bb": {
@@ -14706,8 +14639,8 @@
       "previousClose": 414.79998779296875,
       "change": -22.8,
       "changePercent": -5.5,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:52.648Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:49.742Z",
       "rsi": {
         "value": 37.79,
         "signal": "Neutral"
@@ -14727,7 +14660,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 454.27,
+        "value": 453.39,
         "signal": "Sell"
       },
       "bb": {
@@ -14774,8 +14707,8 @@
       "previousClose": 234.5500030517578,
       "change": 3.35,
       "changePercent": 1.43,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:52.973Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:50.092Z",
       "rsi": {
         "value": 41.95,
         "signal": "Neutral"
@@ -14795,7 +14728,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 369.67,
+        "value": 370.2,
         "signal": "Sell"
       },
       "bb": {
@@ -14842,8 +14775,8 @@
       "previousClose": 86.5999984741211,
       "change": -2.2,
       "changePercent": -2.54,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:53.334Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:50.434Z",
       "rsi": {
         "value": 23.69,
         "signal": "Oversold"
@@ -14863,7 +14796,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 112.92,
+        "value": 112.63,
         "signal": "Sell"
       },
       "bb": {
@@ -14910,8 +14843,8 @@
       "previousClose": 1041,
       "change": -13,
       "changePercent": -1.25,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:53.655Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:50.777Z",
       "rsi": {
         "value": 46.6,
         "signal": "Neutral"
@@ -14931,7 +14864,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 1251.91,
+        "value": 1247.32,
         "signal": "Sell"
       },
       "bb": {
@@ -14978,8 +14911,8 @@
       "previousClose": 2318,
       "change": -14,
       "changePercent": -0.6,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:53.961Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:51.107Z",
       "rsi": {
         "value": 40.59,
         "signal": "Neutral"
@@ -14999,7 +14932,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 2800.96,
+        "value": 2800.77,
         "signal": "Sell"
       },
       "bb": {
@@ -15046,8 +14979,8 @@
       "previousClose": 190.10000610351562,
       "change": 8.21,
       "changePercent": 4.32,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:54.289Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:51.455Z",
       "rsi": {
         "value": 73.67,
         "signal": "Overbought"
@@ -15067,7 +15000,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 192.7,
+        "value": 192.58,
         "signal": "Buy"
       },
       "bb": {
@@ -15114,8 +15047,8 @@
       "previousClose": 15.430000305175781,
       "change": -0.28,
       "changePercent": -1.81,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:54.613Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:51.810Z",
       "rsi": {
         "value": 16.41,
         "signal": "Oversold"
@@ -15135,7 +15068,7 @@
         "signal": "Sell"
       },
       "ema200": {
-        "value": 21.53,
+        "value": 21.59,
         "signal": "Sell"
       },
       "bb": {
@@ -15182,8 +15115,8 @@
       "previousClose": 1184.4000244140625,
       "change": 61.1,
       "changePercent": 5.16,
-      "candles": 248,
-      "asOf": "2026-10-30T16:45:54.944Z",
+      "candles": 246,
+      "asOf": "2026-11-02T20:26:52.167Z",
       "rsi": {
         "value": 70.87,
         "signal": "Overbought"
@@ -15203,7 +15136,7 @@
         "signal": "Buy"
       },
       "ema200": {
-        "value": 1070.52,
+        "value": 1070.1,
         "signal": "Buy"
       },
       "bb": {
